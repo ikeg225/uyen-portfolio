@@ -17,7 +17,7 @@
 
 .leftHeader {
     font-family: 'Livvic';
-    padding-left: 3em;
+    padding-left: 7em;
 }
 
 .leftHeader a {
@@ -27,5 +27,5 @@
 
 .rightHeader {
     justify-content: flex-end;
-    padding-right: 3em;
+    padding-right: 7em;
 }
