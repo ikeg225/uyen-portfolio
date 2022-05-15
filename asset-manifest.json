@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/uyen-portfolio/static/css/main.a6f8fcfe.css",
+    "main.js": "/uyen-portfolio/static/js/main.5c26ab44.js",
+    "static/media/Livvic-Regular.ttf": "/uyen-portfolio/static/media/Livvic-Regular.9994035d65e433690b4a.ttf",
+    "static/media/paper.webp": "/uyen-portfolio/static/media/paper.3da308b6d47673286c09.webp",
+    "index.html": "/uyen-portfolio/index.html",
+    "main.a6f8fcfe.css.map": "/uyen-portfolio/static/css/main.a6f8fcfe.css.map",
+    "main.5c26ab44.js.map": "/uyen-portfolio/static/js/main.5c26ab44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6f8fcfe.css",
+    "static/js/main.5c26ab44.js"
+  ]
+}
