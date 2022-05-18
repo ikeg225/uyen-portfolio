@@ -52,6 +52,6 @@
 .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 10em 7em 0 7em;
+    padding: 10em 7em 5em 7em;
     column-gap: 5em;
 }
