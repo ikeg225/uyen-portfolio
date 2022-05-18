@@ -1,0 +1,21 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.item img {
+    max-width: 100%;
+}
+
+.item h2 {
+    font-family: 'Margin';
+    font-size: 50px;
+    margin: 0;
+}
+
+.item p {
+    font-family: 'Livvic';
+    font-size: 30px;
+    margin: 0;
+}

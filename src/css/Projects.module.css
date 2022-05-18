@@ -4,7 +4,6 @@
     text-align: left;
     padding-left: 7em;
     padding-top: 5em;
-    width: 40%;
 }
 
 .knock {
@@ -14,6 +13,7 @@
 }
 
 .introBig, .introText {
+    position: relative;
     font-family: 'Livvic';
     margin: 0;
 }
@@ -23,6 +23,35 @@
 }
 
 .introText {
-    padding-top: 20px;
+    padding-top: 50px;
     font-size: 30px;
+}
+
+.over { 
+    position: relative; 
+}
+
+.over img { 
+    position: absolute; 
+    top: 0.1em; 
+    left: 0.1em; 
+}
+
+.happyface {
+    position: absolute; 
+    top: 0.15em;
+    left: 6.5em;
+}
+
+.orange {
+    position: absolute; 
+    bottom: -1em;
+    left: 19em;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10em 7em 0 7em;
+    column-gap: 5em;
 }
