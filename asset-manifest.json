@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/uyen-portfolio/static/css/main.6f0be915.css",
-    "main.js": "/uyen-portfolio/static/js/main.77282222.js",
+    "main.css": "/uyen-portfolio/static/css/main.80c2b761.css",
+    "main.js": "/uyen-portfolio/static/js/main.8c28b72f.js",
     "static/media/re.jpg": "/uyen-portfolio/static/media/re.9763bb1170d000c835c9.jpg",
     "static/media/Livvic-Regular.ttf": "/uyen-portfolio/static/media/Livvic-Regular.9994035d65e433690b4a.ttf",
     "static/media/paper.webp": "/uyen-portfolio/static/media/paper.3da308b6d47673286c09.webp",
     "static/media/flower.jpg": "/uyen-portfolio/static/media/flower.74175c41f2c625077491.jpg",
     "static/media/Margin DEMO.otf": "/uyen-portfolio/static/media/Margin DEMO.5da5c7ad9f35173b82fd.otf",
+    "static/media/sticker-bebrave.png": "/uyen-portfolio/static/media/sticker-bebrave.7d57d50ccc46111b341b.png",
     "index.html": "/uyen-portfolio/index.html",
-    "main.6f0be915.css.map": "/uyen-portfolio/static/css/main.6f0be915.css.map",
-    "main.77282222.js.map": "/uyen-portfolio/static/js/main.77282222.js.map"
+    "main.80c2b761.css.map": "/uyen-portfolio/static/css/main.80c2b761.css.map",
+    "main.8c28b72f.js.map": "/uyen-portfolio/static/js/main.8c28b72f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f0be915.css",
-    "static/js/main.77282222.js"
+    "static/css/main.80c2b761.css",
+    "static/js/main.8c28b72f.js"
   ]
 }
