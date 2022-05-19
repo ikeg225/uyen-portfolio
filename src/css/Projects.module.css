@@ -32,21 +32,51 @@
 }
 
 .over img { 
+    animation: MoveUpDown 3s linear infinite;
     position: absolute; 
     top: 0.1em; 
     left: 0.1em; 
 }
 
+@keyframes MoveUpDown {
+    0%, 100% {
+        top: 0.1em;
+    }
+    50% {
+        top: 0.05em;
+    }
+}
+
 .happyface {
+    animation: rotationABit 5s infinite linear;
     position: absolute; 
     top: 0.15em;
     left: 6.5em;
 }
 
+@keyframes rotationABit {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
 .orange {
+    animation: sizeDramatic 2s infinite linear;
     position: absolute; 
     bottom: -1em;
-    left: 19em;
+    left: 18em;
+}
+  
+@keyframes sizeDramatic {
+    0%, 100% {
+        width: 225px;
+    }
+    50% {
+        width: 250px;
+    }
 }
 
 .projects {
@@ -54,4 +84,29 @@
     grid-template-columns: 1fr 1fr;
     padding: 10em 7em 5em 7em;
     column-gap: 5em;
+}
+
+.stickers {
+    text-align: left;
+    padding-left: 7em;
+    padding-top: 5em;
+}
+
+.surprise {
+    font-family: 'Margin';
+    margin: 0;
+    font-size: 30px;
+}
+
+.stickerInfo {
+    font-family: 'Livvic';
+    margin: 0;
+    font-size: 30px;
+}
+
+.stickersPick {
+    font-family: 'Margin';
+    margin: 0;
+    font-size: 80px;
+    padding-top: 0.5em;
 }

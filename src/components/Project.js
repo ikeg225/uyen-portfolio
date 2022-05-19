@@ -4,8 +4,8 @@ export default function Project({img, name, description }) {
     return (
         <div className={styles.item}>
             <img src={img}/>
-            <h2>{name}</h2>
-            <p>{description}</p>
+            <p className={styles.name}>{name}</p>
+            <p className={styles.desc}>{description}</p>
         </div>
     )
 }

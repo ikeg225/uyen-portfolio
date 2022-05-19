@@ -8,13 +8,13 @@
     max-width: 100%;
 }
 
-.item h2 {
+.name {
     font-family: 'Margin';
     font-size: 50px;
     margin: 0;
 }
 
-.item p {
+.desc {
     font-family: 'Livvic';
     font-size: 30px;
     margin: 0;

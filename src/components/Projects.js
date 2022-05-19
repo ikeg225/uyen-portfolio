@@ -7,18 +7,29 @@ import orange from '../images/orange.png';
 import twinkle from '../images/twinkle.png';
 import happyface from '../images/happyface.png';
 import styles from '../css/Projects.module.css';
+import Sticker from './Sticker';
 
+import bebrave from '../images/sticker-bebrave.png';
 export default function Projects() {
     return (
         <div>
             <div className={styles.frontline}>
-                <h2 className={styles.knock}>*knock knock*</h2>
-                <h1 className={styles.introBig}>Come on in to<img src={happyface} width="100px" className={styles.happyface}/><br />Uy<span className={styles.over}>e<img src={tick} width="30px"/></span>n's W<img src={star} width="50px" />rld! <img src={twinkle} width="50px" /></h1>
-                <p className={styles.introText}>Uyen is a designer who loves to explore<br />different styles and is never scared of<br />coloring outside the lines!<img src={orange} width="250px" className={styles.orange}/></p>
+                <p className={styles.knock}>*knock knock*</p>
+                <h1 className={styles.introBig}>Come on in to<img src={happyface} width="100px" className={styles.happyface}/><br />Uy<span className={styles.over}>e<img src={tick} width="30px"/></span>n's W<img src={star} width="50px" className="spinning"/>rld!<img src={twinkle} width="50px" className="enlarge"/></h1>
+                <p className={styles.introText}>Uyen is a designer who loves to explore<br />different styles and is never scared of<br />coloring outside the lines!<img src={orange} height="400px" className={styles.orange}/></p>
             </div>
             <div className={styles.projects}>
                 <Project img={flower} name="Flower" description="branding | illustrations" />
                 <Project img={re} name="RE:" description="user interface | user experience" />
+            </div>
+            <div className={styles.stickers}>
+                <p className={styles.surprise}>*a surprise?*</p>
+                <p className={styles.stickerInfo}>If you scrolled this far, thank you.</p>
+                <p className={styles.stickerInfo}>You deserve some happy reminders. Pick one out & really take it to heart.</p>
+                <p className={styles.stickersPick}>Pick A Sticker!</p>
+            </div>
+            <div>
+                <Sticker image={bebrave}/>
             </div>
         </div>
     )
