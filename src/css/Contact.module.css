@@ -4,7 +4,11 @@
     gap: 3em;
 }
 
-.leftForm input, .rightForm textarea, .message {
+.leftForm input:focus, .rightForm textarea:focus {
+    outline-color: #4286F5;
+}
+
+.leftForm input, .rightForm textarea, .message, .submitMobile {
     font-family: 'Livvic';
     font-size: 30px;
 }
@@ -16,7 +20,7 @@
     gap: 2em;
 }
 
-.form div input {
+.form div input, .submitMobile {
     border: 2px solid black;
     padding: 0.5em 1em;
     border-radius: 1.5em;
@@ -24,11 +28,11 @@
 
 .rightForm {
     display: flex;
-    height: 300px;
+    height: 280px;
     width: 50%;
 }
 
-.rightForm textarea{
+.rightForm textarea {
     border: 2px solid black;
     padding: 1em 1em;
     border-radius: 1.5em;
@@ -43,11 +47,27 @@
     padding-bottom: 0.125em;
 }
 
+.submit, .submitMobile {
+    width: 200px;
+    background-color: #4286F5;
+    color: white;
+    cursor: pointer;
+}
+
+.submitMobile {
+    display: none;
+}
+
+.message {
+    text-align: center;
+    padding-top: 0.5em;
+}
+
 @media screen and (max-width: 1000px) {
     .form {
         display: flex;
         flex-direction: column;
-        gap: 3em;
+        gap: 2em;
     }
     
     .leftForm {
@@ -57,10 +77,23 @@
     .rightForm {
         width: 100%;
     }
+
+    .submit {
+        display: none;
+    }
+
+    .submitMobile {
+        display: block;
+        margin-top: 2em;
+    }
+
+    .message {
+        text-align: left;
+    }
 }
 
 @media screen and (max-width: 950px) {
-    .leftForm input, .rightForm textarea, .message {
+    .leftForm input, .rightForm textarea, .message, .submitMobile {
         font-size: 20px;
     }
 
@@ -68,13 +101,13 @@
         font-size: 50px;
     }
 
-    .leftForm {
-        
+    .submitMobile {
+        width: 150px;
     }
 }
 
 @media screen and (max-width: 375px) {
-    .leftForm input, .rightForm textarea, .message {
+    .leftForm input, .rightForm textarea, .message, .submitMobile {
         font-size: 18px;
     }
 
@@ -87,6 +120,10 @@
     }
 
     .leftForm {
+        gap: 1em;
+    }
+
+    .form {
         gap: 1em;
     }
 }

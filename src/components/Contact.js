@@ -23,14 +23,15 @@ export default function Contact({ title }) {
             <form ref={form} onSubmit={sendEmail}>
                 <div className={styles.form}>
                     <div className={styles.leftForm}>
-                        <input type="text" placeholder="your name" name="user_name"/>
-                        <input type="email" placeholder="email address" name="user_email"/>
+                        <input type="text" placeholder="your name" name="user_name" required/>
+                        <input type="email" placeholder="email address" name="user_email" required/>
+                        <input type="submit" value="submit" className={styles.submit}/>
                     </div>
                     <div className={styles.rightForm}>
-                        <textarea placeholder="your cool message..." name="message"/>
+                        <textarea placeholder="your cool message..." name="message" required/>
                     </div>
                 </div>
-                <input type="submit" value="Send" />
+                <input type="submit" value="submit" className={styles.submitMobile}/>
             </form>
             {sent === "success" && <p className={styles.message}>Email sent! I'll get back to you soon!</p>}
             {sent === "error" && <p className={styles.message}>Email failed to send. Please reach me at uyen.phann026@gmail.com!</p>}
