@@ -1,7 +1,7 @@
 import * as React from "react";
 import Moveable from "react-moveable";
 
-export default function Sticker({ image }) {
+export default function Sticker({ image, tag }) {
     const [target, setTarget] = React.useState();
     const [frame, setFrame] = React.useState({
         translate: [0,0],
@@ -9,11 +9,11 @@ export default function Sticker({ image }) {
         transformOrigin: "50% 50%",
     });
     React.useEffect(() => {
-        setTarget(document.querySelector(".target"));
+        setTarget(document.querySelector(`.${tag}`));
     }, []);
     return (
     <div className="container">
-        <div className="target"><img src={image} style={{maxWidth: "100%"}}/></div>
+        <div className={`${tag}`}><img src={image} style={{maxWidth: "100%"}}/></div>
         <Moveable
             target={target}
             originRelative={true}

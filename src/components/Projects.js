@@ -10,6 +10,12 @@ import styles from '../css/Projects.module.css';
 import Sticker from './Sticker';
 
 import bebrave from '../images/sticker-bebrave.png';
+import bekind from '../images/sticker-bekind.png';
+import besunshine from '../images/sticker-besunshine.png';
+import blooming from '../images/sticker-blooming.png';
+import breather from '../images/sticker-breather.png';
+import itsokay from '../images/sticker-itsokay.png';
+
 export default function Projects() {
     return (
         <div>
@@ -29,8 +35,13 @@ export default function Projects() {
                 <p className={styles.stickerInfo}>You deserve some happy reminders. Pick one out & really take it to heart.</p>
                 <p className={styles.stickersPick}>Pick A Sticker!</p>
             </div>
-            <div>
-                <Sticker image={bebrave}/>
+            <div className={styles.moveableStickers}>
+                <Sticker image={bebrave} tag="bebrave"/>
+                <Sticker image={besunshine} tag="besunshine"/>
+                <Sticker image={itsokay} tag="itsokay"/>
+                <Sticker image={blooming} tag="blooming"/>
+                <Sticker image={breather} tag="breather"/>
+                <Sticker image={bekind} tag="bekind"/>
             </div>
         </div>
     )

@@ -17,7 +17,7 @@
 
 .leftHeader {
     font-family: 'Livvic';
-    padding-left: 7em;
+    padding-left: var(--left-right-padding);
 }
 
 .leftHeader a, .rightHeader a {
@@ -39,7 +39,7 @@
 
 .rightHeader {
     justify-content: flex-end;
-    padding-right: 7em;
+    padding-right: var(--left-right-padding);
 }
 
 .hamburger {
@@ -49,14 +49,6 @@
 @media screen and (max-width: 950px) {
     .leftHeader, .rightHeader {
         gap: 1.5em;
-    }
-
-    .leftHeader {
-        padding-left: 5em;
-    }
-
-    .rightHeader {
-        padding-right: 5em;
     }
 
     .rightHeader a img {
@@ -74,18 +66,6 @@
     }
 
     .top {
-        padding: 10px 5em;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .top {
-        padding: 10px 3em;
-    }
-}
-
-@media screen and (max-width: 440px) {
-    .top {
-        padding: 10px 2em;
+        padding: 10px var(--left-right-padding);
     }
 }

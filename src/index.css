@@ -1,3 +1,7 @@
+:root {
+  --left-right-padding: 7em;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -94,7 +98,23 @@ p, a {
         width: 28px;
     }
   }
+
+  :root {
+    --left-right-padding: 5em;
+  }
 } 
+
+@media screen and (max-width: 650px) {
+  :root {
+    --left-right-padding: 3em;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  :root {
+    --left-right-padding: 2em;
+  }
+}
 
 @media screen and (max-width: 415px) {
   .enlarge {
@@ -126,4 +146,4 @@ p, a {
         width: 18px;
     }
   }
-}  
+}

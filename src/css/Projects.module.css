@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    padding: 0 7em;
+    padding: 0 var(--left-right-padding);
     padding-top: 5em;
 }
 
@@ -51,7 +51,7 @@
     animation: rotationABit 5s infinite linear;
     position: absolute; 
     top: 0.15em;
-    left: 6.5em;
+    left: 6.75em;
 }
 
 @keyframes rotationABit {
@@ -82,13 +82,13 @@
 .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 10em 7em 5em 7em;
+    padding: 10em var(--left-right-padding) 5em var(--left-right-padding);
     column-gap: 5em;
 }
 
 .stickers {
     text-align: left;
-    padding: 0 7em;
+    padding: 0 var(--left-right-padding);
     padding-top: 5em;
 }
 
@@ -115,6 +115,13 @@
     display: none;
 }
 
+.moveableStickers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 var(--left-right-padding) 0 var(--left-right-padding);
+    column-gap: 2em;
+}
+
 @media screen and (max-width: 950px) {
     .knock {
         font-size: 30px;
@@ -129,18 +136,11 @@
         font-size: 20px;
     }
 
-    .frontline {
-        padding: 0 5em;
-        padding-top: 5em;
-    }
-
     .projects {
-        padding: 10em 5em 5em 5em;
         column-gap: 3em;
     }
 
     .stickers {
-        padding: 0 5em;
         padding-top: 3em;
     }
 
@@ -191,21 +191,10 @@
         grid-template-columns: 1fr;
         row-gap: 5em;
     }
-}
 
-@media screen and (max-width: 650px) {
-    .projects {
-        padding: 10em 3em 5em 3em;
-    }
-
-    .frontline {
-        padding: 0 3em;
-        padding-top: 5em;
-    }
-
-    .stickers {
-        padding: 0 3em;
-        padding-top: 3em;
+    .moveableStickers {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0.5em;
     }
 }
 
@@ -222,10 +211,6 @@
         50% {
             width: 180px;
         }
-    }
-
-    .projects {
-        padding: 7em 3em 5em 3em;
     }
 }
 
@@ -337,37 +322,8 @@
 }
 
 @media screen and (max-width: 440px) {
-    .projects {
-        padding: 7em 2em 5em 2em;
-    }
-
-    .frontline {
-        padding: 0 2em;
-        padding-top: 5em;
-    }
-
     .stickers {
-        padding: 0 2em;
         padding-top: 0;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .surprise {
-        font-size: 18px;
-    }
-    
-    .stickerInfo {
-        font-size: 16px;
-    }
-    
-    .stickersPick {
-        font-size: 30px;
-        padding-top: 0.5em;
-    }
-
-    .projects {
-        row-gap: 3em;
     }
 }
 
@@ -451,6 +407,25 @@
     }
 }
 
+@media screen and (max-width: 375px) {
+    .surprise {
+        font-size: 18px;
+    }
+    
+    .stickerInfo {
+        font-size: 16px;
+    }
+    
+    .stickersPick {
+        font-size: 30px;
+        padding-top: 0.5em;
+    }
+
+    .projects {
+        row-gap: 3em;
+    }
+}
+
 @media screen and (max-width: 348px) {
     .orange {
         height: 120px;
@@ -468,7 +443,7 @@
     }
 
     .projects {
-        padding: 5em 2em 5em 2em;
+        padding: 5em var(--left-right-padding) 5em var(--left-right-padding);
     }
 }
 
