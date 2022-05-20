@@ -120,6 +120,12 @@
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0 var(--left-right-padding) 0 var(--left-right-padding);
     column-gap: 2em;
+    padding-top: 2em;
+}
+
+.contactForm {
+    text-align: left;
+    padding: 5em var(--left-right-padding)
 }
 
 @media screen and (max-width: 950px) {

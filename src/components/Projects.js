@@ -1,4 +1,6 @@
 import Project from './Project';
+import Sticker from './Sticker';
+import Contact from './Contact';
 import re from '../images/re.jpg';
 import star from '../images/star.png';
 import tick from '../images/tick.png';
@@ -7,7 +9,6 @@ import orange from '../images/orange.png';
 import twinkle from '../images/twinkle.png';
 import happyface from '../images/happyface.png';
 import styles from '../css/Projects.module.css';
-import Sticker from './Sticker';
 
 import bebrave from '../images/sticker-bebrave.png';
 import bekind from '../images/sticker-bekind.png';
@@ -42,6 +43,9 @@ export default function Projects() {
                 <Sticker image={blooming} tag="blooming"/>
                 <Sticker image={breather} tag="breather"/>
                 <Sticker image={bekind} tag="bekind"/>
+            </div>
+            <div className={styles.contactForm}>
+                <Contact title="Let's Chat!"/>
             </div>
         </div>
     )
