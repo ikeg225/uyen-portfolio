@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/uyen-portfolio/static/css/main.187b4dd6.css",
-    "main.js": "/uyen-portfolio/static/js/main.db91c009.js",
+    "main.css": "/uyen-portfolio/static/css/main.dced84b9.css",
+    "main.js": "/uyen-portfolio/static/js/main.ff19181a.js",
     "static/media/re.jpg": "/uyen-portfolio/static/media/re.1c287156c6b287cb9ff5.jpg",
     "static/media/sticker-besunshine.png": "/uyen-portfolio/static/media/sticker-besunshine.7939398cf2a55ea49969.png",
     "static/media/sticker-blooming.png": "/uyen-portfolio/static/media/sticker-blooming.d2845d0e33928d17dc2f.png",
@@ -15,11 +15,11 @@
     "static/media/Margin DEMO.otf": "/uyen-portfolio/static/media/Margin DEMO.5da5c7ad9f35173b82fd.otf",
     "static/media/orange.png": "/uyen-portfolio/static/media/orange.6f64160562840a25f436.png",
     "index.html": "/uyen-portfolio/index.html",
-    "main.187b4dd6.css.map": "/uyen-portfolio/static/css/main.187b4dd6.css.map",
-    "main.db91c009.js.map": "/uyen-portfolio/static/js/main.db91c009.js.map"
+    "main.dced84b9.css.map": "/uyen-portfolio/static/css/main.dced84b9.css.map",
+    "main.ff19181a.js.map": "/uyen-portfolio/static/js/main.ff19181a.js.map"
   },
   "entrypoints": [
-    "static/css/main.187b4dd6.css",
-    "static/js/main.db91c009.js"
+    "static/css/main.dced84b9.css",
+    "static/js/main.ff19181a.js"
   ]
 }
