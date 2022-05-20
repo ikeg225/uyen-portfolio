@@ -19,3 +19,23 @@
     font-size: 30px;
     margin: 0;
 }
+
+@media screen and (max-width: 950px) {
+    .name {
+        font-size: 30px;
+    }    
+
+    .desc {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .name {
+        font-size: 25px;
+    }    
+
+    .desc {
+        font-size: 16px;
+    }
+}

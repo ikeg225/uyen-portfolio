@@ -13,7 +13,7 @@ export default function Sticker({ image }) {
     }, []);
     return (
     <div className="container">
-        <div className="target"><img src={image}/></div>
+        <div className="target"><img src={image} style={{maxWidth: "100%"}}/></div>
         <Moveable
             target={target}
             originRelative={true}

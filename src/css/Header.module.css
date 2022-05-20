@@ -41,3 +41,51 @@
     justify-content: flex-end;
     padding-right: 7em;
 }
+
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 950px) {
+    .leftHeader, .rightHeader {
+        gap: 1.5em;
+    }
+
+    .leftHeader {
+        padding-left: 5em;
+    }
+
+    .rightHeader {
+        padding-right: 5em;
+    }
+
+    .rightHeader a img {
+        height: 25px;
+    }
+}  
+
+@media screen and (max-width: 768px) {
+    .leftHeader, .rightHeader {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .top {
+        padding: 10px 5em;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .top {
+        padding: 10px 3em;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .top {
+        padding: 10px 2em;
+    }
+}

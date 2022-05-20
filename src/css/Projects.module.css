@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    padding-left: 7em;
+    padding: 0 7em;
     padding-top: 5em;
 }
 
@@ -88,7 +88,7 @@
 
 .stickers {
     text-align: left;
-    padding-left: 7em;
+    padding: 0 7em;
     padding-top: 5em;
 }
 
@@ -109,4 +109,387 @@
     margin: 0;
     font-size: 80px;
     padding-top: 0.5em;
+}
+
+.introTextBreak {
+    display: none;
+}
+
+@media screen and (max-width: 950px) {
+    .knock {
+        font-size: 30px;
+    }
+
+    .introBig {
+        font-size: 50px;
+    }
+    
+    .introText {
+        padding-top: 30px;
+        font-size: 20px;
+    }
+
+    .frontline {
+        padding: 0 5em;
+        padding-top: 5em;
+    }
+
+    .projects {
+        padding: 10em 5em 5em 5em;
+        column-gap: 3em;
+    }
+
+    .stickers {
+        padding: 0 5em;
+        padding-top: 3em;
+    }
+
+    .over img { 
+        width: 20px;
+    }
+
+    .ospin {
+        width: 35px;
+    }
+
+    .happyface {
+        width: 70px;
+        top: 0em;
+    }
+
+    .orange {
+        height: 300px;
+        bottom: -2em;
+        left: 17em;
+    }
+      
+    @keyframes sizeDramatic {
+        0%, 100% {
+            width: 200px;
+        }
+        50% {
+            width: 220px;
+        }
+    }
+
+    .surprise {
+        font-size: 20px;
+    }
+    
+    .stickerInfo {
+        font-size: 20px;
+    }
+    
+    .stickersPick {
+        font-size: 50px;
+        padding-top: 0.5em;
+    }
+}  
+
+@media screen and (max-width: 680px) {
+    .projects {
+        grid-template-columns: 1fr;
+        row-gap: 5em;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .projects {
+        padding: 10em 3em 5em 3em;
+    }
+
+    .frontline {
+        padding: 0 3em;
+        padding-top: 5em;
+    }
+
+    .stickers {
+        padding: 0 3em;
+        padding-top: 3em;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .orange {
+        height: 250px;
+        bottom: -1em;
+    }
+
+    @keyframes sizeDramatic {
+        0%, 100% {
+            width: 170px;
+        }
+        50% {
+            width: 180px;
+        }
+    }
+
+    .projects {
+        padding: 7em 3em 5em 3em;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .introBig {
+        font-size: 45px;
+    }
+
+    .introText {
+        font-size: 18px;
+    }
+
+    .happyface {
+        width: 60px;
+        top: 0em;
+    }
+
+    .ospin {
+        width: 30px;
+    }
+
+    .over img { 
+        width: 20px;
+        left: 0.07em;
+    }
+
+    @keyframes MoveUpDown {
+        0%, 100% {
+            top: 0.05em;
+        }
+        50% {
+            top: 0em;
+        }
+    }
+    
+    .orange {
+        bottom: -2em;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .orange {
+        height: 225px;
+        bottom: -1.5em;
+    }
+
+    @keyframes sizeDramatic {
+        0%, 100% {
+            width: 150px;
+        }
+        50% {
+            width: 160px;
+        }
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .introBig {
+        font-size: 40px;
+    }
+
+    .introText {
+        display: none;
+    }
+
+    .introTextBreak {
+        display: flex;
+        padding-top: 20px;
+        font-size: 18px;
+        position: relative;
+        font-family: 'Livvic';
+        margin: 0;
+    }
+
+    .happyface {
+        width: 55px;
+        top: 0em;
+    }
+
+    .ospin {
+        width: 25px;
+    }
+
+    .over img { 
+        width: 18px;
+        left: 0.05em;
+    }
+
+    .orange {
+        left: 14em;
+        bottom: -1em;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .orange {
+        height: 200px;
+        bottom: 0;
+    }
+
+    @keyframes sizeDramatic {
+        0%, 100% {
+            width: 120px;
+        }
+        50% {
+            width: 130px;
+        }
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .projects {
+        padding: 7em 2em 5em 2em;
+    }
+
+    .frontline {
+        padding: 0 2em;
+        padding-top: 5em;
+    }
+
+    .stickers {
+        padding: 0 2em;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .surprise {
+        font-size: 18px;
+    }
+    
+    .stickerInfo {
+        font-size: 16px;
+    }
+    
+    .stickersPick {
+        font-size: 30px;
+        padding-top: 0.5em;
+    }
+
+    .projects {
+        row-gap: 3em;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .introBig {
+        font-size: 35px;
+    }
+
+    .introTextBreak {
+        padding-top: 20px;
+    }
+
+    .happyface {
+        width: 50px;
+        top: 0em;
+        left: 6.25em;
+    }
+
+    .ospin {
+        width: 22px;
+    }
+
+    .over img { 
+        width: 16px;
+        left: 0.05em;
+    }
+
+    .orange {
+        left: 13em;
+        bottom: 0em;
+    }
+
+    @keyframes sizeDramatic {
+        0%, 100% {
+            width: 120px;
+        }
+        50% {
+            width: 125px;
+        }
+    }
+}
+
+@media screen and (max-width: 392px) {
+    .introBig {
+        font-size: 30px;
+    }
+
+    .knock {
+        font-size: 25px;
+    }
+
+    .happyface {
+        width: 40px;
+    }
+
+    .ospin {
+        width: 20px;
+    }
+
+    .over img { 
+        width: 14px;
+    }
+
+    .orange {
+        height: 170px;
+        left: 14em;
+        bottom: 0em;
+    }
+
+    .introTextBreak {
+        font-size: 14px;
+    }
+
+    @keyframes sizeDramatic {
+        0%, 100% {
+            width: 100px;
+        }
+        50% {
+            width: 105px;
+        }
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .orange {
+        height: 120px;
+        left: 14em;
+        bottom: 1em;
+    }
+
+    @keyframes sizeDramatic {
+        0%, 100% {
+            width: 80px;
+        }
+        50% {
+            width: 85px;
+        }
+    }
+
+    .projects {
+        padding: 5em 2em 5em 2em;
+    }
+}
+
+@media screen and (max-width: 314px) {
+    .introBig {
+        font-size: 28px;
+    }
+
+    .orange {
+        display: none;
+    }
+
+    .happyface {
+        width: 35px;
+    }
+
+    .ospin {
+        width: 18px;
+    }
+
+    .over img { 
+        width: 12px;
+    }
 }
