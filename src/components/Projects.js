@@ -28,7 +28,7 @@ export default function Projects() {
             </div>
             <div className={styles.projects}>
                 <Project img={flower} name="Flower" description="branding | illustrations" />
-                <Project img={re} name="RE:" description="user interface | user experience" />
+                <Project img={re} name="RE" description="user interface | user experience" />
             </div>
             <div className={styles.stickers}>
                 <p className={styles.surprise}>*a surprise?*</p>

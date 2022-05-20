@@ -32,18 +32,18 @@
 }
 
 .over img { 
-    animation: MoveUpDown 3s linear infinite;
+    animation: MoveUpDown 1.5s linear infinite;
     position: absolute; 
-    top: 0.1em; 
+    top: 0.2em; 
     left: 0.1em; 
 }
 
 @keyframes MoveUpDown {
     0%, 100% {
-        top: 0.1em;
+        top: 0.2em;
     }
     50% {
-        top: 0.05em;
+        top: 0.15em;
     }
 }
 
@@ -152,6 +152,7 @@
 
     .over img { 
         width: 20px;
+        left: 0.08em; 
     }
 
     .ospin {
@@ -239,16 +240,16 @@
     }
 
     .over img { 
-        width: 20px;
-        left: 0.07em;
+        width: 18px;
+        left: 0.08em;
     }
 
     @keyframes MoveUpDown {
         0%, 100% {
-            top: 0.05em;
+            top: 0.15em;
         }
         50% {
-            top: 0em;
+            top: 0.1em;
         }
     }
     
@@ -301,8 +302,17 @@
     }
 
     .over img { 
-        width: 18px;
-        left: 0.05em;
+        width: 16px;
+        left: 0.08em;
+    }
+
+    @keyframes MoveUpDown {
+        0%, 100% {
+            top: 0.18em;
+        }
+        50% {
+            top: 0.13em;
+        }
     }
 
     .orange {
@@ -353,8 +363,8 @@
     }
 
     .over img { 
-        width: 16px;
-        left: 0.05em;
+        width: 14px;
+        left: 0.08em;
     }
 
     .orange {
@@ -390,7 +400,7 @@
     }
 
     .over img { 
-        width: 14px;
+        width: 12px;
     }
 
     .orange {
@@ -471,6 +481,6 @@
     }
 
     .over img { 
-        width: 12px;
+        width: 11px;
     }
 }
