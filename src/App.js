@@ -12,9 +12,9 @@ function App() {
       <Header />
       <ScrollToTop>
         <Routes>
-          <Route path="/uyen-portfolio/" element={<Projects />} />
-          <Route path="/uyen-portfolio/play/" element={<Play />} />
-          <Route path="/uyen-portfolio/about/" element={<About />} />
+          <Route path="/" element={<Projects />} />
+          <Route path="/play" element={<Play />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </ScrollToTop>
     </BrowserRouter>

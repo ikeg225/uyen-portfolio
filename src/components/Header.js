@@ -30,12 +30,12 @@ export default function Header() {
     return (
         <header className={styles.top}>
             <div className={active ? `${styles.leftHeaderActive}` : `${styles.leftHeader}`} onClick={deActivate}>
-                <NavLink to="/uyen-portfolio/" className={activeLink}>projects</NavLink>
-                <NavLink to="/uyen-portfolio/play/" className={activeLink}>play</NavLink>
-                <NavLink to="/uyen-portfolio/about/" className={activeLink}>about</NavLink>
+                <NavLink to="/" className={activeLink}>projects</NavLink>
+                <NavLink to="/play" className={activeLink}>play</NavLink>
+                <NavLink to="/about" className={activeLink}>about</NavLink>
             </div>
             <div className={styles.middleHeader}>
-                <NavLink to="/uyen-portfolio/"><img src={logo} width="50px"/></NavLink>
+                <NavLink to="/"><img src={logo} width="50px"/></NavLink>
             </div>
             <div className={active ? `${styles.rightHeaderActive}` : `${styles.rightHeader}`} onClick={deActivate}>
                 <a href="https://www.instagram.com/pengwein/" target="_blank" rel="noopener noreferrer"><img src={instagram} height="30px" target="_blank" rel="noopener noreferrer"/></a>

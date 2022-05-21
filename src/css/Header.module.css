@@ -7,7 +7,7 @@
     padding: 10px 0px;
 }
 
-.leftHeader, .rightHeader, .leftHeaderActive, .rightHeaderActive {
+.leftHeader, .rightHeader {
     display: flex;
     flex-direction: row;
     gap: 3em;
@@ -20,16 +20,12 @@
     padding-left: var(--left-right-padding);
 }
 
-.leftHeaderActive {
-    font-family: 'Livvic';
-}
-
-.leftHeader a, .rightHeader a, .leftHeaderActive a, .rightHeaderActive a {
+.leftHeader a, .rightHeader a {
     color: #000;
     text-decoration: none;
 }
 
-.leftHeader a:hover, .rightHeader a:hover, .activeLink, .leftHeaderActive a:hover, .rightHeaderActive a:hover {
+.leftHeader a:hover, .rightHeader a:hover, .activeLink {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift 0.5s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FF5A2C' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
     background-position: 0 100%;
     background-size: auto 6px;
@@ -37,7 +33,7 @@
     text-decoration: none;
 }
 
-.rightHeader, .rightHeaderActive {
+.rightHeader {
     justify-content: flex-end;
     padding-right: var(--left-right-padding);
 }
@@ -57,11 +53,11 @@
 }
 
 @media screen and (max-width: 950px) {
-    .leftHeader, .rightHeader, .leftHeaderActive, .rightHeaderActive {
+    .leftHeader, .rightHeader {
         gap: 1.5em;
     }
 
-    .rightHeader a img, .rightHeaderActive a img {
+    .rightHeader a img {
         height: 25px;
     }
 }  
@@ -78,12 +74,7 @@
     }
 
     .rightHeaderActive {
-        position: fixed;
-        transition: 0.3s;
-        z-index: 2;
-        bottom: 1em;
-        width: 100%;
-        justify-content: center;
+        composes: rightHeader;
         left: 0px;
     }
 
@@ -115,51 +106,22 @@
     }
 
     .leftHeaderActive {
-        position: fixed;
-        flex-direction: column;
-        background-color: rgba(255, 255, 255, 0.95);
-        top: 0rem;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-        height: 100%;
-        z-index: 1;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
+        composes: leftHeader;
         left: 0px;
     }
 
     .barGone {
-        display: block;
-        width: 25px;
-        height: 3px;
-        margin: 5px auto;
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-        background-color: #101010;
+        composes: bar;
         opacity: 0;
     }
 
     .barLeft {
-        display: block;
-        width: 25px;
-        height: 3px;
-        margin: 5px auto;
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-        background-color: #101010;
+        composes: bar;
         transform: translateY(8px) rotate(45deg);
     }
 
     .barRight {
-        display: block;
-        width: 25px;
-        height: 3px;
-        margin: 5px auto;
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-        background-color: #101010;
+        composes: bar;
         transform: translateY(-8px) rotate(-45deg);
     }
 
