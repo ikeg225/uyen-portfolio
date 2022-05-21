@@ -35,7 +35,7 @@ export default function Header() {
                 <NavLink to="/uyen-portfolio/about/" className={activeLink}>about</NavLink>
             </div>
             <div className={styles.middleHeader}>
-                <img src={logo} width="50px"/>
+                <NavLink to="/uyen-portfolio/"><img src={logo} width="50px"/></NavLink>
             </div>
             <div className={active ? `${styles.rightHeaderActive}` : `${styles.rightHeader}`} onClick={deActivate}>
                 <a href="https://www.instagram.com/pengwein/" target="_blank" rel="noopener noreferrer"><img src={instagram} height="30px" target="_blank" rel="noopener noreferrer"/></a>
