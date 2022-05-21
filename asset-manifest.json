@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/uyen-portfolio/static/css/main.11f8352e.css",
-    "main.js": "/uyen-portfolio/static/js/main.2cb17a37.js",
+    "main.js": "/uyen-portfolio/static/js/main.d61999fc.js",
     "static/media/aboutpic.png": "/uyen-portfolio/static/media/aboutpic.5731acf8bbe05af7cd6d.png",
     "static/media/re.jpg": "/uyen-portfolio/static/media/re.1c287156c6b287cb9ff5.jpg",
     "static/media/sticker-besunshine.png": "/uyen-portfolio/static/media/sticker-besunshine.7939398cf2a55ea49969.png",
@@ -22,10 +22,10 @@
     "static/media/orange.png": "/uyen-portfolio/static/media/orange.6f64160562840a25f436.png",
     "index.html": "/uyen-portfolio/index.html",
     "main.11f8352e.css.map": "/uyen-portfolio/static/css/main.11f8352e.css.map",
-    "main.2cb17a37.js.map": "/uyen-portfolio/static/js/main.2cb17a37.js.map"
+    "main.d61999fc.js.map": "/uyen-portfolio/static/js/main.d61999fc.js.map"
   },
   "entrypoints": [
     "static/css/main.11f8352e.css",
-    "static/js/main.2cb17a37.js"
+    "static/js/main.d61999fc.js"
   ]
 }
