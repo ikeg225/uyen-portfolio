@@ -11,9 +11,9 @@ export default function Header() {
     return (
         <header className={styles.top}>
             <div className={styles.leftHeader}>
-                <NavLink to="/" className={activeLink}>projects</NavLink>
-                <NavLink to="/play" className={activeLink}>play</NavLink>
-                <NavLink to="/about" className={activeLink}>about</NavLink>
+                <NavLink to="/uyen-portfolio/" className={activeLink}>projects</NavLink>
+                <NavLink to="/uyen-portfolio/play/" className={activeLink}>play</NavLink>
+                <NavLink to="/uyen-portfolio/about/" className={activeLink}>about</NavLink>
             </div>
             <div className={styles.middleHeader}>
                 <img src={logo} width="50px"/>
