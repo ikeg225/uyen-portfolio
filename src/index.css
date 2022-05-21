@@ -21,6 +21,21 @@ code {
 }
 
 @font-face {
+  font-family: 'Livvic Medium';
+  src: url('./fonts/Livvic-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Livvic Medium Italic';
+  src: url('./fonts/Livvic-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Livvic Bold';
+  src: url('./fonts/Livvic-Bold.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Margin';
   src: url('./fonts/Margin\ DEMO.otf') format('opentype');
 }

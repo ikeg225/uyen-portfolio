@@ -19,7 +19,7 @@ export default function Header() {
                 <img src={logo} width="50px"/>
             </div>
             <div className={styles.rightHeader}>
-                <a href="https://www.instagram.com/pengwein/"><img src={instagram} height="30px" target="_blank" rel="noopener noreferrer"/></a>
+                <a href="https://www.instagram.com/pengwein/" target="_blank" rel="noopener noreferrer"><img src={instagram} height="30px" target="_blank" rel="noopener noreferrer"/></a>
                 <a href="https://www.linkedin.com/in/uyen-phan-3a4699236/" target="_blank" rel="noopener noreferrer"><img src={linkedin} height="30px"/></a>
             </div>
             <div className={styles.hamburger}>

@@ -1,0 +1,222 @@
+.about {
+    padding: 5em var(--left-right-padding);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3em;
+    gap: 5em;
+}
+
+.left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.images {
+    width: 400px;
+}
+
+.top {
+    position: relative;
+}
+
+.pronouns {
+    background-color: #139607;
+    width: fit-content;
+    padding: 0.35em 1em;
+    color: white;
+    border-radius: 1.5em;
+    border: 1.5px solid black;
+    margin: 0;
+}
+
+.aboutme {
+    font-family: 'Livvic Medium';
+}
+
+.details, .talk, .pronouns {
+    font-size: 25px;
+}
+
+.talk {
+    margin: 0;
+}
+
+.italic {
+    font-family: 'Livvic Medium Italic';
+}
+
+.bold {
+    font-family: 'Livvic Bold';
+}
+
+.doodles {
+    padding-top: 3em;
+}
+
+.name {
+    font-family: 'Margin';
+    font-size: 75px;
+    margin: 0;
+    position: relative;
+}
+
+.name img {
+    width: 65px;
+    position: absolute;
+    bottom: -0.2em;
+    padding-left: 0.2em;
+}
+
+.sun {
+    position: absolute;
+    bottom: -35px;
+    left: -35px;
+    width: 100px;
+}
+
+.doodlesMobile {
+    display: none;
+}
+
+@media screen and (max-width: 1150px) {
+    .name {
+        font-size: 50px;
+    }
+
+    .name img {
+        width: 40px;
+    }
+
+    .details, .talk, .pronouns {
+        font-size: 20.5px;
+    }
+    
+    .images {
+        max-width: 350px;
+    }
+
+    .content {
+        padding-bottom: 1em;
+    }
+
+    .sun {
+        bottom: -30px;
+        left: -30px;
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .name {
+        font-size: 40px;
+    }
+
+    .name img {
+        width: 35px;
+        padding-left: 0.1em;
+    }
+
+    .details, .talk, .pronouns {
+        font-size: 18px;
+    }
+    
+    .images {
+        max-width: 300px;
+    }
+
+    .content {
+        gap: 3em;
+    }
+
+    .sun {
+        bottom: -25px;
+        left: -25px;
+        width: 75px;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    .details, .talk, .pronouns {
+        font-size: 17px;
+    }
+    
+    .images {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .details, .talk, .pronouns {
+        font-size: 16px;
+    }
+    
+    .images {
+        max-width: 250px;
+    }
+
+    .content {
+        gap: 2em;
+    }
+
+    .sun {
+        width: 67px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .content {
+        flex-direction: column;
+        gap: 3em;
+        align-items: center;
+    }
+
+    .doodles {
+        display: none;
+    }
+
+    .doodlesMobile {
+        display: flex;
+    }
+
+    .left {
+        text-align: center;
+    }
+
+    .about {
+        padding-top: 2em;
+    }
+
+    .images {
+        max-width: 300px;
+    }
+
+    .sun {
+        bottom: -25px;
+        left: -25px;
+        width: 75px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .images {
+        max-width: 100%;
+    }
+
+    .sun {
+        width: 25%;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .sun {
+        bottom: -20px;
+        left: -20px;
+    }
+}
