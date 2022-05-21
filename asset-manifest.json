@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.02d39a00.css",
-    "main.js": "/static/js/main.5c4e7e0d.js",
+    "main.js": "/static/js/main.10acfe31.js",
     "static/media/aboutpic.png": "/static/media/aboutpic.5731acf8bbe05af7cd6d.png",
     "static/media/re.jpg": "/static/media/re.1c287156c6b287cb9ff5.jpg",
     "static/media/sticker-besunshine.png": "/static/media/sticker-besunshine.7939398cf2a55ea49969.png",
@@ -22,10 +22,10 @@
     "static/media/orange.png": "/static/media/orange.6f64160562840a25f436.png",
     "index.html": "/index.html",
     "main.02d39a00.css.map": "/static/css/main.02d39a00.css.map",
-    "main.5c4e7e0d.js.map": "/static/js/main.5c4e7e0d.js.map"
+    "main.10acfe31.js.map": "/static/js/main.10acfe31.js.map"
   },
   "entrypoints": [
     "static/css/main.02d39a00.css",
-    "static/js/main.5c4e7e0d.js"
+    "static/js/main.10acfe31.js"
   ]
 }
