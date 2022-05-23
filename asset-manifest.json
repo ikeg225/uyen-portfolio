@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f03bf780.css",
-    "main.js": "/static/js/main.ab4bc7d2.js",
+    "main.css": "/static/css/main.bff2da6c.css",
+    "main.js": "/static/js/main.d6c22619.js",
     "static/media/aboutpic.png": "/static/media/aboutpic.5731acf8bbe05af7cd6d.png",
     "static/media/re.jpg": "/static/media/re.1c287156c6b287cb9ff5.jpg",
     "static/media/sticker-besunshine.png": "/static/media/sticker-besunshine.7939398cf2a55ea49969.png",
@@ -21,11 +21,11 @@
     "static/media/Margin DEMO.otf": "/static/media/Margin DEMO.5da5c7ad9f35173b82fd.otf",
     "static/media/orange.png": "/static/media/orange.6f64160562840a25f436.png",
     "index.html": "/index.html",
-    "main.f03bf780.css.map": "/static/css/main.f03bf780.css.map",
-    "main.ab4bc7d2.js.map": "/static/js/main.ab4bc7d2.js.map"
+    "main.bff2da6c.css.map": "/static/css/main.bff2da6c.css.map",
+    "main.d6c22619.js.map": "/static/js/main.d6c22619.js.map"
   },
   "entrypoints": [
-    "static/css/main.f03bf780.css",
-    "static/js/main.ab4bc7d2.js"
+    "static/css/main.bff2da6c.css",
+    "static/js/main.d6c22619.js"
   ]
 }
