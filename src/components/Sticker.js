@@ -1,5 +1,6 @@
 import * as React from "react";
 import Moveable from "react-moveable";
+import styles from '../css/Sticker.module.css';
 
 export default function Sticker({ image, tag }) {
     const [target, setTarget] = React.useState();
@@ -13,7 +14,7 @@ export default function Sticker({ image, tag }) {
     }, []);
     return (
     <div className="container">
-        <div className={`${tag}`}><img src={image} style={{maxWidth: "100%", cursor: "pointer"}}/></div>
+        <div className={`${tag}`}><img src={image} className={styles.sticker}/></div>
         <Moveable
             target={target}
             originRelative={true}

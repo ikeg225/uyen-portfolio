@@ -2,6 +2,11 @@
   --left-right-padding: 7em;
 }
 
+html, body {
+  position: relative;
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;

@@ -14,7 +14,7 @@
 
 .introUp {
     composes: intro;
-    top: -1000px;
+    top: -100%;
     transition: 1s;
 }
 
