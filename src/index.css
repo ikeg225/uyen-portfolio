@@ -10,11 +10,6 @@ body {
   background-repeat: repeat;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 @font-face {
   font-family: 'Livvic';
   src: url('./fonts/Livvic-Regular.ttf') format('truetype');
@@ -50,6 +45,14 @@ h2 {
 
 p, a {
   font-size: 18px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .spinning {

@@ -1,4 +1,3 @@
-import './App.css';
 import Play from './components/Play';
 import About from './components/About';
 import Header from './components/Header';

@@ -1,10 +1,9 @@
 import logo from "../images/logo.png";
 import { NavLink }from 'react-router-dom';
 import linkedin from "../images/linkedin.png";
-import hamburger from "../images/hamburger.png";
 import instagram from "../images/instagram.png";
 import styles from "../css/Header.module.css";
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export default function Header() {
     const activeLink = ({ isActive }) => isActive ? `${styles.activeLink}` : '';
