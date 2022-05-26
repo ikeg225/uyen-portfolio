@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ffe9613.css",
-    "main.js": "/static/js/main.add52f6a.js",
+    "main.css": "/static/css/main.00961fd1.css",
+    "main.js": "/static/js/main.c76d8e58.js",
     "static/media/aboutpic.png": "/static/media/aboutpic.25f1f66ee170a38c3050.png",
     "static/media/re.jpg": "/static/media/re.1c287156c6b287cb9ff5.jpg",
+    "static/media/rebackground.png": "/static/media/rebackground.0a95a74df1c17f0e5702.png",
     "static/media/sticker-besunshine.png": "/static/media/sticker-besunshine.7939398cf2a55ea49969.png",
     "static/media/sticker-blooming.png": "/static/media/sticker-blooming.d2845d0e33928d17dc2f.png",
     "static/media/flower.jpg": "/static/media/flower.9b324f1ee195fe469cd6.jpg",
     "static/media/sticker-bekind.png": "/static/media/sticker-bekind.9283c42f4318aad0618d.png",
+    "static/media/playpeople.png": "/static/media/playpeople.f5cce03992b878bcdde0.png",
     "static/media/sticker-breather.png": "/static/media/sticker-breather.e74755abc7533f64d89f.png",
     "static/media/Livvic-MediumItalic.ttf": "/static/media/Livvic-MediumItalic.c388d554d36321255ab9.ttf",
     "static/media/Livvic-Bold.ttf": "/static/media/Livvic-Bold.089af19ac41ce144a96c.ttf",
@@ -16,17 +18,21 @@
     "static/media/sticker-itsokay.png": "/static/media/sticker-itsokay.3ce1fc971f326e27765f.png",
     "static/media/aboutdoodles.png": "/static/media/aboutdoodles.e1a26ea27e118861d1e0.png",
     "static/media/paper.webp": "/static/media/paper.3da308b6d47673286c09.webp",
+    "static/media/profile.png": "/static/media/profile.efcf55f920a23a2a4349.png",
     "static/media/sticker-bebrave.png": "/static/media/sticker-bebrave.3fccb0dc62e0fa492097.png",
+    "static/media/flowerbackground.png": "/static/media/flowerbackground.91b06985ba98967c7427.png",
     "static/media/orangerect.jpg": "/static/media/orangerect.9882f304d674ad15bd7b.jpg",
     "static/media/Margin DEMO.otf": "/static/media/Margin DEMO.5da5c7ad9f35173b82fd.otf",
-    "static/media/orange.png": "/static/media/orange.6f64160562840a25f436.png",
+    "static/media/bluespikes.png": "/static/media/bluespikes.9ed9a57b1c0e5151957c.png",
+    "static/media/happyface.png": "/static/media/happyface.1c3961b8ada2275a4dc9.png",
+    "static/media/orange.png": "/static/media/orange.3140036987b337902083.png",
     "static/media/sun.png": "/static/media/sun.1fc32cb4cb963fbbdc4a.png",
     "index.html": "/index.html",
-    "main.3ffe9613.css.map": "/static/css/main.3ffe9613.css.map",
-    "main.add52f6a.js.map": "/static/js/main.add52f6a.js.map"
+    "main.00961fd1.css.map": "/static/css/main.00961fd1.css.map",
+    "main.c76d8e58.js.map": "/static/js/main.c76d8e58.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ffe9613.css",
-    "static/js/main.add52f6a.js"
+    "static/css/main.00961fd1.css",
+    "static/js/main.c76d8e58.js"
   ]
 }
