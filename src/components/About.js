@@ -28,7 +28,7 @@ export default function About() {
                 </div>
                 <img src={aboutdoodles} className={`${styles.doodlesMobile} ${styles.images}`} width="100%"/>
             </div>
-            <Contact title="Contact"/>
+            <Contact />
         </div>
     )
 }

@@ -73,6 +73,19 @@ p, a {
   }
 }
 
+.spinningReverse {
+  animation: rotationReverse 5s infinite linear;
+}
+
+@keyframes rotationReverse {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
 .twinkle {
   animation: gone 2s infinite linear;
 }

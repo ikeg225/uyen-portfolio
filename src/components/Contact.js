@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
 import styles from '../css/Contact.module.css';
 
-export default function Contact({ title }) {
+export default function Contact() {
     const form = useRef();
     const [sent, setSent] = useState("notsent");
 
@@ -19,7 +19,7 @@ export default function Contact({ title }) {
 
     return (
         <div>
-            <p className={styles.title}>{title}</p>
+            <p className={styles.title}>Let's Chat!</p>
             <form ref={form} onSubmit={sendEmail}>
                 <div className={styles.form}>
                     <div className={styles.leftForm}>

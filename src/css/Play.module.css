@@ -1,0 +1,15 @@
+.play {
+    display: flex;
+    flex-direction: column;
+    padding: 0 var(--left-right-padding);
+    text-align: center;
+}
+
+.title {
+    font-size: 80px;
+    font-family: 'Margin';
+}
+
+.playpeople {
+    width: 100%;
+}

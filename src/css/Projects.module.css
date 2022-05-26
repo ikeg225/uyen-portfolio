@@ -1,9 +1,15 @@
 .frontline {
     display: flex;
-    flex-direction: column;
-    text-align: left;
+    flex-direction: row;
     padding: 0 var(--left-right-padding);
     padding-top: 5em;
+    gap: 50px;
+}
+
+.left {
+    text-align: left;
+    position: relative;
+    min-width: fit-content;
 }
 
 .knock {
@@ -48,34 +54,17 @@
 }
 
 .happyface {
-    animation: rotationABit 5s infinite linear;
     position: absolute; 
-    top: 0.15em;
-    left: 6.75em;
-}
-
-@keyframes rotationABit {
-    from {
-        transform: rotate(360deg);
-    }
-    to {
-        transform: rotate(0deg);
-    }
-}
-
-.orange {
-    animation: sizeDramatic 2s infinite linear;
-    position: absolute; 
-    bottom: -1em;
-    left: 18em;
+    top: 0;
+    margin-left: 0.5em;
 }
   
 @keyframes sizeDramatic {
     0%, 100% {
-        width: 225px;
+        width: 150px;
     }
     50% {
-        width: 250px;
+        width: 160px;
     }
 }
 
@@ -84,6 +73,7 @@
     grid-template-columns: 1fr 1fr;
     padding: 10em var(--left-right-padding) 5em var(--left-right-padding);
     column-gap: 5em;
+    position: relative;
 }
 
 .stickers {
@@ -133,55 +123,74 @@
     padding-left: 10px;
 }
 
-@media screen and (max-width: 950px) {
+.bluespike {
+    position: absolute;
+    z-index: -2;
+    top: 50px;
+    left: 0;
+    width: 20%;
+}
+
+.profile {
+    max-width: 100%;
+}
+
+.right {
+    position: relative;
+    z-index: -2;
+}
+
+.orange {
+    animation: sizeDramatic 2s infinite linear;
+    position: absolute; 
+    top: 0;
+    right: 0;
+    margin-right: 75%;
+    margin-top: 60%;
+}
+
+.orangeMobile {
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+    .frontline {
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 1235px) {
+    .orange {
+        margin-right: 71%;
+    }
+}
+
+@media screen and (max-width: 1190px) {
     .knock {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .introBig {
-        font-size: 50px;
+        font-size: 70px;
     }
     
     .introText {
         padding-top: 30px;
-        font-size: 20px;
-    }
-
-    .projects {
-        column-gap: 3em;
-    }
-
-    .stickers {
-        padding-top: 3em;
+        font-size: 25px;
     }
 
     .over img { 
-        width: 20px;
+        width: 25px;
         left: 0.08em; 
     }
 
     .ospin {
-        width: 35px;
+        width: 40px;
     }
 
     .happyface {
         width: 70px;
-        top: 0em;
-    }
-
-    .orange {
-        height: 300px;
-        bottom: -2em;
-        left: 17em;
-    }
-      
-    @keyframes sizeDramatic {
-        0%, 100% {
-            width: 200px;
-        }
-        50% {
-            width: 220px;
-        }
+        margin-left: 0.3em;
     }
 
     .surprise {
@@ -194,14 +203,150 @@
     
     .stickersPick {
         font-size: 50px;
-        padding-top: 0.5em;
+    }
+
+    .star {
+        width: 40px;
+        padding-left: 5px;
+    }
+
+    .orange {
+        height: 150px;
+    }
+
+    @keyframes sizeDramatic {
+        0%, 100% {
+            width: 150px;
+        }
+        50% {
+            width: 160px;
+        }
+    }
+}  
+
+@media screen and (max-width: 1040px) {
+    .knock {
+        font-size: 35px;
+    }
+
+    .introBig {
+        font-size: 60px;
+    }
+    
+    .introText {
+        font-size: 22px;
+    }
+
+    .happyface {
+        top: 0em;
+    }
+
+    .orange {
+        margin-right: 70%;
+    }
+
+    @keyframes sizeDramatic {
+        0%, 100% {
+            width: 130px;
+        }
+        50% {
+            width: 140px;
+        }
+    }
+}  
+
+@media screen and (max-width: 950px) {
+    .bluespike {
+        top: 70px;
+        left: -20px;
+    }
+}
+
+
+@media screen and (max-width: 890px) {
+    .knock {
+        font-size: 30px;
+    }
+
+    .introBig {
+        font-size: 50px;
+    }
+    
+    .introText {
+        font-size: 18px;
+    }
+
+    .projects {
+        column-gap: 3em;
+    }
+
+    .stickers {
+        padding-top: 3em;
+    }
+
+    .over img { 
+        width: 20px;
+    }
+
+    .ospin {
+        width: 35px;
     }
 
     .star {
         width: 25px;
-        padding-left: 5px;
+    }
+
+    .bluespike {
+        top: 80px;
     }
 }  
+
+@media screen and (max-width: 835px) {
+    .orange {
+        height: 120px;
+    }
+
+    @keyframes sizeDramatic {
+        0%, 100% {
+            width: 100px;
+        }
+        50% {
+            width: 110px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .orange {
+        display: none;
+    }
+
+    .frontline {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .profile {
+        max-width: 350px;
+    }
+
+    .orangeMobile {
+        animation: sizeDramatic 2s infinite linear;
+        display: block;
+        position: absolute;
+        transform: scaleX(-1);
+        top: 0;
+        left: 0;
+        margin-left: 85%;
+        height: 150px;
+    }
+
+    .bluespike {
+        top: 100px;
+        left: 0;
+    }
+}
 
 @media screen and (max-width: 680px) {
     .projects {
@@ -213,21 +358,17 @@
         grid-template-columns: 1fr 1fr;
         column-gap: 0.5em;
     }
+
+    .bluespike {
+        top: 100px;
+        left: 20px;
+    }
 }
 
-@media screen and (max-width: 610px) {
-    .orange {
-        height: 250px;
-        bottom: -1em;
-    }
-
-    @keyframes sizeDramatic {
-        0%, 100% {
-            width: 170px;
-        }
-        50% {
-            width: 180px;
-        }
+@media screen and (max-width: 650px) {
+    .bluespike {
+        top: 110px;
+        left: 0px;
     }
 }
 
@@ -236,13 +377,8 @@
         font-size: 45px;
     }
 
-    .introText {
-        font-size: 18px;
-    }
-
     .happyface {
         width: 60px;
-        top: 0em;
     }
 
     .ospin {
@@ -251,7 +387,6 @@
 
     .over img { 
         width: 18px;
-        left: 0.08em;
     }
 
     @keyframes MoveUpDown {
@@ -262,25 +397,9 @@
             top: 0.1em;
         }
     }
-    
-    .orange {
-        bottom: -2em;
-    }
-}
 
-@media screen and (max-width: 535px) {
-    .orange {
-        height: 225px;
-        bottom: -1.5em;
-    }
-
-    @keyframes sizeDramatic {
-        0%, 100% {
-            width: 150px;
-        }
-        50% {
-            width: 160px;
-        }
+    .orangeMobile {
+        margin-left: 90%;
     }
 }
 
@@ -304,7 +423,6 @@
 
     .happyface {
         width: 55px;
-        top: 0em;
     }
 
     .ospin {
@@ -313,7 +431,6 @@
 
     .over img { 
         width: 16px;
-        left: 0.08em;
     }
 
     @keyframes MoveUpDown {
@@ -325,31 +442,18 @@
         }
     }
 
-    .orange {
-        left: 14em;
-        bottom: -1em;
-    }
-}
-
-@media screen and (max-width: 460px) {
-    .orange {
-        height: 200px;
-        bottom: 0;
-    }
-
-    @keyframes sizeDramatic {
-        0%, 100% {
-            width: 120px;
-        }
-        50% {
-            width: 130px;
-        }
+    .orangeMobile {
+        margin-left: 80%;
     }
 }
 
 @media screen and (max-width: 440px) {
     .stickers {
         padding-top: 0;
+    }
+
+    .bluespike {
+        top: 120px;
     }
 }
 
@@ -364,8 +468,6 @@
 
     .happyface {
         width: 50px;
-        top: 0em;
-        left: 7em;
     }
 
     .ospin {
@@ -374,26 +476,18 @@
 
     .over img { 
         width: 14px;
-        left: 0.08em;
-    }
-
-    .orange {
-        left: 14em;
-        bottom: 0em;
-    }
-
-    @keyframes sizeDramatic {
-        0%, 100% {
-            width: 120px;
-        }
-        50% {
-            width: 125px;
-        }
     }
 
     .star {
         width: 20px;
-        padding-left: 5px;
+    }
+
+    .profile {
+        max-width: 250px;
+    }
+
+    .orangeMobile {
+        margin-left: 85%;
     }
 }
 
@@ -418,22 +512,21 @@
         width: 12px;
     }
 
-    .orange {
-        height: 170px;
-        left: 15em;
-        bottom: 0em;
-    }
-
     .introTextBreak {
         font-size: 14px;
     }
 
+    .orangeMobile {
+        margin-left: 85%;
+        height: 120px;
+    }
+
     @keyframes sizeDramatic {
         0%, 100% {
-            width: 100px;
+            width: 70px;
         }
         50% {
-            width: 105px;
+            width: 80px;
         }
     }
 }
@@ -449,7 +542,6 @@
     
     .stickersPick {
         font-size: 30px;
-        padding-top: 0.5em;
     }
 
     .projects {
@@ -458,33 +550,18 @@
 }
 
 @media screen and (max-width: 348px) {
-    .orange {
-        height: 120px;
-        left: 15em;
-        bottom: 1em;
-    }
-
-    @keyframes sizeDramatic {
-        0%, 100% {
-            width: 80px;
-        }
-        50% {
-            width: 85px;
-        }
-    }
-
     .projects {
         padding: 5em var(--left-right-padding) 5em var(--left-right-padding);
+    }
+
+    .bluespike {
+        top: 50px;
     }
 }
 
 @media screen and (max-width: 326px) {
     .introBig {
         font-size: 28px;
-    }
-
-    .orange {
-        display: none;
     }
 
     .happyface {
@@ -497,5 +574,9 @@
 
     .over img { 
         width: 11px;
+    }
+
+    .profile {
+        max-width: 100%;
     }
 }
