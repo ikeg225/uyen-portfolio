@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.53a3619a.css",
-    "main.js": "/static/js/main.abc5f7fe.js",
-    "static/media/aboutpic.png": "/static/media/aboutpic.5731acf8bbe05af7cd6d.png",
+    "main.css": "/static/css/main.3ffe9613.css",
+    "main.js": "/static/js/main.add52f6a.js",
+    "static/media/aboutpic.png": "/static/media/aboutpic.25f1f66ee170a38c3050.png",
     "static/media/re.jpg": "/static/media/re.1c287156c6b287cb9ff5.jpg",
     "static/media/sticker-besunshine.png": "/static/media/sticker-besunshine.7939398cf2a55ea49969.png",
     "static/media/sticker-blooming.png": "/static/media/sticker-blooming.d2845d0e33928d17dc2f.png",
@@ -17,15 +17,16 @@
     "static/media/aboutdoodles.png": "/static/media/aboutdoodles.e1a26ea27e118861d1e0.png",
     "static/media/paper.webp": "/static/media/paper.3da308b6d47673286c09.webp",
     "static/media/sticker-bebrave.png": "/static/media/sticker-bebrave.3fccb0dc62e0fa492097.png",
-    "static/media/sun.png": "/static/media/sun.8fc302bb78c40a8679b0.png",
+    "static/media/orangerect.jpg": "/static/media/orangerect.9882f304d674ad15bd7b.jpg",
     "static/media/Margin DEMO.otf": "/static/media/Margin DEMO.5da5c7ad9f35173b82fd.otf",
     "static/media/orange.png": "/static/media/orange.6f64160562840a25f436.png",
+    "static/media/sun.png": "/static/media/sun.1fc32cb4cb963fbbdc4a.png",
     "index.html": "/index.html",
-    "main.53a3619a.css.map": "/static/css/main.53a3619a.css.map",
-    "main.abc5f7fe.js.map": "/static/js/main.abc5f7fe.js.map"
+    "main.3ffe9613.css.map": "/static/css/main.3ffe9613.css.map",
+    "main.add52f6a.js.map": "/static/js/main.add52f6a.js.map"
   },
   "entrypoints": [
-    "static/css/main.53a3619a.css",
-    "static/js/main.abc5f7fe.js"
+    "static/css/main.3ffe9613.css",
+    "static/js/main.add52f6a.js"
   ]
 }
