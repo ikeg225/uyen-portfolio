@@ -2,6 +2,7 @@ import Contact from './Contact';
 import sun from '../images/sun.png';
 import styles from '../css/About.module.css';
 import aboutpic from '../images/aboutpic.png';
+import aboutstar from '../images/aboutstar.png';
 import blackstars from '../images/blackstars.png';
 import aboutdoodles from '../images/aboutdoodles.png';
 
@@ -12,7 +13,8 @@ export default function About() {
                 <div className={styles.left}>
                     <div style={{width: "fit-content", position: "relative"}}>
                         <img src={aboutpic} className={styles.images} width="100%"/>
-                        <img src={sun} className={styles.sun} width="100%"/>
+                        <img src={sun} className={`${styles.sun} spinning`} width="100%"/>
+                        <img src={aboutstar} className={`${styles.star} twinkle`} width="100%"/>
                     </div>
                     <img src={aboutdoodles} className={`${styles.doodles} ${styles.images}`} width="100%"/>
                 </div>

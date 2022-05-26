@@ -84,6 +84,15 @@
     display: none;
 }
 
+.star {
+    position: absolute;
+    width: 50px;
+    top: 0;
+    right: 0;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
 @media screen and (max-width: 1150px) {
     .name {
         font-size: 50px;
@@ -109,6 +118,10 @@
         bottom: -30px;
         left: -30px;
         width: 90px;
+    }
+
+    .star {
+        width: 40px;
     }
 }
 
@@ -139,15 +152,16 @@
         left: -25px;
         width: 75px;
     }
+
+    .star {
+        padding-top: 10px;
+        padding-right: 40px;
+    }
 }
 
 @media screen and (max-width: 825px) {
     .details, .talk, .pronouns {
         font-size: 17px;
-    }
-    
-    .images {
-        max-width: 300px;
     }
 }
 
@@ -166,6 +180,10 @@
 
     .sun {
         width: 67px;
+    }
+
+    .star {
+        width: 30px;
     }
 }
 
@@ -189,7 +207,7 @@
     }
 
     .about {
-        padding-top: 2em;
+        padding-top: 1em;
     }
 
     .images {
@@ -201,6 +219,10 @@
         left: -25px;
         width: 75px;
     }
+
+    .star {
+        width: 40px;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -210,6 +232,12 @@
 
     .sun {
         width: 25%;
+    }
+
+    .star {
+        width: 12%;
+        padding-top: 10%;
+        padding-right: 10%;
     }
 }
 

@@ -73,13 +73,11 @@ p, a {
   }
 }
 
-.enlarge {
-  animation: size 2s infinite linear;
-  width: 50px;
-  padding-left: 10px;
+.twinkle {
+  animation: gone 2s infinite linear;
 }
 
-@keyframes size {
+@keyframes gone {
   0%, 100% {
       opacity: 100%;
   }
@@ -93,17 +91,6 @@ p, a {
 }
 
 @media screen and (max-width: 950px) {
-  .enlarge {
-    width: 30px;
-  }
-}  
-
-@media screen and (max-width: 950px) {
-  .enlarge {
-    width: 25px;
-    padding-left: 5px;
-  }
-
   :root {
     --left-right-padding: 5em;
   }
@@ -118,19 +105,5 @@ p, a {
 @media screen and (max-width: 440px) {
   :root {
     --left-right-padding: 2em;
-  }
-}
-
-@media screen and (max-width: 415px) {
-  .enlarge {
-    width: 20px;
-    padding-left: 5px;
-  }
-}  
-
-@media screen and (max-width: 392px) {
-  .enlarge {
-    width: 15px;
-    padding-left: 5px;
   }
 }

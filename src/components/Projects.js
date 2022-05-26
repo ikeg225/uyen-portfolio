@@ -22,7 +22,7 @@ export default function Projects() {
         <div>
             <div className={styles.frontline}>
                 <p className={styles.knock}>*knock knock*</p>
-                <h1 className={styles.introBig}>Come on into<img src={happyface} width="100px" className={styles.happyface}/><br />Uy<span className={styles.over}>e<img src={tick} width="30px"/></span>n's W<img src={star} width="50px" className={`${styles.ospin} spinning`}/>rld!<img src={twinkle} width="50px" className="enlarge"/></h1>
+                <h1 className={styles.introBig}>Come on into<img src={happyface} width="100px" className={styles.happyface}/><br />Uy<span className={styles.over}>e<img src={tick} width="30px"/></span>n's W<img src={star} width="50px" className={`${styles.ospin} spinning`}/>rld!<img src={twinkle} width="50px" className={`${styles.star} twinkle`}/></h1>
                 <p className={styles.introText}>Uyen is a designer who loves to explore<br />different styles and is never scared of<br />coloring outside the lines!<img src={orange} height="400px" className={styles.orange}/></p>
                 <p className={styles.introTextBreak}>Uyen is a designer who loves<br />to explore different styles and<br />is never scared of coloring<br />outside the lines!<img src={orange} height="400px" className={styles.orange}/></p>
             </div>
