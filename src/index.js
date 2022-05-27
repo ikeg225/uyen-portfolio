@@ -12,3 +12,13 @@ if (rootElement.hasChildNodes()) {
 } else {
   render(app, rootElement);
 }
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <div>
+//     <Intro />
+//     <div style={{maxWidth: "1400px"}}>
+//       <App />
+//     </div>
+//   </div>
+// );

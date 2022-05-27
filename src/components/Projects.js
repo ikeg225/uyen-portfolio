@@ -6,6 +6,7 @@ import star from '../images/star.png';
 import tick from '../images/tick.png';
 import flower from '../images/flower.jpg';
 import orange from '../images/orange.png';
+import zigzag from '../images/zigzagline.png';
 import profile from '../images/profile.png';
 import twinkle from '../images/twinkle.png';
 import happyface from '../images/happyface.png';
@@ -40,6 +41,7 @@ export default function Projects() {
                 <img className={`${styles.bluespike} spinning`} src={bluespikes} />
                 <Project img={flower} name="Flower" description="branding | illustrations" imgmobile={flowerbackground}/>
                 <Project img={re} name="RE" description="user interface | user experience" imgmobile={rebackground}/>
+                <img className={styles.zigzag} src={zigzag} />
             </div>
             <div className={styles.stickers}>
                 <p className={styles.surprise}>*a surprise?*</p>

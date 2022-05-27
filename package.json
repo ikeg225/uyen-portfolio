@@ -45,7 +45,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0",
-    "react-snap": "^1.23.0"
+    "gh-pages": "^4.0.0"
+  },
+  "reactSnap": {
+    "concurrency": 1
   }
 }

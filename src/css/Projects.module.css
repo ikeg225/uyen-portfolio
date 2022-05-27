@@ -79,7 +79,7 @@
 .stickers {
     text-align: left;
     padding: 0 var(--left-right-padding);
-    padding-top: 5em;
+    padding-top: 7em;
 }
 
 .surprise {
@@ -151,6 +151,13 @@
 
 .orangeMobile {
     display: none;
+}
+
+.zigzag {
+    position: absolute;
+    right: -5%;
+    bottom: -10%;
+    width: 25%;
 }
 
 @media screen and (max-width: 1300px) {
@@ -362,6 +369,10 @@
     .bluespike {
         top: 100px;
         left: 20px;
+    }
+
+    .zigzag {
+        bottom: 0;
     }
 }
 
