@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.00961fd1.css",
-    "main.js": "/static/js/main.c76d8e58.js",
+    "main.css": "/static/css/main.9ed9a3a4.css",
+    "main.js": "/static/js/main.16a96989.js",
     "static/media/aboutpic.png": "/static/media/aboutpic.25f1f66ee170a38c3050.png",
     "static/media/re.jpg": "/static/media/re.1c287156c6b287cb9ff5.jpg",
     "static/media/rebackground.png": "/static/media/rebackground.0a95a74df1c17f0e5702.png",
@@ -22,17 +22,18 @@
     "static/media/sticker-bebrave.png": "/static/media/sticker-bebrave.3fccb0dc62e0fa492097.png",
     "static/media/flowerbackground.png": "/static/media/flowerbackground.91b06985ba98967c7427.png",
     "static/media/orangerect.jpg": "/static/media/orangerect.9882f304d674ad15bd7b.jpg",
+    "static/media/zigzagline.png": "/static/media/zigzagline.4824192aec840d07fdca.png",
     "static/media/Margin DEMO.otf": "/static/media/Margin DEMO.5da5c7ad9f35173b82fd.otf",
     "static/media/bluespikes.png": "/static/media/bluespikes.9ed9a57b1c0e5151957c.png",
     "static/media/happyface.png": "/static/media/happyface.1c3961b8ada2275a4dc9.png",
     "static/media/orange.png": "/static/media/orange.3140036987b337902083.png",
     "static/media/sun.png": "/static/media/sun.1fc32cb4cb963fbbdc4a.png",
     "index.html": "/index.html",
-    "main.00961fd1.css.map": "/static/css/main.00961fd1.css.map",
-    "main.c76d8e58.js.map": "/static/js/main.c76d8e58.js.map"
+    "main.9ed9a3a4.css.map": "/static/css/main.9ed9a3a4.css.map",
+    "main.16a96989.js.map": "/static/js/main.16a96989.js.map"
   },
   "entrypoints": [
-    "static/css/main.00961fd1.css",
-    "static/js/main.c76d8e58.js"
+    "static/css/main.9ed9a3a4.css",
+    "static/js/main.16a96989.js"
   ]
 }
