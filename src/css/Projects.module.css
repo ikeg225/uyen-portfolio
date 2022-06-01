@@ -155,9 +155,9 @@
 
 .zigzag {
     position: absolute;
-    right: -5%;
+    right: 5%;
     bottom: -10%;
-    width: 25%;
+    width: 20%;
 }
 
 @media screen and (max-width: 1300px) {
@@ -332,6 +332,7 @@
         flex-direction: column;
         gap: 50px;
         align-items: center;
+        padding-top: 1em;
     }
 
     .profile {

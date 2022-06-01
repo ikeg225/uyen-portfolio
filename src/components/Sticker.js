@@ -14,7 +14,7 @@ export default function Sticker({ image, tag }) {
     }, []);
     return (
     <div className="container">
-        <div className={`${tag}`}><img src={image} className={styles.sticker}/></div>
+        <div className={`${tag}`}><img src={image} className={styles.sticker} alt=""/></div>
         <Moveable
             target={target}
             originRelative={true}

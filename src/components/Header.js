@@ -34,11 +34,11 @@ export default function Header() {
                 <NavLink to="/about" className={activeLink}>about</NavLink>
             </div>
             <div className={styles.middleHeader}>
-                <NavLink to="/"><img src={logo} width="50px"/></NavLink>
+                <NavLink to="/"><img src={logo} width="50px" alt="Uyen Phan Logo"/></NavLink>
             </div>
             <div className={active ? `${styles.rightHeaderActive}` : `${styles.rightHeader}`} onClick={deActivate}>
-                <a href="https://www.instagram.com/pengwein/" target="_blank" rel="noopener noreferrer"><img src={instagram} height="30px" target="_blank" rel="noopener noreferrer"/></a>
-                <a href="https://www.linkedin.com/in/uyen-phan-3a4699236/" target="_blank" rel="noopener noreferrer"><img src={linkedin} height="30px"/></a>
+                <a href="https://www.instagram.com/pengwein/" target="_blank" rel="noopener noreferrer"><img src={instagram} height="30px" target="_blank" rel="noopener noreferrer" alt="Instagram Account"/></a>
+                <a href="https://www.linkedin.com/in/uyen-phan-3a4699236/" target="_blank" rel="noopener noreferrer"><img src={linkedin} height="30px" alt="Linkedin Account"/></a>
             </div>
             <div className={styles.hamburger}>
                 <div className={styles.hamburger} onClick={hamburgerMode}>

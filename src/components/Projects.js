@@ -28,20 +28,20 @@ export default function Projects() {
             <div className={styles.frontline}>
                 <div className={styles.left}>
                     <p className={styles.knock}>*knock knock*</p>
-                    <h1 className={styles.introBig}>Come on into<img src={happyface} width="100px" className={`${styles.happyface} spinningReverse`}/><br />Uy<span className={styles.over}>e<img src={tick} width="30px"/></span>n's W<img src={star} width="50px" className={`${styles.ospin} spinning`}/>rld!<img src={twinkle} width="50px" className={`${styles.star} twinkle`}/></h1>
-                    <p className={styles.introText}>Uyen is a designer who loves to explore<br />different styles and is never scared of<br />coloring outside the lines!<img src={orange} height="200px" className={styles.orangeMobile}/></p>
-                    <p className={styles.introTextBreak}>Uyen is a designer who loves<br />to explore different styles and<br />is never scared of coloring<br />outside the lines!<img src={orange} height="200px" className={styles.orangeMobile}/></p>
+                    <h1 className={styles.introBig}>Come on into<img src={happyface} width="100px" className={`${styles.happyface} spinningReverse`} alt=""/><br />Uy<span className={styles.over}>e<img src={tick} width="30px" alt=""/></span>n's W<img src={star} width="50px" className={`${styles.ospin} spinning`} alt="o"/>rld!<img src={twinkle} width="50px" className={`${styles.star} twinkle`} alt=""/></h1>
+                    <p className={styles.introText}>Uyen is a designer who loves to explore<br />different styles and is never scared of<br />coloring outside the lines!<img src={orange} height="200px" className={styles.orangeMobile} alt=""/></p>
+                    <p className={styles.introTextBreak}>Uyen is a designer who loves<br />to explore different styles and<br />is never scared of coloring<br />outside the lines!<img src={orange} height="200px" className={styles.orangeMobile} alt=""/></p>
                 </div>
                 <div className={styles.right}>
-                    <img className={styles.profile} src={profile} />
-                    <img src={orange} height="200px" className={styles.orange}/>
+                    <img className={styles.profile} src={profile} alt=""/>
+                    <img src={orange} height="200px" className={styles.orange} alt=""/>
                 </div>
             </div>
             <div className={styles.projects}>
-                <img className={`${styles.bluespike} spinning`} src={bluespikes} />
+                <img className={`${styles.bluespike} spinning`} src={bluespikes} alt=""/>
                 <Project img={flower} name="Flower" description="branding | illustrations" imgmobile={flowerbackground}/>
                 <Project img={re} name="RE" description="user interface | user experience" imgmobile={rebackground}/>
-                <img className={styles.zigzag} src={zigzag} />
+                <img className={styles.zigzag} src={zigzag} alt=""/>
             </div>
             <div className={styles.stickers}>
                 <p className={styles.surprise}>*a surprise?*</p>

@@ -83,3 +83,206 @@
     font-size: 95px;
     transition: 1s;
 }
+
+.orange, .happyface, .bluespikes {
+    position: absolute;
+    animation: shake infinite 5s;
+}
+
+.zigzagline, .aboutstar {
+    position: absolute;
+    animation: shakeReverse infinite 5s;
+}
+
+@keyframes shake {
+    0% { transform: translate(0px, 0px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(0px, 0px) rotate(0deg); }
+}
+
+@keyframes shakeReverse {
+    100% { transform: translate(0px, 0px) rotate(0deg); }
+    90% { transform: translate(-1px, -2px) rotate(-1deg); }
+    80% { transform: translate(-3px, 0px) rotate(1deg); }
+    70% { transform: translate(3px, 2px) rotate(0deg); }
+    60% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    40% { transform: translate(-3px, 1px) rotate(0deg); }
+    30% { transform: translate(3px, 1px) rotate(-1deg); }
+    20% { transform: translate(-1px, -1px) rotate(1deg); }
+    10% { transform: translate(1px, 2px) rotate(0deg); }
+    0% { transform: translate(0px, 0px) rotate(0deg); }
+}
+
+.orangewrap {
+    position: absolute;
+    transform: scaleY(-1);
+    padding-right: 600px;
+}
+
+.bluespikes {
+    padding-bottom: 250px;
+    padding-left: 300px;
+}
+
+.aboutstar {
+    padding-top: 200px;
+    padding-right: 350px;
+}
+
+.happyface {
+    padding-top: 300px;
+}
+
+.zigzagline {
+    padding-top: 200px;
+    padding-left: 400px;
+}
+
+@media screen and (max-width: 575px) {
+    .firstname {
+        font-size: 80px;
+        padding-bottom: 60px;
+        padding-right: 60px;
+    }
+
+    .lastname {
+        font-size: 55px;
+        padding-top: 60px;
+        padding-left: 90px;
+    }
+
+    .image { 
+        padding-right: 106px;
+        padding-bottom: 112px;
+        width: 20px;
+    }
+
+    .orange {
+        width: 150px;
+    }
+
+    .orangewrap {
+        padding-right: 450px;
+    }
+
+    .bluespikes {
+        width: 75px;
+        padding-bottom: 150px;
+        padding-left: 250px;
+    }
+
+    .aboutstar {
+        width: 60px;
+        padding-top: 150px;
+        padding-right: 250px;
+    }
+
+    .happyface {
+        width: 70px;
+        padding-top: 250px;
+    }
+
+    .zigzagline {
+        width: 100px;
+        padding-top: 175px;
+        padding-left: 270px;
+    }
+
+    .firstnameHover {
+        padding-bottom: 20px;
+        padding-left: 115px;
+    }
+    
+    .imageHover {
+        padding-right: 176px;
+        top: auto;
+        bottom: 0;
+        padding-bottom: 85px;
+        width: 35px;
+    }
+    
+    .lastnameHover {
+        padding-top: 0px;
+        padding-left: 190px;
+        font-size: 85px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .firstname {
+        font-size: 60px;
+        padding-bottom: 45px;
+        padding-right: 50px;
+    }
+
+    .lastname {
+        font-size: 45px;
+        padding-top: 45px;
+        padding-left: 80px;
+    }
+
+    .image { 
+        padding-right: 84px;
+        padding-bottom: 85px;
+        width: 17px;
+    }
+
+    .orange {
+        width: 90px;
+    }
+
+    .orangewrap {
+        padding-right: 300px;
+    }
+
+    .bluespikes {
+        width: 55px;
+        padding-bottom: 100px;
+        padding-left: 200px;
+    }
+
+    .aboutstar {
+        width: 40px;
+        padding-top: 100px;
+        padding-right: 200px;
+    }
+
+    .happyface {
+        width: 50px;
+        padding-top: 200px;
+    }
+
+    .zigzagline {
+        width: 75px;
+        padding-top: 150px;
+        padding-left: 200px;
+    }
+
+    .firstnameHover {
+        padding-bottom: 20px;
+        padding-left: 95px;
+    }
+    
+    .imageHover {
+        padding-right: 138px;
+        top: auto;
+        bottom: 0;
+        padding-bottom: 70px;
+        width: 25px;
+    }
+    
+    .lastnameHover {
+        padding-top: 0px;
+        padding-left: 150px;
+        font-size: 65px;
+    }
+}
