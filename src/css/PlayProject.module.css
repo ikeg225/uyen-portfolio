@@ -1,0 +1,47 @@
+.projectplay {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    gap: 100px;
+    text-align: left;
+}
+
+.project {
+    background-color: white;
+    border: solid black 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectdescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 40px 50px;
+}
+
+.title {
+    font-size: 60px;
+    font-family: 'Margin';
+    margin: 0;
+    padding: 15px 50px;
+    border-bottom: solid black 2px;
+}
+
+.description {
+    font-size: 28px;
+    font-family: 'Livvic';
+    margin: 0;
+}
+
+.button {
+    font-size: 20px;
+    font-family: 'Livvic';
+    background-color: #FDF8F4;
+    border: solid black 2px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0;
+}

@@ -9,15 +9,6 @@
     max-width: 100%;
 }
 
-.orange {
-    position: absolute;
-    z-index: -1;
-    right: 0;
-    top: 0;
-    padding-right: 15px;
-    padding-top: 5px;
-}
-
 .name {
     font-family: 'Margin';
     font-size: 50px;
@@ -46,7 +37,7 @@
 }
 
 @media screen and (max-width: 680px) {
-    .orange, .image {
+    .image {
         display: none;
     }
 

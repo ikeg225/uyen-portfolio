@@ -123,14 +123,6 @@
     padding-left: 10px;
 }
 
-.bluespike {
-    position: absolute;
-    z-index: -2;
-    top: 50px;
-    left: 0;
-    width: 20%;
-}
-
 .profile {
     max-width: 100%;
 }
@@ -151,13 +143,6 @@
 
 .orangeMobile {
     display: none;
-}
-
-.zigzag {
-    position: absolute;
-    right: 5%;
-    bottom: -10%;
-    width: 20%;
 }
 
 @media screen and (max-width: 1300px) {
@@ -260,15 +245,7 @@
             width: 140px;
         }
     }
-}  
-
-@media screen and (max-width: 950px) {
-    .bluespike {
-        top: 70px;
-        left: -20px;
-    }
 }
-
 
 @media screen and (max-width: 890px) {
     .knock {
@@ -301,10 +278,6 @@
 
     .star {
         width: 25px;
-    }
-
-    .bluespike {
-        top: 80px;
     }
 }  
 
@@ -349,11 +322,6 @@
         margin-left: 85%;
         height: 150px;
     }
-
-    .bluespike {
-        top: 100px;
-        left: 0;
-    }
 }
 
 @media screen and (max-width: 680px) {
@@ -365,22 +333,6 @@
     .moveableStickers {
         grid-template-columns: 1fr 1fr;
         column-gap: 0.5em;
-    }
-
-    .bluespike {
-        top: 100px;
-        left: 20px;
-    }
-
-    .zigzag {
-        bottom: 0;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .bluespike {
-        top: 110px;
-        left: 0px;
     }
 }
 
@@ -462,10 +414,6 @@
 @media screen and (max-width: 440px) {
     .stickers {
         padding-top: 0;
-    }
-
-    .bluespike {
-        top: 120px;
     }
 }
 
@@ -564,10 +512,6 @@
 @media screen and (max-width: 348px) {
     .projects {
         padding: 5em var(--left-right-padding) 5em var(--left-right-padding);
-    }
-
-    .bluespike {
-        top: 50px;
     }
 }
 
