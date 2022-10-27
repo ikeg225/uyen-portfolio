@@ -2,8 +2,18 @@
     display: flex;
     flex-direction: row;
     padding-top: 100px;
-    gap: 100px;
+    gap: 50px;
     text-align: left;
+}
+
+.image {
+    display: flex;
+    width: 100%;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
 }
 
 .project {
@@ -11,6 +21,7 @@
     border: solid black 2px;
     display: flex;
     flex-direction: column;
+    width: 150%;
 }
 
 .projectdescription {
@@ -22,7 +33,7 @@
 }
 
 .title {
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Margin';
     margin: 0;
     padding: 15px 50px;
@@ -30,7 +41,7 @@
 }
 
 .description {
-    font-size: 28px;
+    font-size: 20px;
     font-family: 'Livvic';
     margin: 0;
 }

@@ -22,10 +22,6 @@
     margin: 0;
 }
 
-.imgmobile {
-    display: none;
-}
-
 @media screen and (max-width: 950px) {
     .name {
         font-size: 30px;
@@ -37,14 +33,6 @@
 }
 
 @media screen and (max-width: 680px) {
-    .image {
-        display: none;
-    }
-
-    .imgmobile {
-        display: flex;
-    }
-
     .name {
         padding-top: 10px;
     }

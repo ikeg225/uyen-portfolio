@@ -3,7 +3,7 @@
     flex-direction: row;
     padding: 0 var(--left-right-padding);
     padding-top: 5em;
-    gap: 50px;
+    gap: 5px;
 }
 
 .left {
@@ -143,12 +143,6 @@
 
 .orangeMobile {
     display: none;
-}
-
-@media screen and (max-width: 1300px) {
-    .frontline {
-        gap: 5px;
-    }
 }
 
 @media screen and (max-width: 1235px) {

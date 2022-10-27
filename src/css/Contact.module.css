@@ -10,13 +10,13 @@
 
 .leftForm input, .rightForm textarea, .message, .submitMobile {
     font-family: 'Livvic';
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .leftForm {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     gap: 2em;
 }
 
@@ -28,8 +28,8 @@
 
 .rightForm {
     display: flex;
-    height: 280px;
-    width: 50%;
+    height: 245px;
+    width: 60%;
 }
 
 .rightForm textarea {

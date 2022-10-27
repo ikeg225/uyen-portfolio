@@ -9,8 +9,6 @@ import orange from '../images/orange.png';
 import profile from '../images/profile.png';
 import twinkle from '../images/twinkle.png';
 import happyface from '../images/happyface.png';
-import rebackground from '../images/rebackground.png';
-import flowerbackground from '../images/flowerbackground.png';
 import styles from '../css/Projects.module.css';
 
 import bebrave from '../images/sticker-bebrave.png';
@@ -36,8 +34,8 @@ export default function Projects() {
                 </div>
             </div>
             <div className={styles.projects}>
-                <Project img={flower} name="Flower" description="branding | illustrations" imgmobile={flowerbackground}/>
-                <Project img={re} name="RE" description="user interface | user experience" imgmobile={rebackground}/>
+                <Project img={flower} name="Flower" description="branding | illustrations" />
+                <Project img={re} name="RE" description="user interface | user experience" />
             </div>
             <div className={styles.stickers}>
                 <p className={styles.surprise}>*a surprise?*</p>
