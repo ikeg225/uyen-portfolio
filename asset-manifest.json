@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.972c8cdb.css",
+    "main.css": "/static/css/main.80d8dd28.css",
     "main.js": "/static/js/main.cd9195c6.js",
     "static/media/oldflower.jpg": "/static/media/oldflower.df7f90184118f119ccb8.jpg",
     "static/media/aboutpic.png": "/static/media/aboutpic.25f1f66ee170a38c3050.png",
@@ -38,11 +38,11 @@
     "static/media/orange.png": "/static/media/orange.3140036987b337902083.png",
     "static/media/sun.png": "/static/media/sun.1fc32cb4cb963fbbdc4a.png",
     "index.html": "/index.html",
-    "main.972c8cdb.css.map": "/static/css/main.972c8cdb.css.map",
+    "main.80d8dd28.css.map": "/static/css/main.80d8dd28.css.map",
     "main.cd9195c6.js.map": "/static/js/main.cd9195c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.972c8cdb.css",
+    "static/css/main.80d8dd28.css",
     "static/js/main.cd9195c6.js"
   ]
 }
