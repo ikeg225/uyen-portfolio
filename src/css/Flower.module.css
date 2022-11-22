@@ -64,7 +64,7 @@
 .vertical {
     padding-top: 2em;
     display: grid;
-    grid-template-columns: 0.33fr 0.33fr 0.33fr;
+    grid-template-columns: 0.38fr 0.31fr 0.31fr;
     column-gap: 2em;
 }
 
