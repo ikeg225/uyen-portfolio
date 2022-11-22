@@ -1,0 +1,101 @@
+.flower {
+    padding: 3em var(--left-right-padding);
+}
+
+.flower h3, .flower h1 {
+    font-family: 'Livvic Bold';
+}
+
+.cover {
+    width: 100%;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.introLeft {
+    width: 40%;
+}
+
+.introRight {
+    width: 50%;
+}
+
+.paddingTop {
+    padding-top: 3em;
+}
+
+.flowercolors {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.flowercolorspic {
+    max-width: 50%;
+}
+
+.flowercolorspic img {
+    width: 100%;
+}
+
+.flowercolorscontent {
+    width: 50%;
+}
+
+.flowerallmobile img, .postcard img, .vertical img, .flowermockups img, .oldflower img {
+    display: block;
+    width: 100%;
+}
+
+.flowerallmobile {
+    padding-top: 2em;
+}
+
+.postcard {
+    display: grid;
+    grid-template-columns: 1.07fr 0.93fr;
+    column-gap: 2em;
+}
+
+.vertical {
+    padding-top: 2em;
+    display: grid;
+    grid-template-columns: 0.33fr 0.33fr 0.33fr;
+    column-gap: 2em;
+}
+
+.flowermockups {
+    padding-top: 2em;
+    display: grid;
+    grid-template-columns: 0.77fr 1.23fr;
+    column-gap: 2em;
+}
+
+.rebrand, .reflection {
+    padding: 2em 0;
+}
+
+@media screen and (max-width: 700px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .introLeft, .introRight, 
+    .flowercolorscontent, .flowercolorspic {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .flowercolors {
+        flex-direction: column;
+    }
+
+    .postcard, .vertical, .flowermockups {
+        grid-template-columns: 1fr;
+        row-gap: 2em;
+    }
+}

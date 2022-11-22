@@ -6,7 +6,7 @@ import playpeople from '../images/playpeople.png';
 
 export default function Play() {
     return (
-        <div className={styles.play}>
+        <div className={`${styles.play} limitWidth`}>
             <p className={styles.title}>Let's Have Fun!</p>
             <img className={styles.playpeople} src={playpeople} alt=""/>
             <PlayProject image={play_temp} title="Peachtober" description="Whenever I need a break from anything, I would pull out my iPad to doodle. They are funky, nonsensical, colorful, and super fun! Turn off your brain and let your hands do the work :)" link="" />

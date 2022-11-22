@@ -8,8 +8,10 @@ import flower from '../images/flower.jpg';
 import orange from '../images/orange.png';
 import profile from '../images/profile.png';
 import twinkle from '../images/twinkle.png';
+import peets from '../images/peetscover.jpg';
 import happyface from '../images/happyface.png';
 import styles from '../css/Projects.module.css';
+import openproject from '../images/openprojectcover.jpg';
 
 import bebrave from '../images/sticker-bebrave.png';
 import bekind from '../images/sticker-bekind.png';
@@ -20,7 +22,7 @@ import itsokay from '../images/sticker-itsokay.png';
 
 export default function Projects() {
     return (
-        <div>
+        <div className="limitWidth">
             <div className={styles.frontline}>
                 <div className={styles.left}>
                     <p className={styles.knock}>*knock knock*</p>
@@ -34,8 +36,10 @@ export default function Projects() {
                 </div>
             </div>
             <div className={styles.projects}>
-                <Project img={flower} name="Flower" description="branding | illustrations" />
-                <Project img={re} name="RE" description="user interface | user experience" />
+                <Project img={flower} name="Flower" description="branding | illustrations" url="/flower"/>
+                <Project img={re} name="RE" description="user interface | user experience" url="/re"/>
+                <Project img={peets} name="Peet's Coffee" description="branding | illustrations" url="/peets"/>
+                <Project img={openproject} name="Open Project" description="user interface | user experience" url="/open-project"/>
             </div>
             <div className={styles.stickers}>
                 <p className={styles.surprise}>*a surprise?*</p>

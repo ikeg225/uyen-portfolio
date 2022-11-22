@@ -6,7 +6,7 @@ import Intro from './components/Intro';
 import { hydrate, render } from "react-dom";
 
 const rootElement = document.getElementById("root");
-const app = <div><Intro /><div style={{maxWidth: "1200px"}}><App /></div></div>;
+const app = <div style={{width: "100%"}}><Intro /><App /></div>;
 if (rootElement.hasChildNodes()) {
   hydrate(app, rootElement);
 } else {

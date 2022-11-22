@@ -8,7 +8,7 @@ import aboutdoodles from '../images/aboutdoodles.png';
 
 export default function About() {
     return (
-        <div className={styles.about}>
+        <div className={`${styles.about} limitWidth`}>
             <div className={styles.content}>
                 <div className={styles.left}>
                     <div style={{width: "fit-content", position: "relative"}}>

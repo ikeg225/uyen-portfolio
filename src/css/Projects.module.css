@@ -74,6 +74,7 @@
     padding: 10em var(--left-right-padding) 5em var(--left-right-padding);
     column-gap: 5em;
     position: relative;
+    row-gap: 4em;
 }
 
 .stickers {

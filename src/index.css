@@ -11,8 +11,13 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./images/paper.webp");
-  background-repeat: repeat;
+  background-color: #FDF8F4;
+  font-family: 'Livvic';
+}
+
+.limitWidth {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 @font-face {
