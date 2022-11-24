@@ -1,0 +1,28 @@
+.recards {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    background-color: #F8B0BF;
+    text-align: center;
+}
+
+.content {
+    background-color: white;
+    height: 100%;
+}
+
+.divtag {
+    margin: 2em 2em;
+}
+
+.content ul, .content p {
+    margin: 0;
+}
+
+@media screen and (max-width: 375px) {
+    .ptag {
+        margin: 1em 1em;
+    }
+}

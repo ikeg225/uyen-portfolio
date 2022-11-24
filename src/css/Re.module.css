@@ -1,0 +1,208 @@
+.re {
+    padding: 3em var(--left-right-padding);
+}
+
+.re img {
+    width: 100%;
+}
+
+.re h3, .re h1 {
+    font-family: 'Livvic Bold';
+}
+
+.coverbackground {
+    background-color: #79BEFF;
+}
+
+.coverbackground img {
+    width: 100%;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.introLeft {
+    width: 40%;
+}
+
+.introRight {
+    width: 50%;
+}
+
+.paddingTop {
+    padding-top: 3em;
+}
+
+.requestionbackground {
+    background: linear-gradient(#9ACEFF, #F8B0BF);
+}
+
+.requestionbackground p {
+    font-family: 'Livvic Bold';
+}
+
+.rebackground {
+    padding: 1em var(--left-right-padding);
+}
+
+.empathymap, .requirements,
+.set, .reappgraphics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+    row-gap: 2em;
+}
+
+.interviews {
+    display: grid;
+    grid-template-columns: 0.33fr 0.33fr 0.33fr;
+    column-gap: 5em;
+}
+
+.surveys, .marketgaps, .rebreakdown, .refeedback {
+    display: flex;
+    flex-direction: row;
+}
+
+.refeedback {
+    justify-content: space-between;
+}
+
+.surveyimages {
+    width: 30%;
+}
+
+.surveyimages img {
+    width: 100%;
+}
+
+.surveyscontent {
+    width: 70%;
+}
+
+.pinkunderline {
+    color: #EA566E;
+    text-decoration: underline;
+    text-decoration-color: #EA566E;
+}
+
+.blue {
+    color: #1786ED;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.pink {
+    color: #EA566E;
+}
+
+.refeedbackcontent {
+    width: 50%;
+}
+
+.refeedbackimg {
+    width: 40%;
+}
+
+.marketgapscontent {
+    width: 40%;
+}
+
+.marketgapsimg {
+    width: 60%;
+}
+
+.rebreakdowncontent {
+    width: 70%;
+}
+
+.rebreakdownimg {
+    width: 30%;
+}
+
+.imagepad {
+    padding-top: 1em;
+}
+
+.prototypes {
+    display: grid;
+    grid-template-columns: 0.54fr 0.46fr;
+    column-gap: 2em;
+}
+
+.prototypedesc, .functionrepedesc {
+    display: grid;
+    grid-template-columns: 0.33fr 0.33fr 0.33fr;
+    column-gap: 1em;
+}
+
+.relogocontent {
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr;
+    align-items: flex-end;
+    column-gap: 2em;
+}
+
+.relogocontent p {
+    margin: 0;
+}
+
+.relogo {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.gradienttext {
+    text-align: center;
+    background: linear-gradient(to right, #9ACEFF, #F8B0BF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 700px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .introLeft, .introRight {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .empathymap, .set, .requirements,
+    .prototypes, .reappgraphics {
+        grid-template-columns: 1fr;
+        row-gap: 2em;
+    }
+
+    .prototypedesc, .functionrepedesc {
+        grid-template-columns: 1fr;
+    }
+
+    .interviews {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2em;
+        row-gap: 2em;
+    }
+
+    .surveys, .marketgaps, .rebreakdown, .refeedback {
+        flex-direction: column;
+    }
+    
+    .surveyimages, .marketgapsimg,
+    .surveyscontent, .marketgapscontent, 
+    .rebreakdowncontent, .rebreakdownimg,
+    .refeedbackcontent, .refeedbackimg {
+        width: 100%;
+    }
+
+    .relogocontent {
+        grid-template-columns: 0.3fr 0.7fr;
+    }
+}

@@ -1,3 +1,4 @@
+import Re from './components/Re';
 import Play from './components/Play';
 import About from './components/About';
 import Peets from './components/Peets';
@@ -18,6 +19,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/flower" element={<Flower />} />
           <Route path="/peets" element={<Peets />} />
+          <Route path="/re" element={<Re />} />
         </Routes>
       </ScrollToTop>
     </BrowserRouter>

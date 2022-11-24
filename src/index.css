@@ -1,5 +1,6 @@
 :root {
   --left-right-padding: 7em;
+  --max-width: 1200px;
 }
 
 html, body {
@@ -16,7 +17,7 @@ body {
 }
 
 .limitWidth {
-  max-width: 1200px;
+  max-width: var(--max-width);
   margin: 0 auto;
 }
 
@@ -43,6 +44,14 @@ body {
 @font-face {
   font-family: 'Margin';
   src: url('./fonts/Margin\ DEMO.otf') format('opentype');
+}
+
+.italic {
+  font-family: 'Livvic Medium Italic';
+}
+
+.bold {
+  font-family: 'Livvic Bold';
 }
 
 h1 {

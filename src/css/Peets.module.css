@@ -1,4 +1,8 @@
-.cover {
+.coverbackground {
+    background-color: #85583F;
+}
+
+.coverbackground img {
     width: 100%;
 }
 
@@ -26,10 +30,6 @@
 
 .paddingTop {
     padding-top: 3em;
-}
-
-.italic {
-    font-family: 'Livvic Medium Italic';
 }
 
 .peets img {

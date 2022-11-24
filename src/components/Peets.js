@@ -22,7 +22,11 @@ import Contact from './Contact';
 export default function Peets() {
     return (
         <div>
-            <img src={peets} alt="peets" className={styles.cover} />
+            <div className={styles.coverbackground}>
+                <div className="limitWidth">
+                    <img src={peets} alt="peets" />
+                </div>
+            </div>
             <div className="limitWidth">
                 <div className={styles.peets}>
                     <div className={styles.intro}>
@@ -47,14 +51,14 @@ export default function Peets() {
                     </div>
                     <div className={styles.paddingTop}>
                         <h1>Fall 22 Seasonal Campaign</h1>
-                        <p className={styles.italic}>Main In-Store Poster Series</p>
+                        <p className="italic">Main In-Store Poster Series</p>
                         <div className={styles.peetsfeels}>
                             <img src={peetsfallfeels} />
                             <img src={peetslatteseason} />
                             <img src={peetspumpkinseason} />
                         </div>
                         <p>The fall campaign was what the Design Team was working on mainly in the summer to prep for their famous fall seasonal beverages and foods. The watercolored graphics along with the muted fall colors really ties the playfullness of fall together. These designs were really up my ally since I love playing around with illustrative elements.</p>
-                        <p className={styles.italic}>Employee's Seasonal Merch</p>
+                        <p className="italic">Employee's Seasonal Merch</p>
                         <div className={styles.peetsfeelsgraphic}>
                             <img src={peetsfallfeelsgraphic1} />
                             <img src={peetsfallfeelsgraphic2} />
@@ -69,12 +73,12 @@ export default function Peets() {
                     </div>
                     <div className={styles.paddingTop}>
                         <h1>Ideating Ideas for Holiday Seasonal Campaign/Marketing</h1>
-                        <p className={styles.italic}>Holiday Window Cling</p>
+                        <p className="italic">Holiday Window Cling</p>
                         <div className={styles.peetshappytogether}>
                             <img src={peetshappytogether1} />
                             <img src={peetshappytogether2} />
                         </div>
-                        <p className={styles.italic}>“Ugly” Christmas Sweater + “Ultimate Holiday Gift Guide”</p>
+                        <p className="italic">“Ugly” Christmas Sweater + “Ultimate Holiday Gift Guide”</p>
                         <div className={styles.sweatermug}>
                             <img src={peetsuglysweater} />
                             <img src={peetscoffeemug} />
@@ -83,12 +87,12 @@ export default function Peets() {
                     </div>
                     <div className={styles.paddingTop}>
                         <h1>CPG Marketing</h1>
-                        <p className={styles.italic}>Albertson's Ads</p>
+                        <p className="italic">Albertson's Ads</p>
                         <div className={styles.peetsalbertsonad}>
                             <img src={peetsalbertsonad1} />
                             <img src={peetsalbertsonad2} />
                         </div>
-                        <p className={styles.italic}>InstaCart UI</p>
+                        <p className="italic">InstaCart UI</p>
                         <div className={styles.instacart}>
                             <img src={instacartdesktop} />
                             <img src={instacartmobile} />

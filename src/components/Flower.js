@@ -15,9 +15,13 @@ import Contact from './Contact';
 export default function Flower() {
     return (
         <div>
-            <img src={flowerCover} className={styles.cover} alt="flower cover" />
+            <div className={styles.coverbackground}>
+                <div className="limitWidth">
+                    <img src={flowerCover} alt="flower cover" />
+                </div>
+            </div>
             <div className="limitWidth">
-                <div className={`${styles.flower}`}>
+                <div className={styles.flower}>
                     <div className={styles.intro}>
                         <div className={styles.introLeft}>
                             <div>
@@ -47,7 +51,7 @@ export default function Flower() {
                             <div className={styles.flowercolorscontent}>
                                 <h3>"Your blooming chapter starts here"</h3>
                                 <p>I choose warm, bright, but nature colors to soothes while motivates users when seeing the brand. A more illustrative approach is used to showcase the creative freedom that all of us have when it comes to nuturting the best versions of ourselves.</p>
-                                <p>These illustartions are paired with some of my favorite quotes to help bring good thoughts to days that may seemingly feel dark.</p>
+                                <p>These illustrations are paired with some of my favorite quotes to help bring good thoughts to days that may seemingly feel dark.</p>
                             </div>
                         </div>
                     </div>

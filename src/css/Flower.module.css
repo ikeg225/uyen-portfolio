@@ -6,7 +6,11 @@
     font-family: 'Livvic Bold';
 }
 
-.cover {
+.coverbackground {
+    background-color: #FFEEE1;
+}
+
+.coverbackground img {
     width: 100%;
 }
 
