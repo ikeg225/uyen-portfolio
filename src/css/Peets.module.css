@@ -1,0 +1,102 @@
+.cover {
+    width: 100%;
+}
+
+.peets {
+    padding: 3em var(--left-right-padding);
+}
+
+.peets h3, .peets h1 {
+    font-family: 'Livvic Bold';
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.introLeft {
+    width: 40%;
+}
+
+.introRight {
+    width: 50%;
+}
+
+.paddingTop {
+    padding-top: 3em;
+}
+
+.italic {
+    font-family: 'Livvic Medium Italic';
+}
+
+.peets img {
+    width: 100%;
+}
+
+.peetsfeels {
+    display: grid;
+    grid-template-columns: 0.33fr 0.33fr 0.33fr;
+    column-gap: 2em;
+}
+
+.peetsfeelsgraphic {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 0;
+}
+
+.peetshirts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+}
+
+.peetshappytogether {
+    display: grid;
+    grid-template-columns: 0.47fr 0.53fr;
+    column-gap: 2em;
+}
+
+.sweatermug {
+    display: grid;
+    grid-template-columns: 0.48fr 0.52fr;
+    column-gap: 2em;
+}
+
+.peetsalbertsonad {
+    display: grid;
+    grid-template-columns: 0.51fr 0.49fr;
+    column-gap: 2em;
+}
+
+.instacart {
+    display: grid;
+    grid-template-columns: 0.52fr 0.48fr;
+    column-gap: 2em;
+}
+
+@media screen and (max-width: 700px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .introLeft, .introRight {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .peetsfeels, .peetshirts, .peetshappytogether, 
+    .sweatermug, .peetsalbertsonad, .instacart {
+        grid-template-columns: 1fr;
+        row-gap: 2em;
+    }
+
+    .peetsfeelsgraphic {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0;
+    }
+}
