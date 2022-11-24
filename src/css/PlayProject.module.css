@@ -14,11 +14,12 @@
 .image img {
     width: 100%;
     height: auto;
+    outline: 2px solid black;
 }
 
 .project {
     background-color: white;
-    border: solid black 2px;
+    outline: 2px solid black;
     display: flex;
     flex-direction: column;
     width: 150%;
@@ -29,14 +30,13 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    padding: 40px 50px;
+    padding: 2em 2em;
 }
 
 .title {
-    font-size: 50px;
     font-family: 'Margin';
     margin: 0;
-    padding: 15px 50px;
+    padding: 0.5em 1em;
     border-bottom: solid black 2px;
 }
 
@@ -55,4 +55,24 @@
     text-decoration: none;
     text-align: center;
     padding: 10px 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .projectplay {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .project {
+        width: 100%;
+        height: 100%;
+    }
+
+    .button {
+        margin-top: 1em;
+    }
+
+    .projectplay {
+        padding-top: 0;
+    }
 }

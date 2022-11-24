@@ -19,3 +19,19 @@
     text-align: left;
     padding: 100px 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .playprojects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2em;
+        column-gap: 2em;
+        padding-top: 2em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .playprojects {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,4 +1,5 @@
 import styles from '../css/PlayProject.module.css';
+import { NavLink } from 'react-router-dom';
 
 export default function PlayProject({image, title, description, link }) {
     return (
@@ -7,10 +8,10 @@ export default function PlayProject({image, title, description, link }) {
                 <img src={image} />
             </div>
             <div className={styles.project}>
-                <p className={styles.title}>{title}</p>
+                <h2 className={styles.title}>{title}</h2>
                 <div className={styles.projectdescription}>
                     <p className={styles.description}>{description}</p>
-                    <a className={styles.button} href={link} target="_blank" rel="noreferrer">view more</a>
+                    <NavLink to={link} className={styles.button}>view more</NavLink>
                 </div>
             </div>
         </div>

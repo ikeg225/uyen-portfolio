@@ -50,6 +50,8 @@
   },
   "reactSnap": {
     "concurrency": 1,
-    "include": ["/about"]
+    "include": [
+      "/about"
+    ]
   }
 }
