@@ -10,6 +10,7 @@ import openprojectdesign2 from '../images/openproject-design2.jpg';
 import openprojectdesign3 from '../images/openproject-design3.jpg';
 import openprojectdesign4 from '../images/openproject-design4.jpg';
 import Contact from './Contact';
+import YouTube from 'react-youtube';
 
 export default function OpenProject() {
     return (
@@ -94,6 +95,7 @@ export default function OpenProject() {
                         <div className={styles.paddingTop}>
                             <h1>Putting Everything Together</h1>
                             <p className="italic">Website Prototype + Design</p>
+                            <YouTube videoId="GMMIxZ0f9VY" />
                             <p className={`${styles.paddingTop} italic`}>Home Page</p>
                             <img src={openprojectdesign1} alt="Open Project Design 1" />
                             <p className={`${styles.paddingTop} italic`}>Apply Page</p>

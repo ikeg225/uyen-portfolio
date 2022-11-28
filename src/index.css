@@ -78,6 +78,10 @@ p, a {
   animation: rotation 8s infinite linear;
 }
 
+iframe {
+  width: 100%;
+}
+
 @keyframes rotation {
   from {
     transform: rotate(0deg);
