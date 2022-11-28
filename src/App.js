@@ -7,6 +7,7 @@ import Flower from './components/Flower';
 import Projects from './components/Projects';
 import Peachtober from './components/Peachtober';
 import ScrollToTop from './components/ScrollToTop';
+import OpenProject from './components/OpenProject';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/peets" element={<Peets />} />
           <Route path="/re" element={<Re />} />
           <Route path="/peachtober" element={<Peachtober />} />
+          <Route path="/open-project" element={<OpenProject />} />
         </Routes>
       </ScrollToTop>
     </BrowserRouter>

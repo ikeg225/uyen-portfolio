@@ -15,7 +15,7 @@ export default function Play() {
                 <div className={styles.playprojects}>
                     <PlayProject image={playpeachtober} title="Peachtober" description="#peachtober was a challenge I did during the month of October. The instagram community was given a prompt each day and I was able to find my drawing style through this activity." link="/peachtober" />
                     <PlayProject image={playdoodles} title="Doodles/Graphics" description="Vectors galore! These are mostly made when I have a mountain of assignments to do. Something about stress/pressure really make me extra creative." link="/doodles-and-graphics" />
-                    <PlayProject image={playsniffsniff} title="Sniff Sniff" description="Making stickers have always been a dream of mine since--forever! Here are some fun sticker sheets/collections. Hopefully one day I can make this dream a reality." link="/sniff-sniff" />
+                    <PlayProject image={playsniffsniff} title="Sniff Sniff" description="A project born from the world's largest collegiate hackathon to help students find classes' discords and slack links + summarizes crucial messages in groupchats without needing to read through them!" link="/sniff-sniff" />
                 </div>
                 <div className={styles.contactForm}>
                     <Contact />

@@ -1,0 +1,70 @@
+.openproject {
+    padding: 3em var(--left-right-padding);
+}
+
+.openproject h3, .openproject h1 {
+    font-family: 'Livvic Bold';
+}
+
+.coverbackground {
+    background-color: #FFF4EB;
+}
+
+.coverbackground img, .openproject img {
+    width: 100%;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.introLeft {
+    width: 40%;
+}
+
+.introRight {
+    width: 50%;
+}
+
+.paddingTop {
+    padding-top: 3em;
+}
+
+.missionbackground {
+    background-color: #F9C12C;
+}
+
+.mission {
+    padding: 1em var(--left-right-padding);
+}
+
+.valueTop {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: #2D5DED;
+}
+
+.values {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+
+@media screen and (max-width: 700px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .introLeft, .introRight {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .values {
+        grid-template-columns: 1fr;
+    }
+}
