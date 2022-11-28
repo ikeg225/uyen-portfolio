@@ -1,0 +1,38 @@
+.sniffsniff {
+    padding: 3em var(--left-right-padding);
+}
+
+.sniffsniff h3, .sniffsniff h1 {
+    font-family: 'Livvic Bold';
+}
+
+.coverbackground {
+    background-color: #FFE38A;
+}
+
+.coverbackground img, .sniffsniff img {
+    width: 100%;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.introLeft {
+    width: 40%;
+}
+
+.introRight {
+    width: 50%;
+}
+
+.paddingTop {
+    padding-top: 3em;
+}
+
+.url {
+    color: #896BFD;
+    text-decoration: none;
+}
