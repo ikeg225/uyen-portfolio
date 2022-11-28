@@ -34,7 +34,7 @@ export default function OpenProject() {
                             </div>
                         </div>
                         <div className={styles.introRight}>
-                            <h3>Open Project is a UC Berkeley club redefining the culture of tech clubs at UC Berkeley.</h3>
+                            <h3><a href="https://openprojectberkeley.com/" target="_blank" rel="noopener noreferrer" className={styles.url}>Open Project</a> is a UC Berkeley club redefining the culture of tech clubs at UC Berkeley.</h3>
                             <p>A friend reached out to me asking if I could create a brand identity for his new tech club that embodies inclusivity, passion, and innovation. He wants to potray the club as welcoming and as long as you are passionate about creating, you belong here.</p>
                         </div>
                     </div>

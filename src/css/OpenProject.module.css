@@ -54,6 +54,11 @@
     gap: 2em;
 }
 
+.url {
+    color: #2D5DED;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 700px) {
     .intro {
         flex-direction: column;
