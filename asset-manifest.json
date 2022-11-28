@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.242ca3ee.css",
-    "main.js": "/static/js/main.1588bb4f.js",
+    "main.css": "/static/css/main.0eff79c7.css",
+    "main.js": "/static/js/main.941df24b.js",
+    "static/media/openproject-design3.jpg": "/static/media/openproject-design3.cd4aa6bad58a9386b02b.jpg",
+    "static/media/openproject-design1.jpg": "/static/media/openproject-design1.dc677384aca1301c8903.jpg",
+    "static/media/openproject-design2.jpg": "/static/media/openproject-design2.ed602379ae6236c0f592.jpg",
     "static/media/oldflower.jpg": "/static/media/oldflower.df7f90184118f119ccb8.jpg",
     "static/media/aboutpic.png": "/static/media/aboutpic.25f1f66ee170a38c3050.png",
     "static/media/designmethod.jpg": "/static/media/designmethod.fa1d0d93acd9d89959bc.jpg",
@@ -18,6 +21,7 @@
     "static/media/peetslatteseason.jpg": "/static/media/peetslatteseason.d7ee8c4f3b7056b7e1a9.jpg",
     "static/media/peetspumpkinseason.jpg": "/static/media/peetspumpkinseason.d108a00d5fc8a3e040f0.jpg",
     "static/media/flowerallmobilemockups.jpg": "/static/media/flowerallmobilemockups.37a709a12e44f20b4379.jpg",
+    "static/media/openproject-design4.jpg": "/static/media/openproject-design4.ce9c1b8debc8da2d7406.jpg",
     "static/media/repagesblue.jpg": "/static/media/repagesblue.24e2f8efe6833e09c1d5.jpg",
     "static/media/remockuppages.jpg": "/static/media/remockuppages.cd5ceb8307df21667fba.jpg",
     "static/media/mockupdesign.jpg": "/static/media/mockupdesign.be242af093c38134f026.jpg",
@@ -44,6 +48,7 @@
     "static/media/peachtober-graphic12.jpg": "/static/media/peachtober-graphic12.10d567094fde070d7d99.jpg",
     "static/media/flowerbusinesscard.jpg": "/static/media/flowerbusinesscard.1597cc536f5efe68af4e.jpg",
     "static/media/peetscoffeemug.jpg": "/static/media/peetscoffeemug.881a0f83f7011a97364f.jpg",
+    "static/media/openproject.jpg": "/static/media/openproject.328be1bf74342138c6d7.jpg",
     "static/media/peetsgreenshirt.jpg": "/static/media/peetsgreenshirt.953123474cc68a6d8520.jpg",
     "static/media/sticker-besunshine.png": "/static/media/sticker-besunshine.7939398cf2a55ea49969.png",
     "static/media/peachtober-graphic7.jpg": "/static/media/peachtober-graphic7.d971ff5b5bcd46351952.jpg",
@@ -66,7 +71,9 @@
     "static/media/reapplistenback.png": "/static/media/reapplistenback.f03a3c26ab522d3b53c3.png",
     "static/media/narrowingdowngraph.jpg": "/static/media/narrowingdowngraph.1fd3a8cef54880e71772.jpg",
     "static/media/reinterviews1.png": "/static/media/reinterviews1.5e67af4029efccb99ab6.png",
+    "static/media/openproject-values1.jpg": "/static/media/openproject-values1.e5938003bb5a3ee2cdb2.jpg",
     "static/media/resurveys.png": "/static/media/resurveys.932682cb0a6c90587dcb.png",
+    "static/media/openproject-values4.jpg": "/static/media/openproject-values4.38d5fe6777e3723109c1.jpg",
     "static/media/sticker-breather.png": "/static/media/sticker-breather.e74755abc7533f64d89f.png",
     "static/media/reinterviews2.png": "/static/media/reinterviews2.646c39d69faa63fae791.png",
     "static/media/peetsfallfeelsgraphic1.jpg": "/static/media/peetsfallfeelsgraphic1.9feafb516399e92437da.jpg",
@@ -76,8 +83,11 @@
     "static/media/Livvic-Medium.ttf": "/static/media/Livvic-Medium.e1727d156b658481f5c4.ttf",
     "static/media/sticker-itsokay.png": "/static/media/sticker-itsokay.3ce1fc971f326e27765f.png",
     "static/media/flowercolors.jpg": "/static/media/flowercolors.40145dc1f154dd8caa2f.jpg",
+    "static/media/openproject-values3.jpg": "/static/media/openproject-values3.3ebb3468095ea091bc94.jpg",
     "static/media/reapprecord.png": "/static/media/reapprecord.bd9acd90925b86a86720.png",
+    "static/media/openproject-values2.jpg": "/static/media/openproject-values2.b778a1556423a466feb1.jpg",
     "static/media/peetsfallfeelsgraphic4.jpg": "/static/media/peetsfallfeelsgraphic4.30369ae813dd9a50aa92.jpg",
+    "static/media/openproject-colors.png": "/static/media/openproject-colors.271b56361033d3c51df0.png",
     "static/media/reinterviews3.png": "/static/media/reinterviews3.e0e38d5f3e2ea07ee148.png",
     "static/media/peetsfallfeelsgraphic3.jpg": "/static/media/peetsfallfeelsgraphic3.b7f295e8b4da006f8489.jpg",
     "static/media/aboutdoodles.png": "/static/media/aboutdoodles.23983cfb80dfb184c746.png",
@@ -95,11 +105,11 @@
     "static/media/orange.png": "/static/media/orange.3140036987b337902083.png",
     "static/media/sun.png": "/static/media/sun.1fc32cb4cb963fbbdc4a.png",
     "index.html": "/index.html",
-    "main.242ca3ee.css.map": "/static/css/main.242ca3ee.css.map",
-    "main.1588bb4f.js.map": "/static/js/main.1588bb4f.js.map"
+    "main.0eff79c7.css.map": "/static/css/main.0eff79c7.css.map",
+    "main.941df24b.js.map": "/static/js/main.941df24b.js.map"
   },
   "entrypoints": [
-    "static/css/main.242ca3ee.css",
-    "static/js/main.1588bb4f.js"
+    "static/css/main.0eff79c7.css",
+    "static/js/main.941df24b.js"
   ]
 }
