@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f4d25093.css",
-    "main.js": "/static/js/main.d2afbe4e.js",
+    "main.css": "/static/css/main.11e46c09.css",
+    "main.js": "/static/js/main.29527f04.js",
     "static/media/openproject-design3.jpg": "/static/media/openproject-design3.cd4aa6bad58a9386b02b.jpg",
     "static/media/openproject-design1.jpg": "/static/media/openproject-design1.dc677384aca1301c8903.jpg",
     "static/media/openproject-design2.jpg": "/static/media/openproject-design2.ed602379ae6236c0f592.jpg",
@@ -62,6 +62,7 @@
     "static/media/regirl.png": "/static/media/regirl.c568d847583c5f305264.png",
     "static/media/flower.jpg": "/static/media/flower.9b324f1ee195fe469cd6.jpg",
     "static/media/peetscover.jpg": "/static/media/peetscover.9e1d83562a7ac68b0c61.jpg",
+    "static/media/sniffsniff.jpg": "/static/media/sniffsniff.0d9e08c805f20d17253d.jpg",
     "static/media/sticker-bekind.png": "/static/media/sticker-bekind.9283c42f4318aad0618d.png",
     "static/media/prototype3d.jpg": "/static/media/prototype3d.af36e230d5097c2696db.jpg",
     "static/media/openprojectcover.jpg": "/static/media/openprojectcover.1888d85848d506d92325.jpg",
@@ -105,11 +106,11 @@
     "static/media/orange.png": "/static/media/orange.3140036987b337902083.png",
     "static/media/sun.png": "/static/media/sun.1fc32cb4cb963fbbdc4a.png",
     "index.html": "/index.html",
-    "main.f4d25093.css.map": "/static/css/main.f4d25093.css.map",
-    "main.d2afbe4e.js.map": "/static/js/main.d2afbe4e.js.map"
+    "main.11e46c09.css.map": "/static/css/main.11e46c09.css.map",
+    "main.29527f04.js.map": "/static/js/main.29527f04.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4d25093.css",
-    "static/js/main.d2afbe4e.js"
+    "static/css/main.11e46c09.css",
+    "static/js/main.29527f04.js"
   ]
 }
