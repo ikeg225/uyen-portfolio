@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.11e46c09.css",
-    "main.js": "/static/js/main.29527f04.js",
+    "main.css": "/static/css/main.39ab259f.css",
+    "main.js": "/static/js/main.41259482.js",
     "static/media/openproject-design3.jpg": "/static/media/openproject-design3.cd4aa6bad58a9386b02b.jpg",
     "static/media/openproject-design1.jpg": "/static/media/openproject-design1.dc677384aca1301c8903.jpg",
     "static/media/openproject-design2.jpg": "/static/media/openproject-design2.ed602379ae6236c0f592.jpg",
@@ -26,7 +26,6 @@
     "static/media/remockuppages.jpg": "/static/media/remockuppages.cd5ceb8307df21667fba.jpg",
     "static/media/mockupdesign.jpg": "/static/media/mockupdesign.be242af093c38134f026.jpg",
     "static/media/peachtober.jpg": "/static/media/peachtober.316cc1cb83325521c7ed.jpg",
-    "static/media/play-doodles.jpg": "/static/media/play-doodles.d04e98393ee28b626ea2.jpg",
     "static/media/refigmaanimation.jpg": "/static/media/refigmaanimation.2ff80a24f2ebe9de0862.jpg",
     "static/media/flowerpicframe.jpg": "/static/media/flowerpicframe.bcdd56e53efeaf57d761.jpg",
     "static/media/repagesred.jpg": "/static/media/repagesred.9e99d8acba2492588844.jpg",
@@ -38,6 +37,7 @@
     "static/media/peets.jpg": "/static/media/peets.ff551b9d9608802c67b8.jpg",
     "static/media/play-peachtober.jpg": "/static/media/play-peachtober.331c152d342029e409fd.jpg",
     "static/media/peetsuglysweater.jpg": "/static/media/peetsuglysweater.a184a5d2df75c15bb392.jpg",
+    "static/media/sfmoma-cover.jpg": "/static/media/sfmoma-cover.d1e6b7e40c80449d129a.jpg",
     "static/media/flowermobilehomepage.png": "/static/media/flowermobilehomepage.77a73b53e21584e879ac.png",
     "static/media/peachtober-graphic4.jpg": "/static/media/peachtober-graphic4.9160740752e12127db56.jpg",
     "static/media/peachtober-graphic11.jpg": "/static/media/peachtober-graphic11.f6235d9e683ea4351f99.jpg",
@@ -106,11 +106,11 @@
     "static/media/orange.png": "/static/media/orange.3140036987b337902083.png",
     "static/media/sun.png": "/static/media/sun.1fc32cb4cb963fbbdc4a.png",
     "index.html": "/index.html",
-    "main.11e46c09.css.map": "/static/css/main.11e46c09.css.map",
-    "main.29527f04.js.map": "/static/js/main.29527f04.js.map"
+    "main.39ab259f.css.map": "/static/css/main.39ab259f.css.map",
+    "main.41259482.js.map": "/static/js/main.41259482.js.map"
   },
   "entrypoints": [
-    "static/css/main.11e46c09.css",
-    "static/js/main.29527f04.js"
+    "static/css/main.39ab259f.css",
+    "static/js/main.41259482.js"
   ]
 }
