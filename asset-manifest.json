@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0c278043.css",
-    "main.js": "/static/js/main.65a14e6a.js",
+    "main.js": "/static/js/main.b056618e.js",
     "static/media/sfmoma-design.jpg": "/static/media/sfmoma-design.6c69f829e9d74ba93634.jpg",
     "static/media/openproject-design3.jpg": "/static/media/openproject-design3.cd4aa6bad58a9386b02b.jpg",
     "static/media/openproject-design1.jpg": "/static/media/openproject-design1.dc677384aca1301c8903.jpg",
@@ -120,10 +120,10 @@
     "static/media/sun.png": "/static/media/sun.1fc32cb4cb963fbbdc4a.png",
     "index.html": "/index.html",
     "main.0c278043.css.map": "/static/css/main.0c278043.css.map",
-    "main.65a14e6a.js.map": "/static/js/main.65a14e6a.js.map"
+    "main.b056618e.js.map": "/static/js/main.b056618e.js.map"
   },
   "entrypoints": [
     "static/css/main.0c278043.css",
-    "static/js/main.65a14e6a.js"
+    "static/js/main.b056618e.js"
   ]
 }
