@@ -8,7 +8,7 @@ export default function PlayProject({image, title, description, link }) {
                 <img src={image} />
             </div>
             <div className={styles.project}>
-                <h2 className={styles.title}>{title}</h2>
+                <p className={styles.title}>{title}</p>
                 <div className={styles.projectdescription}>
                     <p className={styles.description}>{description}</p>
                     <NavLink to={link} className={styles.button}>view more</NavLink>

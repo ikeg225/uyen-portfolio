@@ -38,6 +38,7 @@
     margin: 0;
     padding: 0.5em 1em;
     border-bottom: solid black 2px;
+    font-size: xx-large;
 }
 
 .description {
@@ -55,6 +56,10 @@
     text-decoration: none;
     text-align: center;
     padding: 10px 0;
+}
+
+.button:hover {
+    background-color: #F7CC46;
 }
 
 @media screen and (max-width: 1024px) {
