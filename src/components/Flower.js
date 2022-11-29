@@ -34,11 +34,11 @@ export default function Flower() {
                             </div>
                             <div>
                                 <h3>Disciplines</h3>
-                                <p>Branding Stratery, Brand Identity, Graphic Design, Illustrations, User-Interface</p>
+                                <p>Branding Strategy, Brand Identity, Graphic Design, Illustrations, User-Interface</p>
                             </div>
                         </div>
                         <div className={styles.introRight}>
-                            <h3>Flower is a podcast hoping to inspires and ignites passion, creativity, positivity, and growth through their various audios options.</h3>
+                            <h3>Flower is a podcast hoping to inspire and ignite passion, creativity, positivity, and growth through its various audio options.</h3>
                             <p>Flower is a branding project inspired by the many podcasts I listen to at 1am to wind me down from a tiring/stressful day. Varying from mental health to career growth, Flower serves as a supporter for the most overwhelming parts of your life (which to be honest, is all the time).</p>
                         </div>
                     </div>
@@ -50,13 +50,13 @@ export default function Flower() {
                             </div>
                             <div className={styles.flowercolorscontent}>
                                 <h3>"Your blooming chapter starts here"</h3>
-                                <p>I choose warm, bright, but nature colors to soothes while motivates users when seeing the brand. A more illustrative approach is used to showcase the creative freedom that all of us have when it comes to nuturting the best versions of ourselves.</p>
+                                <p>I chose warm, bright, but nature colors to soothe while motivating users when seeing the brand. A more illustrative approach is used to showcase the creative freedom that all of us have when it comes to nurturing the best versions of ourselves.</p>
                                 <p>These illustrations are paired with some of my favorite quotes to help bring good thoughts to days that may seemingly feel dark.</p>
                             </div>
                         </div>
                     </div>
                     <div className={styles.paddingTop}>
-                        <h1>Additonal Assets</h1>
+                        <h1>Additional Assets</h1>
                         <div className={styles.postcard}>
                             <img src={flowerpostcard1} alt="flower postcard 1" />
                             <img src={flowerpostcard2} alt="flower postcard 2" />
@@ -75,7 +75,7 @@ export default function Flower() {
                         </div>
                         <div className={styles.rebrand}>
                             <h3>Flower went through a rebrand!</h3>
-                            <p>Since Flower was my first ever design project for a design class I took. Fun fact, now I'm a lead faciliator (what a full circle moment) I knew I wanted to come back to it once I had more time + when my skills are a little more polished. So last summer, I sat down and tweak stuff here and there!</p>
+                            <p>Since Flower was my first ever design project for a design class I took. Fun fact, now I'm a lead facilitator (what a full circle moment) I knew I wanted to come back to it once I had more time + when my skills are a little more polished. So last summer, I sat down and tweak stuff here and there!</p>
                             <p>but here's a glimpse of the old Flower!</p>
                         </div>
                         <div className={styles.oldflower}>

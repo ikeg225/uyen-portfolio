@@ -28,7 +28,7 @@ export default function Peachtober() {
                         <div className={styles.introLeft}>
                             <div>
                                 <h3>Role</h3>
-                                <p>Ilustrator</p>
+                                <p>Illustrator</p>
                             </div>
                             <div>
                                 <h3>Disciplines</h3>
@@ -36,12 +36,12 @@ export default function Peachtober() {
                             </div>
                             <div>
                                 <h3>Goal</h3>
-                                <p>Finding my artstyle</p>
+                                <p>Finding my art style</p>
                             </div>
                         </div>
                         <div className={styles.introRight}>
-                            <h3>#Peachtober is a yearly challenge with a single word prompt a day parcipated by all creatives around the globe.</h3>
-                            <p>I've always been all over the place with finding my own artstyle. I decided to take on this challenge in October 2022 to really sit down and hone down on an artstyle that resonated with me. Through this challenge I discovered that 1) I love pink, puffy cheeks 2) a word can be interpreted in many ways 3) drawing one thing a day is challenging</p>
+                            <h3>#Peachtober is a yearly challenge with a single-word prompt a day participated by all creatives around the globe.</h3>
+                            <p>I've always been all over the place with finding my own art style. I decided to take on this challenge in October 2022 to really sit down and hone down on an art style that resonated with me. Through this challenge I discovered that 1) I love pink, puffy cheeks 2) a word can be interpreted in many ways 3) drawing one thing a day is challenging</p>
                         </div>
                     </div>
                     <div className={`${styles.graphics} ${styles.paddingTop}`}>

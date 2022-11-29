@@ -43,7 +43,7 @@ export default function SniffSniff() {
                         <div className={styles.introRight}>
                             <h3><a href="https://sniffsniff.herokuapp.com/" target="_blank" rel="noopener noreferrer" className={styles.url}>SniffSniff</a> was created during my team's first Hackathon ever! CalHacks 9.0 is the world's largest collegiate hackathon (800+ people) hosted by UC Berkeley</h3>
                             <h3>Award - Best First Hack</h3>
-                            <p>SniffSniff helps sniff out your class' discord/link with just a few clicks and Sniffodoo (a bot) sniff out important information from channels by summarizing important information such as homework tips, exam dates/prep, and the most critical information.</p>
+                            <p>SniffSniff helps sniff out your class' discord/link with just a few clicks and Sniffodoo (a bot) sniffs out important information from channels by summarizing important information such as homework tips, exam dates/prep, and the most critical information.</p>
                         </div>
                     </div>
                     <div className={styles.paddingTop}>
@@ -92,7 +92,7 @@ export default function SniffSniff() {
                         </div>
                     </div>
                     <p className={`${styles.paddingTop} bold`}>Reflection</p>
-                    <p>My teammates and I came into this hackathon with no expectations but to create a project meaningful to all of us. The challenge was the time crunch. With less than 24 hours, we have to flesh out a working product for the judges to see. I felt a lot of the pressure as the designer because first impressions of what the website would look is crucial especially when the judges only have less than 2 minutes to look at our project. After fighting with our sleepiness, we pulled through! Winning and being recognized was definitely worth the all nighter. This will always be a college memory I will look back on and be proud of myself and my teammates!</p>
+                    <p>My teammates and I came into this hackathon with no expectations but to create a project meaningful to all of us. The challenge was the time crunch. With less than 24 hours, we have to flesh out a working product for the judges to see. I felt a lot of pressure as the designer because first impressions of what the website would look like are crucial especially when the judges only have less than 2 minutes to look at our project. After fighting with our sleepiness, we pulled through! Winning and being recognized was definitely worth an all-nighter. This will always be a college memory I will look back on and be proud of myself and my teammates!</p>
                     <div className={styles.paddingTop}>
                         <Contact />
                     </div>

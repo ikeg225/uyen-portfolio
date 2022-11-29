@@ -38,7 +38,7 @@ export default function SFMoma() {
                         </div>
                         <div className={styles.introRight}>
                             <h3>Award - Speaker's Choice Prize</h3>
-                            <p>A yearly designathon event, UC Berkeley design agency, Berkeley Innovation, partnered with San Francisco Museum of Modern Art (SF MOMA) to design a poster for their 2023 Halloween Block Party.</p>
+                            <p>A yearly designathon event, Berkeley Innovation (UC Berkeley design agency) partnered with San Francisco Museum of Modern Art (SF MOMA) to design a poster for their 2023 Halloween Block Party.</p>
                         </div>
                     </div>
                 </div>

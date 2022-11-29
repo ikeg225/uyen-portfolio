@@ -46,7 +46,7 @@ export default function Peets() {
                         </div>
                         <div className={styles.introRight}>
                             <h3>For summer 2022, I had the pleasure to intern at Peet's Coffee as their creative design intern (and learned so much!)</h3>
-                            <p>As my first design internship, jumping into the Creative Team at Peet's filled me with nervous excitment. Here I was able to dip my foot into all the creative channels that allow Peet's to stay as one of the most well known coffee brand across the nation.</p>
+                            <p>As my first design internship, jumping into the Creative Team at Peet's filled me with nervous excitement. Here I was able to dip my foot into all the creative channels that allow Peet's to stay as one of the most well-known coffee brands across the nation.</p>
                         </div>
                     </div>
                     <div className={styles.paddingTop}>
@@ -57,7 +57,7 @@ export default function Peets() {
                             <img src={peetslatteseason} />
                             <img src={peetspumpkinseason} />
                         </div>
-                        <p>The fall campaign was what the Design Team was working on mainly in the summer to prep for their famous fall seasonal beverages and foods. The watercolored graphics along with the muted fall colors really ties the playfullness of fall together. These designs were really up my ally since I love playing around with illustrative elements.</p>
+                        <p>The fall campaign was what the Design Team was working on mainly in the summer to prep for their famous fall seasonal beverages and foods. The watercolored graphics along with the muted fall colors really ties the playfulness of fall together. These designs were really up my alley since I love playing around with illustrative elements.</p>
                         <p className="italic">Employee's Seasonal Merch</p>
                         <div className={styles.peetsfeelsgraphic}>
                             <img src={peetsfallfeelsgraphic1} />
@@ -83,7 +83,7 @@ export default function Peets() {
                             <img src={peetsuglysweater} />
                             <img src={peetscoffeemug} />
                         </div>
-                        <p>During the last stretch of my internship, the Creative Team turned their gears to the Holiday Season (so fun and festive!) The centeralize theme is “Happy Together”. We all came together to come up with creative ways to market the happines that surrounds the Holidays. Some ideas I came up with is a fun colorful window cling, “ugly” Christmas sweaters for the employees instead of the usual T-shirts, and social media posts such as “The Ultimate Holiday Gift Guide” to promote our Holiday merch!</p>
+                        <p>During the last stretch of my internship, the Creative Team turned their gears to the Holiday Season (so fun and festive!) The centralized theme is “Happy Together”. We all came together to come up with creative ways to market the happiness that surrounds the Holidays. Some ideas I came up with are a fun colorful window cling, “ugly” Christmas sweaters for the employees instead of the usual T-shirts, and social media posts such as “The Ultimate Holiday Gift Guide” to promote our Holiday merch!</p>
                     </div>
                     <div className={styles.paddingTop}>
                         <h1>CPG Marketing</h1>
@@ -100,7 +100,7 @@ export default function Peets() {
                     </div>
                     <div className={styles.paddingTop}>
                         <h1>Reflection</h1>
-                        <p>Because Peet's was my first ever design internship, it opened my eyes to how design plays out in the real world. I shadowed multiple meetings every day for months across different channels such as CPG, Loyalty, DTC and etc to ensure a successful company like Peet's stayed as one of the most well known coffee brands in the nation. A design process would go through many stages in order to get approved to make sure whatever we put out is on brand and the most perfect and effective design it can be. Through Peets, I learned design is not just sitting in front of a computer on a design software, but it is interacting and finding ways to communicate why your designs work across everyone in the company. Peet's have taught me a tremendous amount and I am forever grateful for the Creative Team.</p>
+                        <p>Because Peet's was my first ever design internship, it opened my eyes to how design plays out in the real world. I shadowed multiple meetings every day for months across different channels such as CPG, Loyalty, DTC and etc to ensure a successful company like Peet's stayed as one of the most well-known coffee brands in the nation. A design process would go through many stages in order to get approved to make sure whatever we put out is on brand and the most perfect and effective design it can be. Through Peets, I learned design is not just sitting in front of a computer on a design software, but it is interacting and finding ways to communicate why your designs work across everyone in the company. Peet's has taught me a tremendous amount and I am forever grateful for the Creative Team.</p>
                     </div>
                     <div className={styles.paddingTop}>
                         <Contact />

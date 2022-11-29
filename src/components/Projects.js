@@ -27,7 +27,7 @@ export default function Projects() {
                 <div className={styles.left}>
                     <p className={styles.knock}>*knock knock*</p>
                     <h1 className={styles.introBig}>Come on into<img src={happyface} width="100px" className={`${styles.happyface} spinningReverse`} alt=""/><br />Uy<span className={styles.over}>e<img src={tick} width="30px" alt=""/></span>n's W<img src={star} width="50px" className={`${styles.ospin} spinning`} alt="o"/>rld!<img src={twinkle} width="50px" className={`${styles.star} twinkle`} alt=""/></h1>
-                    <p className={styles.introText}>Uyen is a designer who loves to explore<br />different styles and is never scared of<br />coloring outside the lines!<img src={orange} height="200px" className={styles.orangeMobile} alt=""/></p>
+                    <p className={styles.introText}>Uyen is a designer who loves to<br />explore different styles and is never<br />scared of coloring outside the lines!<img src={orange} height="200px" className={styles.orangeMobile} alt=""/></p>
                     <p className={styles.introTextBreak}>Uyen is a designer who loves<br />to explore different styles and<br />is never scared of coloring<br />outside the lines!<img src={orange} height="200px" className={styles.orangeMobile} alt=""/></p>
                 </div>
                 <div className={styles.right}>
@@ -36,10 +36,10 @@ export default function Projects() {
                 </div>
             </div>
             <div className={styles.projects}>
-                <Project img={flower} name="Flower" description="branding | illustrations" url="/flower"/>
-                <Project img={re} name="RE" description="user interface | user experience" url="/re"/>
-                <Project img={peets} name="Peet's Coffee" description="branding | illustrations" url="/peets"/>
-                <Project img={openproject} name="Open Project" description="user interface | user experience" url="/open-project"/>
+                <Project img={flower} name="Flower" description="brand identity | illustrations" url="/flower"/>
+                <Project img={re} name="RE" description="ui/ux | product design" url="/re"/>
+                <Project img={peets} name="Peet's Coffee" description="marketing | brand strategy" url="/peets"/>
+                <Project img={openproject} name="Open Project" description="brand identity | website design" url="/open-project"/>
             </div>
             <div className={styles.stickers}>
                 <p className={styles.surprise}>*a surprise?*</p>

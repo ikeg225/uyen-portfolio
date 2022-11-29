@@ -220,7 +220,7 @@ export default function Re() {
                                 </ul>
                             </div>
                         </div>
-                        <p>After conducting further user research, sending our ideas to previous LDR couples we surveryed, we decided to choose <span className={styles.pink}>Podcasts & Prompts</span> as our final concept and started to refine our product further. We then continued to start improving our product based on feedback received from our questionnaire.</p>
+                        <p>After conducting further user research and sending our ideas to previous LDR couples we surveyed, we decided to choose <span className={styles.pink}>Podcasts & Prompts</span> as our final concept and started to refine our product further. We then continued to start improving our product based on feedback received from our questionnaire.</p>
                         <p className={`${styles.paddingTop} italic`}>Realize</p>
                         <div className={styles.relogocontent}>
                             <div className={styles.relogo}>
@@ -228,7 +228,7 @@ export default function Re() {
                                 <img src={remeaning} alt="RE meaning" />
                             </div>
                             <div>
-                                <p>We named our app/product “Re” as out three cores of our products are to help those in an LDR to remember, record, and reflect!</p>
+                                <p>We named our app/product “RE” as our three cores of our products are to help those in an LDR to remember, record, and reflect!</p>
                             </div>
                         </div>
                         <p className={styles.paddingTop}>Designing mid-fi interfaces of what the app would look like</p>
@@ -257,7 +257,7 @@ export default function Re() {
                                 </ul>
                                 <p className={styles.pink}>Personality</p>
                                 <ul>
-                                    <li>get to know each other in more ways than before and allows partners to enter their own personalites in their recordings</li>
+                                    <li>get to know each other in more ways than before and allows partners to enter their personalities</li>
                                 </ul>
                             </div>
                             <div className={styles.rebreakdownimg}>
@@ -278,7 +278,7 @@ export default function Re() {
                                 <p className={styles.blue}>designed a physical recorder</p>
                                 <ul>
                                     <li><span className={`${styles.underline} bold`}>users from interviews</span> and <span className={`${styles.underline} bold`}>classmates from focus groups</span> wanted a physical element: <span className={styles.pink}>curtails screentime and corresponding distractions</span></li>
-                                    <li>audios can be downloaded like songs and can be listened to without looking at the screen: <span className={styles.pink}>emulates feeling of being physically together</span></li>
+                                    <li>audios can be downloaded like songs and can be listened to without looking at the screen: <span className={styles.pink}>emulates the feeling of being physically together</span></li>
                                     <li>audios can be recorded anytime and can be as short as 1 minute: <span className={styles.pink}>allows partners to share throughout the day</span> and works for busy schedules</li>
                                 </ul>
                             </div>
@@ -311,7 +311,7 @@ export default function Re() {
                             </div>
                         </div>
                         <p className={`${styles.paddingTop} bold`}>Reflection</p>
-                        <p>RE is the first project where I learned the myriad design methods and where I dip my foot in the product design sphere. I love the human to human interactions that came with this project. It made me realize how designing a project is the easiest part when it comes to producing a great product/design. The harder and more challenging, but rewarding part is the researching and trying to empathize with the users. This project has taught me to always design with a purpose - even on the simplest things.</p>
+                        <p>RE is the first project where I learned the myriad of design methods and where I dip my foot into the product design sphere. I love the human-to-human interactions that came with this project. It made me realize how designing a project is the easiest part when it comes to producing a great product/design. The harder and more challenging, but rewarding part is researching and trying to empathize with the users. This project has taught me to always design with a purpose - even on the simplest things.</p>
                         <div className={styles.paddingTop}>
                             <Contact />
                         </div>

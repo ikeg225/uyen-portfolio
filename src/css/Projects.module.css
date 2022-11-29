@@ -500,13 +500,14 @@
     }
 
     .projects {
+        padding: 5em var(--left-right-padding) 5em var(--left-right-padding);
         row-gap: 3em;
     }
 }
 
 @media screen and (max-width: 348px) {
     .projects {
-        padding: 5em var(--left-right-padding) 5em var(--left-right-padding);
+        padding: 3em var(--left-right-padding) 5em var(--left-right-padding);
     }
 }
 
