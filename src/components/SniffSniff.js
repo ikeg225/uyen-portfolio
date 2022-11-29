@@ -27,7 +27,7 @@ export default function SniffSniff() {
                             </div>
                             <div>
                                 <h3>Team</h3>
-                                <p>Uyen Phan, Ethan Ikegami, Hrish Leen, Nhu Vu</p>
+                                <p>Ethan Ikegami, Hrish Leen, Nhu Vu</p>
                             </div>
                         </div>
                         <div className={styles.introRight}>

@@ -1,0 +1,74 @@
+.sfmoma {
+    padding: 3em var(--left-right-padding);
+}
+
+.sfmoma h3, .sfmoma h1 {
+    font-family: 'Livvic Bold';
+}
+
+.coverbackground {
+    background-color: #010101;
+}
+
+.coverbackground img, .sfmoma img {
+    width: 100%;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.introLeft {
+    width: 40%;
+}
+
+.introRight {
+    width: 50%;
+}
+
+.paddingTop {
+    padding-top: 3em;
+}
+
+.orange {
+    color: #DD9F45;
+}
+
+.challengebackground {
+    background-color: #010101;
+}
+
+.challenge {
+    color: white;
+    padding: 1em var(--left-right-padding);
+}
+
+.posterdesign {
+    display: grid;
+    grid-template-columns: 0.49fr 0.51fr;
+    column-gap: 2em;
+}
+
+.mockups {
+    display: grid;
+    grid-template-columns: 0.52fr 0.48fr;
+    column-gap: 2em;
+}
+
+@media screen and (max-width: 700px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .introLeft, .introRight {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .posterdesign, .mockups {
+        grid-template-columns: 1fr;
+        row-gap: 2em;
+    }
+}

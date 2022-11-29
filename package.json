@@ -52,7 +52,7 @@
   "reactSnap": {
     "concurrency": 1,
     "include": [
-      "/about"
+      "/"
     ]
   }
 }

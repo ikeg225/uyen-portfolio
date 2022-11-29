@@ -36,3 +36,14 @@
     color: #896BFD;
     text-decoration: none;
 }
+
+@media screen and (max-width: 700px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .introLeft, .introRight {
+        width: 100%;
+        max-width: 100%;
+    }
+}

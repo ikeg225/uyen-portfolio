@@ -47,7 +47,7 @@ export default function Re() {
                             </div>
                             <div>
                                 <h3>Team</h3>
-                                <p>Uyen Phan, Lucy Tran, Joelle Siong Sin, Robyn Lim</p>
+                                <p>Lucy Tran, Joelle Siong Sin, Robyn Lim</p>
                             </div>
                             <div>
                                 <h3>Disciplines</h3>

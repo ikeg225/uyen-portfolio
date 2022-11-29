@@ -4,6 +4,7 @@ import About from './components/About';
 import Peets from './components/Peets';
 import Header from './components/Header';
 import Flower from './components/Flower';
+import SFMoma from './components/SFMoma';
 import Projects from './components/Projects';
 import Peachtober from './components/Peachtober';
 import SniffSniff from './components/SniffSniff';
@@ -26,6 +27,7 @@ function App() {
           <Route path="/peachtober" element={<Peachtober />} />
           <Route path="/open-project" element={<OpenProject />} />
           <Route path="/sniff-sniff" element={<SniffSniff />} />
+          <Route path="/sf-moma" element={<SFMoma />} />
         </Routes>
       </ScrollToTop>
     </BrowserRouter>
