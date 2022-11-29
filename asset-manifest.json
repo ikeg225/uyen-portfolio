@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.39ab259f.css",
-    "main.js": "/static/js/main.41259482.js",
+    "main.css": "/static/css/main.55784b7a.css",
+    "main.js": "/static/js/main.074ce06f.js",
     "static/media/openproject-design3.jpg": "/static/media/openproject-design3.cd4aa6bad58a9386b02b.jpg",
     "static/media/openproject-design1.jpg": "/static/media/openproject-design1.dc677384aca1301c8903.jpg",
     "static/media/openproject-design2.jpg": "/static/media/openproject-design2.ed602379ae6236c0f592.jpg",
@@ -27,6 +27,7 @@
     "static/media/mockupdesign.jpg": "/static/media/mockupdesign.be242af093c38134f026.jpg",
     "static/media/peachtober.jpg": "/static/media/peachtober.316cc1cb83325521c7ed.jpg",
     "static/media/refigmaanimation.jpg": "/static/media/refigmaanimation.2ff80a24f2ebe9de0862.jpg",
+    "static/media/sfmoma.jpg": "/static/media/sfmoma.581e34cfc0b22edeec70.jpg",
     "static/media/flowerpicframe.jpg": "/static/media/flowerpicframe.bcdd56e53efeaf57d761.jpg",
     "static/media/repagesred.jpg": "/static/media/repagesred.9e99d8acba2492588844.jpg",
     "static/media/peachtober-graphic5.jpg": "/static/media/peachtober-graphic5.5e1d2a656d5e2184deb3.jpg",
@@ -106,11 +107,11 @@
     "static/media/orange.png": "/static/media/orange.3140036987b337902083.png",
     "static/media/sun.png": "/static/media/sun.1fc32cb4cb963fbbdc4a.png",
     "index.html": "/index.html",
-    "main.39ab259f.css.map": "/static/css/main.39ab259f.css.map",
-    "main.41259482.js.map": "/static/js/main.41259482.js.map"
+    "main.55784b7a.css.map": "/static/css/main.55784b7a.css.map",
+    "main.074ce06f.js.map": "/static/js/main.074ce06f.js.map"
   },
   "entrypoints": [
-    "static/css/main.39ab259f.css",
-    "static/js/main.41259482.js"
+    "static/css/main.55784b7a.css",
+    "static/js/main.074ce06f.js"
   ]
 }
