@@ -48,7 +48,7 @@ export default function SniffSniff() {
                     </div>
                     <div className={styles.paddingTop}>
                         <p className="bold">Inspiration/Rationale</p>
-                        <p>Our inspiration came from our everyday lives and seeing other students' pain points. As classes are transitioning back to in-person, students are having a harder time finding the discord/slack link without people pasting it into the zoom chat during lectures. Often it is not until the 5th week a student accidentally stumbles upon the link and realized they've been missing out on the community of classmates they've been relying on.</p>
+                        <p>Our inspiration came from our everyday lives and seeing other students' pain points. As classes are transitioning back to in-person, students are having a harder time finding the discord/slack link without people pasting it into the zoom chat during lectures. Often it is not until the 5th week a student accidentally stumbles upon the link and realizes they've been missing out on the community of classmates they've been relying on.</p>
                     </div>
                     <p className={`${styles.paddingTop} bold`}>Logo</p>
                     <div className={styles.logo}>
@@ -64,7 +64,7 @@ export default function SniffSniff() {
                     <div className={styles.finaldesign}>
                         <img src={sniffTwoLogos} alt="Sniff Sniff Logo" className={styles.finallogo} />
                         <img src={sniffColors} alt="Sniff Sniff Color Palette" className={styles.colors} />
-                        <p className={styles.finaldescription}>A pallet resembling a trusted, reliable and lovable dog! Because of the limited time, I wanted to pick a simple color palette that would contrast each other well (complementary colors)!</p>
+                        <p className={styles.finaldescription}>A color-scheme resembling a trusted, reliable and lovable dog! Because of the limited time, I wanted to pick a simple color palette that would contrast with each other well (complementary colors)!</p>
                     </div>
                     <p className={`${styles.paddingTop} bold`}>Website</p>
                     <div className={styles.wireframes}>

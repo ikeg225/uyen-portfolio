@@ -50,7 +50,7 @@ export default function Flower() {
                             </div>
                             <div className={styles.flowercolorscontent}>
                                 <h3>"Your blooming chapter starts here"</h3>
-                                <p>I chose warm, bright, but nature colors to soothe while motivating users when seeing the brand. A more illustrative approach is used to showcase the creative freedom that all of us have when it comes to nurturing the best versions of ourselves.</p>
+                                <p>I chose warm, bright, but natural colors to soothe while motivating users when seeing the brand. A more illustrative approach is used to showcase the creative freedom that all of us have when it comes to creating the best versions of ourselves.</p>
                                 <p>These illustrations are paired with some of my favorite quotes to help bring good thoughts to days that may seemingly feel dark.</p>
                             </div>
                         </div>
@@ -75,7 +75,7 @@ export default function Flower() {
                         </div>
                         <div className={styles.rebrand}>
                             <h3>Flower went through a rebrand!</h3>
-                            <p>Since Flower was my first ever design project for a design class I took. Fun fact, now I'm a lead facilitator (what a full circle moment) I knew I wanted to come back to it once I had more time + when my skills are a little more polished. So last summer, I sat down and tweak stuff here and there!</p>
+                            <p>Since Flower was my first ever design project for a design class - fun fact, now I’m a lead faciliator (what a full circle moment) - I knew I wanted to come back to it once I had more time + when my skills are a little more polished. So last summer, I sat down and tweaked stuff here and there to make sure it was up to date with the designer I am today.</p>
                             <p>but here's a glimpse of the old Flower!</p>
                         </div>
                         <div className={styles.oldflower}>

@@ -35,7 +35,7 @@ export default function OpenProject() {
                         </div>
                         <div className={styles.introRight}>
                             <h3><a href="https://openprojectberkeley.com/" target="_blank" rel="noopener noreferrer" className={styles.url}>Open Project</a> is a UC Berkeley club redefining the culture of tech clubs at UC Berkeley.</h3>
-                            <p>A friend reached out to me asking if I could create a brand identity for his new tech club that embodies inclusivity, passion, and innovation. He wants to portray the club as welcoming and as long as you are passionate about creating, you belong here.</p>
+                            <p>A friend reached out to me asking if I could create a brand identity for his new tech club that embodies inclusivity, passion, and innovation. He wants to potray the club as welcoming and as long as you are passionate about creating, you belong here.</p>
                         </div>
                     </div>
                     <div className={styles.paddingTop}>
@@ -107,7 +107,7 @@ export default function OpenProject() {
                         </div>
                         <div className={styles.paddingTop}>
                             <h1>Reflection</h1>
-                            <p>While designing Open Project, I had to consider what I would want the first impressions of the students seeing our club for the first time would be. The hardest challenge was straying away from the usual computer science club image while keeping the club's image professional. We did not want to be the "last choice." Open Project allowed me to dive deeper into the mindset of the students at school and made me more perceptive and open-minded while designing. Through this project, I learned that designing has to come from the heart! If what I put out resonates with the values I have, others will also feel the same while looking at our club's visuals.</p>
+                            <p>While designing Open Project, I had to consider what I would want the first impressions of the students seeing our club for the first time would be. The hardest challenge was straying away from the usual computer science club image while keeping the club's image professional. We did not want to be the "last choice." Open Project allowed me to dive deeper into the mindset of the students at school and made me more perceptive and open-minded while designing. Through this project I learned that design has to come from the heart! If what I put out resonates with the values I have, others will also feel the same while looking at our club's visuals.</p>
                         </div>
                         <div className={styles.paddingTop}>
                             <Contact />

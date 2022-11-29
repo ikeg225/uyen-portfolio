@@ -89,7 +89,7 @@ export default function Re() {
                             <img src={reinterviews2} alt="RE interviews 2" />
                             <img src={reinterviews3} alt="RE interviews 3" />
                         </div>
-                        <p>Long distance relationships are very personal to different people, we wanted to get different views of who and how different couples stay present with each other despite the distance. Our goal is to have interviews where we can talk to both parties at the same time to see different perspectives. We also have a set of questions to ask, but we also wanted be open to their answers and ask follow up questions to their responses.</p>
+                        <p>Long distance relationships are very personal to different people; we wanted to get different views of who and how different couples stay present with each other despite the distance. Our goal is to have interviews where we can talk to both parties at the same time to see different perspectives. We also have a set of questions to ask, but we also wanted to be open to their answers and ask follow-up questions to their responses.</p>
                         <p className={`${styles.paddingTop} italic`}>Common pain points</p>
                         <p className="bold">3. Surveys</p>
                         <div>
