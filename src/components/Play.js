@@ -11,7 +11,6 @@ export default function Play() {
         <div className="limitWidth">
             <div className={styles.play}>
                 <p className={styles.title}>Let's Have Fun!</p>
-                <img className={styles.playpeople} src={playpeople} alt=""/>
                 <div className={styles.playprojects}>
                     <PlayProject image={playpeachtober} title="Peachtober" description="#peachtober was a challenge I did during the month of October. The Instagram community was given a prompt each day and I was able to find my drawing style through this activity." link="/peachtober" />
                     <PlayProject image={sfmoma} title="SF Moma" description="My partner and I designed a poster during the CMYK designathon for SF MOMA's 2023 Halloween Block Party Event and won Speaker's Choice Award. " link="/sf-moma" />
