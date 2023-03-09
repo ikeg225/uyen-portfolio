@@ -12,6 +12,7 @@ import peets from '../images/peetscover.jpg';
 import happyface from '../images/happyface.png';
 import styles from '../css/Projects.module.css';
 import openproject from '../images/openprojectcover.jpg';
+import learningexperience from '../images/learning-experience-cover.jpg';
 
 import bebrave from '../images/sticker-bebrave.png';
 import bekind from '../images/sticker-bekind.png';
@@ -36,10 +37,11 @@ export default function Projects() {
                 </div>
             </div>
             <div className={styles.projects}>
-                <Project img={flower} name="Flower" description="brand identity | illustrations" url="/flower"/>
-                <Project img={re} name="RE" description="ui/ux | product design" url="/re"/>
-                <Project img={peets} name="Peet's Coffee" description="marketing | brand strategy" url="/peets"/>
-                <Project img={openproject} name="Open Project" description="brand identity | website design" url="/open-project"/>
+                <Project img={learningexperience} name="Learning Experience" description="design challenge | ux design" url="https://drive.google.com/file/d/11ZFvnkH-aMdOb83nEpAX3Qfpdud7RXiD/view?usp=sharing" outbound={true} />
+                <Project img={flower} name="Flower" description="brand identity | illustrations" url="/flower" outbound={false} />
+                <Project img={re} name="RE" description="ui/ux | product design" url="/re" outbound={false}/>
+                <Project img={peets} name="Peet's Coffee" description="marketing | brand strategy" url="/peets" outbound={false}/>
+                <Project img={openproject} name="Open Project" description="brand identity | website design" url="/open-project" outbound={false}/>
             </div>
             <div className={styles.stickers}>
                 <p className={styles.surprise}>*a surprise?*</p>
