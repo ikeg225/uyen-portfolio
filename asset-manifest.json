@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0c278043.css",
-    "main.js": "/static/js/main.b056618e.js",
+    "main.js": "/static/js/main.3b06d4b1.js",
     "static/media/sfmoma-design.jpg": "/static/media/sfmoma-design.6c69f829e9d74ba93634.jpg",
     "static/media/openproject-design3.jpg": "/static/media/openproject-design3.cd4aa6bad58a9386b02b.jpg",
     "static/media/openproject-design1.jpg": "/static/media/openproject-design1.dc677384aca1301c8903.jpg",
@@ -53,6 +53,7 @@
     "static/media/peachtober-graphic8.jpg": "/static/media/peachtober-graphic8.3d25424f6fbfb710e452.jpg",
     "static/media/narrowingdowntable.jpg": "/static/media/narrowingdowntable.853a85b8c4d6e7433563.jpg",
     "static/media/peachtober-graphic12.jpg": "/static/media/peachtober-graphic12.10d567094fde070d7d99.jpg",
+    "static/media/learning-experience-cover.jpg": "/static/media/learning-experience-cover.183e5f787b94badf5065.jpg",
     "static/media/flowerbusinesscard.jpg": "/static/media/flowerbusinesscard.1597cc536f5efe68af4e.jpg",
     "static/media/sniff-fullsearch2.jpg": "/static/media/sniff-fullsearch2.035856bf2beeb4d42bd1.jpg",
     "static/media/peetscoffeemug.jpg": "/static/media/peetscoffeemug.881a0f83f7011a97364f.jpg",
@@ -120,10 +121,10 @@
     "static/media/sun.png": "/static/media/sun.1fc32cb4cb963fbbdc4a.png",
     "index.html": "/index.html",
     "main.0c278043.css.map": "/static/css/main.0c278043.css.map",
-    "main.b056618e.js.map": "/static/js/main.b056618e.js.map"
+    "main.3b06d4b1.js.map": "/static/js/main.3b06d4b1.js.map"
   },
   "entrypoints": [
     "static/css/main.0c278043.css",
-    "static/js/main.b056618e.js"
+    "static/js/main.3b06d4b1.js"
   ]
 }
