@@ -1,80 +1,30 @@
 .frontline {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     padding: 0 var(--left-right-padding);
-    padding-top: 5em;
-    gap: 5px;
+    margin: 0 100px;
+    background-image: url("../images/homepage-background.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
-.left {
-    text-align: left;
-    position: relative;
-    min-width: fit-content;
-}
-
-.knock {
-    font-family: 'Margin';
-    font-size: 50px;
-    margin: 0;
-}
-
-.introBig, .introText {
-    position: relative;
-    font-family: 'Livvic';
-    margin: 0;
-}
-
-.introBig {
+.frontline h1 {
+    font-family: 'Livvic SemiBold';
     font-size: 80px;
+    margin: 20px 0;
 }
 
-.introText {
-    padding-top: 50px;
-    font-size: 30px;
+.frontline p {
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
 }
 
-.over { 
-    position: relative; 
-}
-
-.over img { 
-    animation: MoveUpDown 1.5s linear infinite;
-    position: absolute; 
-    top: 0.2em; 
-    left: 0.1em; 
-}
-
-@keyframes MoveUpDown {
-    0%, 100% {
-        top: 0.2em;
-    }
-    50% {
-        top: 0.15em;
-    }
-}
-
-.happyface {
-    position: absolute; 
-    top: 0;
-    margin-left: 0.5em;
-}
-  
-@keyframes sizeDramatic {
-    0%, 100% {
-        width: 150px;
-    }
-    50% {
-        width: 160px;
-    }
-}
-
-.projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 10em var(--left-right-padding) 5em var(--left-right-padding);
-    column-gap: 5em;
-    position: relative;
-    row-gap: 4em;
+.frontline img {
+    width: 100%;
 }
 
 .stickers {
@@ -84,9 +34,9 @@
 }
 
 .surprise {
-    font-family: 'Margin';
+    font-family: 'Livvic Bold';
     margin: 0;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .stickerInfo {
@@ -95,20 +45,13 @@
     font-size: 30px;
 }
 
-.stickersPick {
-    font-family: 'Margin';
-    margin: 0;
-    font-size: 80px;
-    padding-top: 0.5em;
-}
-
 .introTextBreak {
     display: none;
 }
 
 .moveableStickers {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 0 var(--left-right-padding) 0 var(--left-right-padding);
     column-gap: 2em;
     padding-top: 2em;
@@ -146,6 +89,13 @@
     display: none;
 }
 
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 100px var(--left-right-padding);
+}
+
 @media screen and (max-width: 1235px) {
     .orange {
         margin-right: 71%;
@@ -153,33 +103,6 @@
 }
 
 @media screen and (max-width: 1190px) {
-    .knock {
-        font-size: 40px;
-    }
-
-    .introBig {
-        font-size: 70px;
-    }
-    
-    .introText {
-        padding-top: 30px;
-        font-size: 25px;
-    }
-
-    .over img { 
-        width: 25px;
-        left: 0.08em; 
-    }
-
-    .ospin {
-        width: 40px;
-    }
-
-    .happyface {
-        width: 70px;
-        margin-left: 0.3em;
-    }
-
     .surprise {
         font-size: 20px;
     }
@@ -191,298 +114,24 @@
     .stickersPick {
         font-size: 50px;
     }
-
-    .star {
-        width: 40px;
-        padding-left: 5px;
-    }
-
-    .orange {
-        height: 150px;
-    }
-
-    @keyframes sizeDramatic {
-        0%, 100% {
-            width: 150px;
-        }
-        50% {
-            width: 160px;
-        }
-    }
 }  
-
-@media screen and (max-width: 1040px) {
-    .knock {
-        font-size: 35px;
-    }
-
-    .introBig {
-        font-size: 60px;
-    }
-    
-    .introText {
-        font-size: 22px;
-    }
-
-    .happyface {
-        top: 0em;
-    }
-
-    .orange {
-        margin-right: 70%;
-    }
-
-    @keyframes sizeDramatic {
-        0%, 100% {
-            width: 130px;
-        }
-        50% {
-            width: 140px;
-        }
-    }
-}
 
 @media screen and (max-width: 890px) {
-    .knock {
-        font-size: 30px;
-    }
-
-    .introBig {
-        font-size: 50px;
-    }
-    
-    .introText {
-        font-size: 18px;
-    }
-
-    .projects {
-        column-gap: 3em;
-    }
-
     .stickers {
         padding-top: 3em;
-    }
-
-    .over img { 
-        width: 20px;
-    }
-
-    .ospin {
-        width: 35px;
-    }
-
-    .star {
-        width: 25px;
-    }
-}  
-
-@media screen and (max-width: 835px) {
-    .orange {
-        height: 120px;
-    }
-
-    @keyframes sizeDramatic {
-        0%, 100% {
-            width: 100px;
-        }
-        50% {
-            width: 110px;
-        }
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .orange {
-        display: none;
-    }
-
-    .frontline {
-        flex-direction: column;
-        gap: 50px;
-        align-items: center;
-        padding-top: 1em;
-    }
-
-    .profile {
-        max-width: 350px;
-    }
-
-    .orangeMobile {
-        animation: sizeDramatic 2s infinite linear;
-        display: block;
-        position: absolute;
-        transform: scaleX(-1);
-        top: 0;
-        left: 0;
-        margin-left: 85%;
-        height: 150px;
     }
 }
 
 @media screen and (max-width: 680px) {
-    .projects {
-        grid-template-columns: 1fr;
-        row-gap: 5em;
-    }
-
     .moveableStickers {
         grid-template-columns: 1fr 1fr;
         column-gap: 0.5em;
     }
 }
 
-@media screen and (max-width: 585px) {
-    .introBig {
-        font-size: 45px;
-    }
-
-    .happyface {
-        width: 60px;
-    }
-
-    .ospin {
-        width: 30px;
-    }
-
-    .over img { 
-        width: 18px;
-    }
-
-    @keyframes MoveUpDown {
-        0%, 100% {
-            top: 0.15em;
-        }
-        50% {
-            top: 0.1em;
-        }
-    }
-
-    .orangeMobile {
-        margin-left: 90%;
-    }
-}
-
-@media screen and (max-width: 515px) {
-    .introBig {
-        font-size: 40px;
-    }
-
-    .introText {
-        display: none;
-    }
-
-    .introTextBreak {
-        display: flex;
-        padding-top: 20px;
-        font-size: 18px;
-        position: relative;
-        font-family: 'Livvic';
-        margin: 0;
-    }
-
-    .happyface {
-        width: 55px;
-    }
-
-    .ospin {
-        width: 25px;
-    }
-
-    .over img { 
-        width: 16px;
-    }
-
-    @keyframes MoveUpDown {
-        0%, 100% {
-            top: 0.18em;
-        }
-        50% {
-            top: 0.13em;
-        }
-    }
-
-    .orangeMobile {
-        margin-left: 80%;
-    }
-}
-
 @media screen and (max-width: 440px) {
     .stickers {
         padding-top: 0;
-    }
-}
-
-@media screen and (max-width: 415px) {
-    .introBig {
-        font-size: 35px;
-    }
-
-    .introTextBreak {
-        padding-top: 20px;
-    }
-
-    .happyface {
-        width: 50px;
-    }
-
-    .ospin {
-        width: 22px;
-    }
-
-    .over img { 
-        width: 14px;
-    }
-
-    .star {
-        width: 20px;
-    }
-
-    .profile {
-        max-width: 250px;
-    }
-
-    .orangeMobile {
-        margin-left: 85%;
-    }
-}
-
-@media screen and (max-width: 410px) {
-    .introBig {
-        font-size: 30px;
-    }
-
-    .knock {
-        font-size: 25px;
-    }
-
-    .happyface {
-        width: 40px;
-    }
-
-    .ospin {
-        width: 20px;
-    }
-
-    .over img { 
-        width: 12px;
-    }
-
-    .introTextBreak {
-        font-size: 14px;
-    }
-
-    .orangeMobile {
-        margin-left: 85%;
-        height: 120px;
-    }
-
-    @keyframes sizeDramatic {
-        0%, 100% {
-            width: 70px;
-        }
-        50% {
-            width: 80px;
-        }
     }
 }
 
@@ -497,38 +146,5 @@
     
     .stickersPick {
         font-size: 30px;
-    }
-
-    .projects {
-        padding: 5em var(--left-right-padding) 5em var(--left-right-padding);
-        row-gap: 3em;
-    }
-}
-
-@media screen and (max-width: 348px) {
-    .projects {
-        padding: 3em var(--left-right-padding) 5em var(--left-right-padding);
-    }
-}
-
-@media screen and (max-width: 326px) {
-    .introBig {
-        font-size: 28px;
-    }
-
-    .happyface {
-        width: 35px;
-    }
-
-    .ospin {
-        width: 18px;
-    }
-
-    .over img { 
-        width: 11px;
-    }
-
-    .profile {
-        max-width: 100%;
     }
 }

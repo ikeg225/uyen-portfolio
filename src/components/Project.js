@@ -1,13 +1,16 @@
 import styles from '../css/Project.module.css';
 import { NavLink } from 'react-router-dom';
 
-export default function Project({img, name, description, url, outbound }) {
+export default function Project({img, name, subtitle, keywords, description, url }) {
     return (
         <div className={styles.item}>
-            {outbound && <a href={url} target="_blank" rel="noopener noreferrer"><img className={styles.image} src={img} alt=""/></a>}
-            {!outbound && <NavLink to={url}><img className={styles.image} src={img} alt=""/></NavLink>}
-            <p className={styles.name}>{name}</p>
-            <p className={styles.desc}>{description}</p>
+            <NavLink to={url}><img className={styles.image} src={img} alt=""/></NavLink>
+            <div className={styles.content}>
+                <p className={styles.keywords}>{keywords}</p>
+                <NavLink to={url}><h1 className={styles.name}>{name}</h1></NavLink>
+                <p className={styles.subtitle}>{subtitle}</p>
+                <p className={styles.desc}>{description}</p>
+            </div>
         </div>
     )
 }

@@ -2,11 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Intro from './components/Intro';
 import { hydrate, render } from "react-dom";
 
 const rootElement = document.getElementById("root");
-const app = <div style={{width: "100%"}}><Intro /><App /></div>;
+const app = <div style={{width: "100%"}}><App /></div>;
 if (rootElement.hasChildNodes()) {
   hydrate(app, rootElement);
 } else {

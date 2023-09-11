@@ -27,26 +27,24 @@ export default function Header() {
     }
 
     return (
-        <header className={styles.top}>
-            <div className={active ? `${styles.leftHeaderActive}` : `${styles.leftHeader}`} onClick={deActivate}>
-                <NavLink to="/" className={activeLink}>projects</NavLink>
-                <NavLink to="/play" className={activeLink}>play</NavLink>
-                <NavLink to="/about" className={activeLink}>about</NavLink>
-            </div>
-            <div className={styles.middleHeader}>
-                <NavLink to="/"><img src={logo} width="50px" alt="Uyen Phan Logo"/></NavLink>
-            </div>
-            <div className={active ? `${styles.rightHeaderActive}` : `${styles.rightHeader}`} onClick={deActivate}>
-                <a href="https://www.instagram.com/fromneyu/" target="_blank" rel="noopener noreferrer"><img src={instagram} height="30px" target="_blank" rel="noopener noreferrer" alt="Instagram Account"/></a>
-                <a href="https://www.linkedin.com/in/uyen-phan-3a4699236/" target="_blank" rel="noopener noreferrer"><img src={linkedin} height="30px" alt="Linkedin Account"/></a>
-            </div>
-            <div className={styles.hamburger}>
-                <div className={styles.hamburger} onClick={hamburgerMode}>
-                    <span className={active ? `${styles.barLeft}` : `${styles.bar}`}></span>
-                    <span className={active ? `${styles.barGone}` : `${styles.bar}`}></span>
-                    <span className={active ? `${styles.barRight}` : `${styles.bar}`}></span>
+        <div className="limitWidth">
+            <header className={styles.top}>
+                <div className={styles.leftHeader}>
+                    <NavLink to="/"><img src={logo} width="50px" alt="Uyen Phan Logo"/></NavLink>
                 </div>
-            </div>
-        </header>
+                <div className={active ? `${styles.rightHeaderActive}` : `${styles.rightHeader}`} onClick={deActivate}>
+                    <NavLink to="/" className={activeLink}>PROJECTS</NavLink>
+                    <NavLink to="/play" className={activeLink}>PLAY</NavLink>
+                    <NavLink to="/about" className={activeLink}>ABOUT</NavLink>
+                </div>
+                <div className={styles.hamburger}>
+                    <div className={styles.hamburger} onClick={hamburgerMode}>
+                        <span className={active ? `${styles.barLeft}` : `${styles.bar}`}></span>
+                        <span className={active ? `${styles.barGone}` : `${styles.bar}`}></span>
+                        <span className={active ? `${styles.barRight}` : `${styles.bar}`}></span>
+                    </div>
+                </div>
+            </header>
+        </div>
     )
 }

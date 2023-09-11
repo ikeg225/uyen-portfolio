@@ -12,7 +12,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #FDF8F4;
+  background-color: #FBFBFB;
   font-family: 'Livvic';
 }
 
@@ -34,6 +34,11 @@ body {
 @font-face {
   font-family: 'Livvic Medium Italic';
   src: url('./fonts/Livvic-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Livvic SemiBold';
+  src: url('./fonts/Livvic-SemiBold.ttf') format('truetype');
 }
 
 @font-face {

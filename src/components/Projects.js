@@ -1,61 +1,43 @@
 import Project from './Project';
 import Sticker from './Sticker';
 import Contact from './Contact';
-import re from '../images/re.jpg';
-import star from '../images/star.png';
-import tick from '../images/tick.png';
-import flower from '../images/flower.jpg';
-import orange from '../images/orange.png';
-import profile from '../images/profile.png';
-import twinkle from '../images/twinkle.png';
-import peets from '../images/peetscover.jpg';
-import happyface from '../images/happyface.png';
 import styles from '../css/Projects.module.css';
-import openproject from '../images/openprojectcover.jpg';
-import learningexperience from '../images/learning-experience-cover.jpg';
-
-import bebrave from '../images/sticker-bebrave.png';
-import bekind from '../images/sticker-bekind.png';
-import besunshine from '../images/sticker-besunshine.png';
-import blooming from '../images/sticker-blooming.png';
-import breather from '../images/sticker-breather.png';
-import itsokay from '../images/sticker-itsokay.png';
+import playpeople from '../images/playpeople.png';
+import justworks from '../images/justworks-cover.jpg';
+import communitygearbox from '../images/community-gearbox-cover.jpg';
+import re from '../images/re-cover.jpg';
+import peets from '../images/peets-cover.jpg';
+import flower from '../images/flower-cover.jpg';
+import brave from '../images/brave-sticker.png';
+import bloom from '../images/bloom-sticker.png';
+import kind from '../images/kind-sticker.png';
+import breathe from '../images/breath-sticker.png';
 
 export default function Projects() {
     return (
         <div className="limitWidth">
             <div className={styles.frontline}>
-                <div className={styles.left}>
-                    <p className={styles.knock}>*knock knock*</p>
-                    <h1 className={styles.introBig}>Come on into<img src={happyface} width="100px" className={`${styles.happyface} spinningReverse`} alt=""/><br />Uy<span className={styles.over}>e<img src={tick} width="30px" alt=""/></span>n's W<img src={star} width="50px" className={`${styles.ospin} spinning`} alt="o"/>rld!<img src={twinkle} width="50px" className={`${styles.star} twinkle`} alt=""/></h1>
-                    <p className={styles.introText}>Uyen is a designer who loves to<br />explore different styles and is never<br />scared of coloring outside the lines!<img src={orange} height="200px" className={styles.orangeMobile} alt=""/></p>
-                    <p className={styles.introTextBreak}>Uyen is a designer who loves<br />to explore different styles and<br />is never scared of coloring<br />outside the lines!<img src={orange} height="200px" className={styles.orangeMobile} alt=""/></p>
-                </div>
-                <div className={styles.right}>
-                    <img className={styles.profile} src={profile} alt=""/>
-                    <img src={orange} height="200px" className={styles.orange} alt=""/>
-                </div>
+                <h1>COME ON INTO<br/>UYEN'S WORLD</h1>
+                <p>Uyen is a product designer aims to weave together simplicity, joy, and connection through human-centric thinking</p>
+                <img src={playpeople} alt=""/>
             </div>
             <div className={styles.projects}>
-                <Project img={learningexperience} name="Learning Experience" description="design challenge | ux design" url="https://drive.google.com/file/d/11ZFvnkH-aMdOb83nEpAX3Qfpdud7RXiD/view?usp=sharing" outbound={true} />
-                <Project img={flower} name="Flower" description="brand identity | illustrations" url="/flower" outbound={false} />
-                <Project img={re} name="RE" description="ui/ux | product design" url="/re" outbound={false}/>
-                <Project img={peets} name="Peet's Coffee" description="marketing | brand strategy" url="/peets" outbound={false}/>
-                <Project img={openproject} name="Open Project" description="brand identity | website design" url="/open-project" outbound={false}/>
+                <Project img={justworks} name="Justworks" subtitle="Mobile Directory" keywords="UX RESEARCH / MOBILE DESIGN / UI" description="Developed a mobile directory, streamlining access to important  information for over 1000 companies and their employees." url="/justworks" />
+                <Project img={communitygearbox} name="Community Gearbox" subtitle="Community Building" keywords="PRODUCT DESIGN /  PROTOTYPING" description="Creating mobile features to increase accountability and foster community engagement." url="/community-gearbox" />
+                <Project img={re} name="RE:" subtitle="Bridging LDRs" keywords="DESIGN METHODOLOGY / UX / UI" description="RE: is a prompts + recording app designed to foster connection between two individuals, transcending physical barriers." url="/re" />
+                <Project img={peets} name="Peet's Coffee" subtitle="Fall Campaign" keywords="MARKETING / VISUAL DESIGN" description="Flower Podcast ignites passion, creativity, positivity, and growth through various audio options." url="/peets" />
+                <Project img={flower} name="Flower" subtitle="Motivating Podcast" keywords="BRAND IDENTITY / ILLUSTRATIONS" description="Flower Podcast ignites passion, creativity, positivity, and growth through various audio options." url="/flower" />
             </div>
             <div className={styles.stickers}>
-                <p className={styles.surprise}>*a surprise?*</p>
+                <p className={styles.surprise}>A SURPRISE?</p>
                 <p className={styles.stickerInfo}>If you scrolled this far, thank you.</p>
                 <p className={styles.stickerInfo}>You deserve some happy reminders. Pick one out & really take it to heart.</p>
-                <p className={styles.stickersPick}>Pick A Sticker!</p>
             </div>
             <div className={styles.moveableStickers}>
-                <Sticker image={bebrave} tag="bebrave"/>
-                <Sticker image={besunshine} tag="besunshine"/>
-                <Sticker image={itsokay} tag="itsokay"/>
-                <Sticker image={blooming} tag="blooming"/>
-                <Sticker image={breather} tag="breather"/>
-                <Sticker image={bekind} tag="bekind"/>
+                <Sticker image={brave} tag="brave"/>
+                <Sticker image={bloom} tag="bloom"/>
+                <Sticker image={kind} tag="kind"/>
+                <Sticker image={breathe} tag="breathe"/>
             </div>
             <div className={styles.contactForm}>
                 <Contact />
