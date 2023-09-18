@@ -1,5 +1,5 @@
 import styles from '../css/Re.module.css';
-import recover from '../images/recover.jpg';
+import recover from '../images/re.jpg';
 import ReCards from './ReCards';
 import reinterviews1 from '../images/reinterviews1.png';
 import reinterviews2 from '../images/reinterviews2.png';

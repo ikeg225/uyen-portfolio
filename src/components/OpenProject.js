@@ -1,5 +1,5 @@
 import styles from '../css/OpenProject.module.css';
-import openproject from '../images/openproject.jpg';
+import openproject from '../images/open-project.jpg';
 import openprojectColors from '../images/openproject-colors.png';
 import openprojectvalues1 from '../images/openproject-values1.jpg';
 import openprojectvalues2 from '../images/openproject-values2.jpg';

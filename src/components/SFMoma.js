@@ -1,5 +1,5 @@
 import styles from '../css/SFMoma.module.css';
-import sfmoma from '../images/sfmoma.jpg';
+import sfmoma from '../images/sf-moma.jpg';
 import sfmomaDesign from '../images/sfmoma-design.jpg';
 import sfmomaDesign1 from '../images/sfmoma-design1.jpg';
 import sfmomaDesign2 from '../images/sfmoma-design2.jpg';
