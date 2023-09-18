@@ -312,12 +312,10 @@ export default function Re() {
                         </div>
                         <p className={`${styles.paddingTop} bold`}>Reflection</p>
                         <p>RE is the first project where I learned the myriad of design methods and where I dip my foot into the product design sphere. I love the human-to-human interactions that came with this project. It made me realize how designing a project is the easiest part when it comes to producing a great product/design. The harder and more challenging, but rewarding part is researching and trying to empathize with the users. This project has taught me to always design with a purpose - even on the simplest things.</p>
-                        <div className={styles.paddingTop}>
-                            <Contact />
-                        </div>
                     </div>
                 </div>
             </div>
+            <Contact />
         </div>
     )
 }

@@ -58,11 +58,9 @@ export default function Peachtober() {
                         <img src={peachtobergraphic11} alt="Peachtober graphic 11" />
                         <img src={peachtobergraphic12} alt="Peachtober graphic 12" />
                     </div>
-                    <div className={styles.paddingTop}>
-                        <Contact />
-                    </div>
                 </div>
             </div>
+            <Contact />
         </div>
     )
 }

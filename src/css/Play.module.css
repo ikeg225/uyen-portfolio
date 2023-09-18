@@ -7,17 +7,12 @@
 
 .title {
     font-size: 80px;
-    font-family: 'Margin';
-    margin: 50px 0;
+    font-family: 'Livvic SemiBold';
+    margin: 50px 0 0 0;
 }
 
 .playpeople {
     width: 100%;
-}
-
-.contactForm {
-    text-align: left;
-    padding: 100px 0;
 }
 
 @media screen and (max-width: 1024px) {

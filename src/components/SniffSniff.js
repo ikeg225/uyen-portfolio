@@ -93,11 +93,9 @@ export default function SniffSniff() {
                     </div>
                     <p className={`${styles.paddingTop} bold`}>Reflection</p>
                     <p>My teammates and I came into this hackathon with no expectations but to create a project meaningful to all of us. The challenge was the time crunch. With less than 24 hours, we have to flesh out a working product for the judges to see. I felt a lot of pressure as the designer because first impressions of what the website would look like are crucial especially when the judges only have less than 2 minutes to look at our project. After fighting with our sleepiness, we pulled through! Winning and being recognized was definitely worth an all-nighter. This will always be a college memory I will look back on and be proud of myself and my teammates!</p>
-                    <div className={styles.paddingTop}>
-                        <Contact />
-                    </div>
                 </div>
             </div>
+            <Contact />
         </div>
     )
 }

@@ -55,3 +55,13 @@
     color: black;
     text-decoration: none;
 }
+
+@media screen and (max-width: 1000px) {
+    .item {
+        flex-direction: column;
+    }
+
+    .content {
+        width: 100%;
+    }
+}

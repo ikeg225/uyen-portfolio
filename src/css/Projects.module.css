@@ -13,24 +13,24 @@
 .frontline h1 {
     font-family: 'Livvic SemiBold';
     font-size: 80px;
-    margin: 20px 0;
+    margin: 0 0 20px 0;
 }
 
-.frontline p {
+.frontlineSubContent {
     font-size: 25px;
     text-align: center;
     margin: 0;
     padding-bottom: 20px;
 }
 
-.frontline img {
+.playpeople {
     width: 100%;
 }
 
 .stickers {
     text-align: left;
     padding: 0 var(--left-right-padding);
-    padding-top: 7em;
+    padding-top: 100px;
 }
 
 .surprise {
@@ -55,11 +55,6 @@
     padding: 0 var(--left-right-padding) 0 var(--left-right-padding);
     column-gap: 2em;
     padding-top: 2em;
-}
-
-.contactForm {
-    text-align: left;
-    padding: 5em var(--left-right-padding)
 }
 
 .star {
@@ -96,6 +91,52 @@
     padding: 100px var(--left-right-padding);
 }
 
+.relativeWrapper {
+    position: relative;
+}
+
+.helloSticky, .descriptionSticky {
+    font-family: 'Livvic Bold';
+    color: #FFF6C5;
+    background-color: #659B61;
+}
+
+.helloSticky {
+    position: absolute;
+    left: -155px;
+    top: 10px;
+    padding: 15px 20px;
+    border-radius: 25px;
+}
+
+.descriptionSticky {
+    position: absolute;
+    width: 135px;
+    text-align: center;
+    top: -50px;
+    right: -175px;
+    padding: 15px 20px;
+    border-radius: 40px;
+}
+
+.arrow {
+    position: absolute;
+    width: 20px;
+    top: 75px;
+    left: -175px;
+}
+
+.translation {
+    position: absolute;
+    top: 85px;
+    left: -185px;
+    font-family: 'Livvic Bold';
+}
+
+.playperson {
+    display: none;
+}
+
 @media screen and (max-width: 1235px) {
     .orange {
         margin-right: 71%;
@@ -116,6 +157,42 @@
     }
 }  
 
+@media screen and (max-width: 1015px) {
+    .playpeople, .arrow, .descriptionSticky {
+        display: none;
+    }
+
+    .playperson {
+        display: block;
+        max-width: 200px;
+    }
+
+    .translation, .helloSticky {
+        position: relative;
+        left: auto;
+        top: auto;
+        margin: 0 0 10px 0;
+    }
+
+    .helloSticky {
+        margin: 0 0 20px 0;
+    }
+
+    .relativeWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .frontline h1 {
+        font-size: 70px;
+    }
+
+    .frontline {
+        margin: 0;
+    }
+}
+
 @media screen and (max-width: 890px) {
     .stickers {
         padding-top: 3em;
@@ -126,6 +203,20 @@
     .moveableStickers {
         grid-template-columns: 1fr 1fr;
         column-gap: 0.5em;
+    }
+
+    .frontline h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .frontline h1 {
+        font-size: 40px;
+    }
+
+    .frontlineSubContent {
+        font-size: 20px;
     }
 }
 
@@ -146,5 +237,13 @@
     
     .stickersPick {
         font-size: 30px;
+    }
+
+    .frontline h1 {
+        font-size: 30px;
+    }
+
+    .frontlineSubContent {
+        font-size: 18px;
     }
 }

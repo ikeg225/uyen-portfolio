@@ -1,4 +1,4 @@
-import flowerCover from '../images/flower-cover.jpg';
+import flower from '../images/flower.jpg';
 import styles from '../css/Flower.module.css';
 import flowercolors from '../images/flowercolors.jpg';
 import flowerpostcard1 from '../images/flowerpostcard1.jpg';
@@ -17,7 +17,7 @@ export default function Flower() {
         <div>
             <div className={styles.coverbackground}>
                 <div className="limitWidth">
-                    <img src={flowerCover} alt="flower cover" />
+                    <img src={flower} alt="flower cover" />
                 </div>
             </div>
             <div className="limitWidth">
@@ -86,11 +86,9 @@ export default function Flower() {
                             <p>Just like the values of the podcast, Flower bloomed along with my own growth as a designer. This project will forever hold a special place in my heart as it reminds me of where I started my design journey. Before this project, I felt more lost than ever with the direction I wanted to take with my life. However, Flower sparked back the creativity inside of me that ceased a long time ago. Wherever I go along my creative journey, Flower will be the root that holds me and my dreams together.</p>
                         </div>
                     </div>
-                    <div className={styles.paddingTop}>
-                        <Contact />
-                    </div>
                 </div>
             </div>
+            <Contact />
         </div>
     )
 }

@@ -102,11 +102,9 @@ export default function Peets() {
                         <h1>Reflection</h1>
                         <p>Because Peet's was my first ever design internship, it opened my eyes to how design plays out in the real world. I shadowed multiple meetings every day for months across different channels such as CPG, Loyalty, DTC and etc, to ensure a successful company like Peet’s stayed as one of the most well-known coffee brands in the nation. A design process goes through many stages to get approved to make sure whatever we put out is on brand and the most perfect and effective design it can be. Through Peets, I learned design is not just sitting in front of a computer on a design software, but it is interacting and finding ways to communicate why your designs work across everyone in the company. Peet’s have taught me a tremendous amount and I am forever grateful to the Creative Team.</p>
                     </div>
-                    <div className={styles.paddingTop}>
-                        <Contact />
-                    </div>
                 </div>
             </div>
+            <Contact />
         </div>
     )
 }

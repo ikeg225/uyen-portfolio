@@ -70,11 +70,9 @@ export default function SFMoma() {
                             <img src={sfmomaMockup2} alt="SF Moma Mockup 2" />
                         </div>
                     </div>
-                    <div className={styles.paddingTop}>
-                        <Contact />
-                    </div>
                 </div>
             </div>
+            <Contact />
         </div>
     )
 }

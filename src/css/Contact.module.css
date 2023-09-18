@@ -1,3 +1,13 @@
+.backgroundColor {
+    background-color: #FFF7C9;
+    margin-top: 100px;
+}
+
+.contact {
+    text-align: left;
+    padding: 5em var(--left-right-padding)
+}
+
 .form {
     display: flex;
     flex-direction: row;
@@ -41,15 +51,15 @@
 }
 
 .title {
-    font-size: 80px;
-    font-family: 'Margin';
+    font-size: 50px;
+    font-family: 'Livvic Bold';
     margin: 0;
     padding-bottom: 0.125em;
 }
 
 .submit, .submitMobile {
     width: 200px;
-    background-color: #4286F5;
+    background-color: #659B61;
     color: white;
     cursor: pointer;
 }

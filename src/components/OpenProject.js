@@ -109,12 +109,10 @@ export default function OpenProject() {
                             <h1>Reflection</h1>
                             <p>While designing Open Project, I had to consider what I would want the first impressions of the students seeing our club for the first time would be. The hardest challenge was straying away from the usual computer science club image while keeping the club's image professional. We did not want to be the "last choice." Open Project allowed me to dive deeper into the mindset of the students at school and made me more perceptive and open-minded while designing. Through this project I learned that design has to come from the heart! If what I put out resonates with the values I have, others will also feel the same while looking at our club's visuals.</p>
                         </div>
-                        <div className={styles.paddingTop}>
-                            <Contact />
-                        </div>
                     </div>
                 </div>
             </div>
+            <Contact />
         </div>
     )
 }
