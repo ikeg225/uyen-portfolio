@@ -11,10 +11,15 @@ import openprojectdesign3 from '../images/openproject-design3.jpg';
 import openprojectdesign4 from '../images/openproject-design4.jpg';
 import Contact from './Contact';
 import YouTube from 'react-youtube';
+import { Helmet } from "react-helmet";
 
 export default function OpenProject() {
     return (
         <div>
+            <Helmet>
+                <title>Uyen Phan - Open Project</title>
+                <meta name="description" content="Open Project is a UC Berkeley club redefining the culture of tech clubs at UC Berkeley embodying values of inclusivity, passion, and innovation." />
+            </Helmet>
             <div className={styles.coverbackground}>
                 <div className="limitWidth">
                     <img src={openproject} alt="Open Project Cover" />

@@ -48,7 +48,7 @@
 }
 
 .content {
-    width: 80%;
+    width: 100%;
 }
 
 .content a {
@@ -59,9 +59,5 @@
 @media screen and (max-width: 1000px) {
     .item {
         flex-direction: column;
-    }
-
-    .content {
-        width: 100%;
     }
 }

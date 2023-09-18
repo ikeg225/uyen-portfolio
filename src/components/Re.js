@@ -24,10 +24,15 @@ import remockuppages from '../images/remockuppages.jpg';
 import regirl from '../images/regirl.png';
 import refeedback from '../images/refeedback.png';
 import Contact from './Contact';
+import { Helmet } from "react-helmet";
 
 export default function Re() {
     return (
         <div>
+            <Helmet>
+                <title>Uyen Phan - Re:</title>
+                <meta name="description" content="RE: is a prompts + recording app designed to foster connection between two individuals, transcending physical barriers." />
+            </Helmet>
             <div className={styles.coverbackground}>
                 <div className="limitWidth">
                     <img src={recover} alt="RE cover image" />

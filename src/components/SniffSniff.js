@@ -10,10 +10,15 @@ import sniffFullHome from '../images/sniff-fullhome.jpg';
 import sniffFullSearch1 from '../images/sniff-fullsearch1.jpg';
 import sniffFullSearch2 from '../images/sniff-fullsearch2.jpg';
 import Contact from './Contact';
+import { Helmet } from "react-helmet";
 
 export default function SniffSniff() {
     return (
         <div>
+            <Helmet>
+                <title>Uyen Phan - Sniff Sniff</title>
+                <meta name="description" content="Sniff Sniff locates your class Discord/link effortlessly, and Sniffodoo, a bot, provides key channel insights like homework tips, exam dates, and critical updates." />
+            </Helmet>
             <div className={styles.coverbackground}>
                 <div className="limitWidth">
                     <img src={sniffsniff} alt="Sniff Sniff Cover" />

@@ -2,31 +2,47 @@
     display: flex;
     flex-direction: column;
     padding: 0 var(--left-right-padding);
-    text-align: center;
 }
 
 .title {
-    font-size: 80px;
+    font-size: 70px;
     font-family: 'Livvic SemiBold';
     margin: 50px 0 0 0;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 20px;
 }
 
 .playpeople {
     width: 100%;
 }
 
-@media screen and (max-width: 1024px) {
-    .playprojects {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        row-gap: 2em;
-        column-gap: 2em;
-        padding-top: 2em;
+.playprojects {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 50px;
+    }
+
+    .subtitle {
+        font-size: 18px;
     }
 }
 
-@media screen and (max-width: 700px) {
-    .playprojects {
-        grid-template-columns: 1fr;
+@media screen and (max-width: 425px) {
+    .title {
+        font-size: 35px;
+    }
+
+    .subtitle {
+        font-size: 16px;
     }
 }

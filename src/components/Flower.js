@@ -11,10 +11,15 @@ import flowertotebag from '../images/flowertotebag.jpg';
 import flowerbusinesscard from '../images/flowerbusinesscard.jpg';
 import oldflower from '../images/oldflower.jpg';
 import Contact from './Contact';
+import { Helmet } from "react-helmet";
 
 export default function Flower() {
     return (
         <div>
+            <Helmet>
+                <title>Uyen Phan - Flower</title>
+                <meta name="description" content="Flower Podcast ignites passion, creativity, positivity, and growth through various audio options." />
+            </Helmet>
             <div className={styles.coverbackground}>
                 <div className="limitWidth">
                     <img src={flower} alt="flower cover" />

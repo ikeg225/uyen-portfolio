@@ -6,10 +6,15 @@ import sfmomaDesign2 from '../images/sfmoma-design2.jpg';
 import sfmomaMockup1 from '../images/sfmoma-mockup1.jpg';
 import sfmomaMockup2 from '../images/sfmoma-mockup2.jpg';
 import Contact from './Contact';
+import { Helmet } from "react-helmet";
 
 export default function SFMoma() {
     return (
         <div>
+            <Helmet>
+                <title>Uyen Phan - SF Moma</title>
+                <meta name="description" content="A poster for SF MoMA Halloween Block Party, celebrating the resilient community post-pandemic." />
+            </Helmet>
             <div className={styles.coverbackground}>
                 <div className="limitWidth">
                     <img src={sfmoma} alt="SF Moma Cover" />

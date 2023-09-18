@@ -18,10 +18,15 @@ import peetsalbertsonad2 from '../images/peetsalbertsonad2.jpg';
 import instacartdesktop from '../images/instacartdesktop.jpg';
 import instacartmobile from '../images/instacartmobile.jpg';
 import Contact from './Contact';
+import { Helmet } from "react-helmet";
 
 export default function Peets() {
     return (
         <div>
+            <Helmet>
+                <title>Uyen Phan - Peet's Coffee</title>
+                <meta name="description" content="Marketing Peet's annual Fall campaign through various mediums: prints, poster designs, packaging, employee's merch, website design and ads." />
+            </Helmet>
             <div className={styles.coverbackground}>
                 <div className="limitWidth">
                     <img src={peets} alt="peets" />

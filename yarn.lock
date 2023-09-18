@@ -8009,7 +8009,7 @@
     "kleur" "^3.0.3"
     "sisteransi" "^1.0.5"
 
-"prop-types@^15.8.1", "prop-types@15.8.1":
+"prop-types@^15.7.2", "prop-types@^15.8.1", "prop-types@15.8.1":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"
@@ -8184,6 +8184,21 @@
   "resolved" "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.11.tgz"
   "version" "6.0.11"
 
+"react-fast-compare@^3.1.1":
+  "integrity" "sha512-nsO+KSNgo1SbJqJEYRE9ERzo7YtYbou/OqjSQKxV7jcKox7+usiUVZOAC+XnDOABXggQTno0Y1CpVnuWEc1boQ=="
+  "resolved" "https://registry.npmjs.org/react-fast-compare/-/react-fast-compare-3.2.2.tgz"
+  "version" "3.2.2"
+
+"react-helmet@^6.1.0":
+  "integrity" "sha512-4uMzEY9nlDlgxr61NL3XbKRy1hEkXmKNXhjbAIOVw5vcFrsdYbH2FEwcNyWvWinl103nXgzYNlns9ca+8kFiWw=="
+  "resolved" "https://registry.npmjs.org/react-helmet/-/react-helmet-6.1.0.tgz"
+  "version" "6.1.0"
+  dependencies:
+    "object-assign" "^4.1.1"
+    "prop-types" "^15.7.2"
+    "react-fast-compare" "^3.1.1"
+    "react-side-effect" "^2.1.0"
+
 "react-is@^16.13.1":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
@@ -8291,6 +8306,11 @@
   optionalDependencies:
     "fsevents" "^2.3.2"
 
+"react-side-effect@^2.1.0":
+  "integrity" "sha512-PVjOcvVOyIILrYoyGEpDN3vmYNLdy1CajSFNt4TDsVQC5KpTijDvWVoR+/7Rz2xT978D8/ZtFceXxzsPwZEDvw=="
+  "resolved" "https://registry.npmjs.org/react-side-effect/-/react-side-effect-2.1.2.tgz"
+  "version" "2.1.2"
+
 "react-snap@^1.23.0":
   "integrity" "sha512-spmg2maHSedLrn6QBAfLJkyMqeeffLTIs7h40pS1copW2xBrajx4HEAcanm+7IVGO6SYCPoGwvbU3U30UFN25g=="
   "resolved" "https://registry.npmjs.org/react-snap/-/react-snap-1.23.0.tgz"
@@ -8316,7 +8336,7 @@
     "prop-types" "15.8.1"
     "youtube-player" "5.5.2"
 
-"react@^18.0.0", "react@^18.1.0", "react@>= 16", "react@>=0.14.1", "react@>=16.8":
+"react@^16.3.0 || ^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.1.0", "react@>= 16", "react@>=0.14.1", "react@>=16.3.0", "react@>=16.8":
   "integrity" "sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.1.0.tgz"
   "version" "18.1.0"

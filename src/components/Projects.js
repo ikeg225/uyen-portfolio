@@ -11,13 +11,18 @@ import flower from '../images/flower-cover.jpg';
 import brave from '../images/brave-sticker.png';
 import bloom from '../images/bloom-sticker.png';
 import kind from '../images/kind-sticker.png';
-import breathe from '../images/breath-sticker.png';
+import breathe from '../images/breathe-sticker.png';
 import arrow from '../images/arrow.png';
 import playperson from '../images/playperson.png';
+import { Helmet } from "react-helmet";
 
 export default function Projects() {
     return (
         <>
+            <Helmet>
+                <title>Uyen Phan</title>
+                <meta name="description" content="Uyen is a product designer aiming to weave together simplicity, joy, and connection through human-centric thinking." />
+            </Helmet>
             <div className="limitWidth">
                 <div className={styles.frontline}>
                     <div className={styles.relativeWrapper}>
