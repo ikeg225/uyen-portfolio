@@ -5,3 +5,169 @@
 .coverbackground img {
     width: 100%;
 }
+
+.justworks {
+    padding: 3em var(--left-right-padding);
+}
+
+.justworks img {
+    width: 100%;
+}
+
+.intro h3, .justworks h1 {
+    font-family: 'Livvic Bold';
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.introLeft {
+    width: 40%;
+}
+
+.introRight {
+    width: 50%;
+}
+
+.gray {
+    color: #7C7C7C;
+    font-family: 'Livvic';
+}
+
+.line {
+    margin: 50px 0;
+}
+
+.imageAndContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.content {
+    width: 50%;
+}
+
+.image {
+    width: 45%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.bold {
+    font-family: 'Livvic Bold';
+}
+
+.prototypes {
+    display: flex;
+    flex-direction: row;
+    background-color: #D0E7FD;
+    padding: 50px;
+    border-radius: 25px;
+    gap: 20px;
+}
+
+.stickyNote {
+    background-color: #D0E7FD;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.stickyNote p {
+    margin: 0;
+    font-size: xx-small;
+}
+
+.notes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.findings ul {
+    list-style: none;
+}
+
+.findings li::before {
+    content: '⭐';
+    padding-right: 5px;
+}
+
+.findings li {
+    margin-left: -40px;
+    padding-bottom: 20px;
+}
+
+.findingsWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.reports {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.reports p {
+    font-size: xx-small;
+}
+
+.states {
+    text-align: center;
+}
+
+.states img {
+    max-width: 500px;
+}
+
+.blueBackground {
+    background-color: #D0E7FD;
+    padding: 15px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.learned {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .introLeft, .introRight {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .imageAndContent, .findingsWrapper {
+        flex-direction: column;
+    }
+
+    .content, .image {
+        width: 100%;
+    }
+
+    .prototypes {
+        flex-direction: column;
+        padding: 30px;
+    }    
+
+    .notes, .reports {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .learned {
+        grid-template-columns: 1fr;
+    }
+}
