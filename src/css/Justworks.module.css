@@ -91,6 +91,11 @@
 
 .findings ul {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    font-size: x-large;
 }
 
 .findings li::before {
@@ -116,7 +121,7 @@
 }
 
 .reports p {
-    font-size: xx-small;
+    font-size: small;
 }
 
 .states {
