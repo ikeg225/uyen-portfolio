@@ -2,7 +2,7 @@ import styles from '../css/Soler.module.css';
 import soler from '../images/soler.jpg';
 import { Helmet } from "react-helmet";
 import Contact from './Contact';
-import solerLogo from '../images/soler-logo.jpg';
+import solerLogo from '../images/soler-logo.gif';
 import solerColorPalette from '../images/soler-color-palette.jpg';
 import solerTypography from '../images/soler-typography.jpg';
 import solerElements from '../images/soler-elements.jpg';

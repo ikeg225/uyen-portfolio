@@ -1,3 +1,76 @@
+.coverbackground {
+    background: linear-gradient(rgba(246,34,234,0.33), rgba(123,160,255,0.4));
+}
+
 .coverbackground img {
     width: 100%;
+}
+
+.innod {
+    padding: 3em var(--left-right-padding);
+}
+
+.innod img {
+    width: 100%;
+}
+
+.intro h3, .justworks h1 {
+    font-family: 'Livvic Bold';
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.introLeft {
+    width: 40%;
+}
+
+.introRight {
+    width: 50%;
+}
+
+.line {
+    margin: 50px 0;
+}
+
+.gray {
+    color: #7C7C7C;
+    font-family: 'Livvic';
+}
+
+.instagramPosts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.instagramPosts img {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.hex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.workshop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.rgb {
+    display: grid;
+    grid-template-columns: 0.88fr 1.06fr 1.06fr;
+    gap: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .instagramPosts {
+        grid-template-columns: 1fr 1fr;
+    }
 }
