@@ -109,11 +109,20 @@
 }
 
 @media screen and (max-width: 700px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .introLeft, .introRight {
+        width: 100%;
+        max-width: 100%;
+    }
+    
     .images {
         flex-direction: column;
     }
 
-    .reasonin, .postersRow1, .postersRow2,
+    .reasoning, .postersRow1, .postersRow2,
     .mockups1, .mockups2 {
         grid-template-columns: 1fr;
     }
