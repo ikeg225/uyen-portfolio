@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.89b746b5.css",
+    "main.css": "/static/css/main.24c3af9d.css",
     "main.js": "/static/js/main.693de8fe.js",
     "static/media/jw-list-page.gif": "/static/media/jw-list-page.6cee969e733a49cf1409.gif",
     "static/media/soler-logo.gif": "/static/media/soler-logo.4403d1bdee3fb2530a4a.gif",
@@ -171,11 +171,11 @@
     "static/media/playperson.png": "/static/media/playperson.5b63e04f81055ac49074.png",
     "static/media/hagiaproextrabold.ttf": "/static/media/hagiaproextrabold.aa7b5a0d4a4d35baac99.ttf",
     "index.html": "/index.html",
-    "main.89b746b5.css.map": "/static/css/main.89b746b5.css.map",
+    "main.24c3af9d.css.map": "/static/css/main.24c3af9d.css.map",
     "main.693de8fe.js.map": "/static/js/main.693de8fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.89b746b5.css",
+    "static/css/main.24c3af9d.css",
     "static/js/main.693de8fe.js"
   ]
 }
