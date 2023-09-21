@@ -1,5 +1,5 @@
 import styles from '../css/Justworks.module.css';
-import justworks from '../images/justworks.jpg';
+import justworks from '../images/justworks.png';
 import { Helmet } from "react-helmet";
 import Contact from './Contact';
 import listPageDesktop from '../images/list-page-desktop.jpg';
@@ -30,7 +30,7 @@ export default function Justworks() {
             </Helmet>
             <div className={styles.coverbackground}>
                 <div className="limitWidth">
-                    <img src={justworks} alt="Justworks Cover" />
+                    <img className={styles.imageDown} src={justworks} alt="Justworks Cover" />
                 </div>
             </div>
             <div className="limitWidth">

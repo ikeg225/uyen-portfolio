@@ -10,6 +10,10 @@
     background-color: #DC654F;
 }
 
+.imageDown {
+    margin-bottom: -4px;
+}
+
 .coverbackground img {
     width: 100%;
 }

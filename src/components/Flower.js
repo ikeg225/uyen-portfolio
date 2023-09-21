@@ -22,7 +22,7 @@ export default function Flower() {
             </Helmet>
             <div className={styles.coverbackground}>
                 <div className="limitWidth">
-                    <img src={flower} alt="flower cover" />
+                    <img className={styles.imageDown} src={flower} alt="flower cover" />
                 </div>
             </div>
             <div className="limitWidth">

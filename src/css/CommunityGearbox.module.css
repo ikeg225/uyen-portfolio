@@ -5,3 +5,40 @@
 .coverbackground img {
     width: 100%;
 }
+
+.gearbox {
+    padding: 3em var(--left-right-padding);
+}
+
+.gearbox img {
+    width: 100%;
+}
+
+.intro h3, .gearbox h1 {
+    font-family: 'Livvic Bold';
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.introLeft {
+    width: 40%;
+}
+
+.introRight {
+    width: 50%;
+}
+
+@media screen and (max-width: 700px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .introLeft, .introRight {
+        width: 100%;
+        max-width: 100%;
+    }
+}

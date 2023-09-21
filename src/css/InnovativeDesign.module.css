@@ -14,7 +14,7 @@
     width: 100%;
 }
 
-.intro h3, .justworks h1 {
+.intro h3 {
     font-family: 'Livvic Bold';
 }
 
@@ -78,8 +78,12 @@
         width: 100%;
         max-width: 100%;
     }
-    
+
     .instagramPosts {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .hex, .rgb {
+        grid-template-columns: 1fr;
     }
 }
