@@ -1,7 +1,126 @@
+@font-face {
+    font-family: 'Hagia';
+    src: url('../fonts/hagiaproextrabold.ttf');
+}
+
 .coverbackground {
     background-color: #3CAADD;
 }
 
 .coverbackground img {
     width: 100%;
+}
+
+.soler {
+    padding: 3em var(--left-right-padding);
+}
+
+.soler img {
+    width: 100%;
+}
+
+.intro h3, .justworks h1 {
+    font-family: 'Livvic Bold';
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.introLeft {
+    width: 40%;
+}
+
+.introRight {
+    width: 50%;
+}
+
+.line {
+    margin: 50px 0;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.gray {
+    color: #7C7C7C;
+    font-family: 'Livvic';
+}
+
+.reasoning {
+    display: grid;
+    grid-template-columns: 0.75fr 1.25fr;
+    gap: 30px;
+}
+
+.reasoningName {
+    font-family: 'Hagia';
+    color: #882D03;
+    text-align: center;
+}
+
+.reasoningContent {
+    background-color: #F1EFEC;
+    padding: 10px 40px;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.postersRow1 {
+    display: grid;
+    grid-template-columns: 0.93fr 1.07fr;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.postersRow2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.mockups1 {
+    display: grid;
+    grid-template-columns: 0.87fr 1.13fr;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.mockups2 {
+    display: grid;
+    grid-template-columns: 1.06fr 0.94fr;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.mockups3 {
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    gap: 100px;
+}
+
+.card {
+    max-width: 150px;
+}
+
+@media screen and (max-width: 700px) {
+    .images {
+        flex-direction: column;
+    }
+
+    .reasonin, .postersRow1, .postersRow2,
+    .mockups1, .mockups2 {
+        grid-template-columns: 1fr;
+    }
+
+    .mockups3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

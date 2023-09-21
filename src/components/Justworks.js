@@ -73,7 +73,7 @@ export default function Justworks() {
                     <h3 className={styles.gray}>EXPLORING EXISTING DESKTOP DIRECTORY</h3>
                     <div className={styles.imageAndContent}>
                         <div className={styles.image}>
-                            <img src={listPageDesktop} alt="" />
+                            <img src={listPageDesktop} alt="List Page Desktop" />
                         </div>
                         <div className={styles.content}>
                             <p className={styles.bold}>LIST PAGE</p>
@@ -88,7 +88,7 @@ export default function Justworks() {
                     </div>
                     <div className={styles.imageAndContent}>
                         <div className={styles.image}>
-                            <img src={profilePageDesktop} alt="" />
+                            <img src={profilePageDesktop} alt="Profile Page Desktop" />
                         </div>
                         <div className={styles.content}>
                             <p className={styles.bold}>PROFILE PAGE</p>
@@ -110,11 +110,11 @@ export default function Justworks() {
                     <p className="italic">Conducted 7 sessions of unmoderated research on employees at companies between the sizes of 10 to 50 total employees.</p>
                     <div className={styles.prototypes}>
                         <div>
-                            <img src={jwListPage} alt=""/>
+                            <img src={jwListPage} alt="List Page"/>
                             <p>List page prototype</p>
                         </div>
                         <div>
-                            <img src={jwDetailPage} alt=""/>
+                            <img src={jwDetailPage} alt="Detail Page"/>
                             <p>Detail page prototype</p>
                         </div>
                     </div>
@@ -164,10 +164,10 @@ export default function Justworks() {
                     <h3 className="bold">LIST ORGANIZATION</h3>
                     <div className={styles.prototypes}>
                         <div>
-                            <img src={jwListOrganization} alt=""/>
+                            <img src={jwListOrganization} alt="List Organization"/>
                         </div>
                         <div>
-                            <img src={jwListNoDepartment} alt=""/>
+                            <img src={jwListNoDepartment} alt="List No Department"/>
                         </div>
                     </div>
                     <br/>
@@ -176,21 +176,21 @@ export default function Justworks() {
                     <div className={styles.prototypes}>
                         <div>
                             <p className={styles.gray}>WITH PROFILE PIC</p>
-                            <img src={jwProfilePic} alt=""/>
+                            <img src={jwProfilePic} alt="Profile Picture"/>
                         </div>
                         <div>
                             <p className={styles.gray}>WITHOUT PROFILE PIC: MONOGRAM</p>
-                            <img src={jwMonogram} alt=""/>
+                            <img src={jwMonogram} alt="Monogram"/>
                         </div>
                     </div>
                     <br/>
                     <h3 className="bold">SEARCH FUNCTION</h3>
                     <div className={styles.prototypes}>
                         <div>
-                            <img src={jwSearch1} alt=""/>
+                            <img src={jwSearch1} alt="Search Result Design"/>
                         </div>
                         <div>
-                            <img src={jwSearch2} alt=""/>
+                            <img src={jwSearch2} alt="Search Result Design"/>
                         </div>
                     </div>
                     <br/>
@@ -202,10 +202,10 @@ export default function Justworks() {
                     <p>The profile page mirrors the structure of the list page, with information presented in distinct cards—a visual element that maintains consistency throughout the entire mobile app.</p>
                     <div className={styles.prototypes}>
                         <div>
-                            <img src={jwProfilePage1} alt=""/>
+                            <img src={jwProfilePage1} alt="Profile Page Design"/>
                         </div>
                         <div>
-                            <img src={jwProfilePage2} alt=""/>
+                            <img src={jwProfilePage2} alt="Profile Page Design"/>
                         </div>
                     </div>
                     <br/>
@@ -213,19 +213,19 @@ export default function Justworks() {
                     <div className={styles.reports}>
                         <div>
                             <p className={styles.gray}>NO DIRECT REPORTS & MANAGER</p>
-                            <img src={jwReports1} alt="" />
+                            <img src={jwReports1} alt="No Direct Reports Design" />
                         </div>
                         <div>
                             <p className={styles.gray}>DIRECT REPORTS ONLY</p>
-                            <img src={jwReports2} alt="" />
+                            <img src={jwReports2} alt="Direct Reports Design" />
                         </div>
                         <div>
                             <p className={styles.gray}>MANAGER ONLY</p>
-                            <img src={jwReports3} alt="" />
+                            <img src={jwReports3} alt="Manager Only Design" />
                         </div>
                         <div>
                             <p className={styles.gray}>BOTH</p>
-                            <img src={jwReports4} alt="" />
+                            <img src={jwReports4} alt="All Designs" />
                         </div>
                     </div>
                     <br/>
@@ -233,9 +233,9 @@ export default function Justworks() {
                     <p>In the process of refining the user experience, various scenarios were taken into account, including cases where certain information, such as birthdays or pronouns, can be hidden, or situations where an employee lacks direct reports or both a manager and direct reports. To enhance the design of these unique states and promote efficiency, I developed a comprehensive design system. This system not only streamlines the design process for these scenarios but also provides a versatile set of design components that can be leveraged for future use.</p>
                     <div className={styles.states}>
                         <p classNamr={styles.gray}>EMPLOYEES CAN HAVE UP TO THREE CONTACT NUMBERS</p>
-                        <img src={personalInfo} alt=""/>
+                        <img src={personalInfo} alt="Personal Info Mobile Design"/>
                         <p classNamr={styles.gray}>EMPLOYEES CAN CHOOSE TO HIDE THEIR BIRTHDAY</p>
-                        <img src={contactInfo} alt=""/>
+                        <img src={contactInfo} alt="Contact Ingo Design"/>
                     </div>
                     <h3 className="bold">TECHNICAL CONSTRAINTS & LESSON LEARNED</h3>
                     <div className={styles.learned}>
