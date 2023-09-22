@@ -86,7 +86,7 @@ export default function CommunityGearbox() {
                     </div>
                     <hr className="line"/>
                     <p className={styles.gray}>BREAKING DOWN THE HOW MIGHT WE?</p>
-                    <p>Wow, that was mouthful! Let's break down the problem scope into bite-sized pieces.</p>
+                    <p>Wow, that was a mouthful! Let's break down the problem scope into bite-sized pieces.</p>
                     <div className={styles.hmw}>
                         <div className={styles.bulletPoint}>
                             <p className={styles.number}>1</p>
@@ -99,14 +99,14 @@ export default function CommunityGearbox() {
                             <p className={styles.number}>2</p>
                             <div>
                                 <p className={styles.pointTitle}>Promoting Appreciation and Sharing</p>
-                                <p className={styles.pointDescription}> How can we create a system that makes lenders feel valued and appreciated for their contributions while also compelling them to share more frequently within the Community Gearbox network?</p>
+                                <p className={styles.pointDescription}>How can we create a system that makes lenders feel valued and appreciated for their contributions while also compelling them to share more frequently within the Community Gearbox network?</p>
                             </div>
                         </div>
                         <div className={styles.bulletPoint}>
                             <p className={styles.number}>3</p>
                             <div>
                                 <p className={styles.pointTitle}>Influencing Consumer Behavior</p>
-                                <p className={styles.pointDescription}> How can we influence borrowers' decision-making processes, encouraging them to consider Community Gearbox as their first choice before making new purchases of items they may only need temporarily?</p>
+                                <p className={styles.pointDescription}>How can we influence borrowers' decision-making processes, encouraging them to consider Community Gearbox as their first choice before making new purchases of items they may only need temporarily?</p>
                             </div>
                         </div>
                         <img src={collaboration} alt="GearBox Collaboration Design" />

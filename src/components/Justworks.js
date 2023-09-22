@@ -51,7 +51,7 @@ export default function Justworks() {
                             </div>
                         </div>
                         <div className={styles.introRight}>
-                            <p>In Summer 2023, I interned at Justworks, a tech company aims to level the playing field for small businesses. I designed an end-to-end project, seamlessly integrating a mobile directory into their new platform, enhancing internal communication for employees.</p>
+                            <p>In Summer 2023, I interned at Justworks, a tech company that aims to level the playing field for small businesses. I designed an end-to-end project, seamlessly integrating a mobile directory into their new platform, enhancing internal communication for employees.</p>
                             <p>Additionally, I built design components for a smooth directory integration into the company's mobile product ecosystem.</p>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ export default function Justworks() {
                             <ul>
                                 <li>Sorted by alphabetical order on departments</li>
                                 <li>“No Department” is the section department bc of alphabetical order</li>
-                                <li>Should sections that are “no department” be following alphabetical le even though it is not as relevant as other departments?</li>
+                                <li>Should sections that are “no department” be following alphabetically even though it is not as relevant as other departments?</li>
                                 <li>Sort by ascending and descending order for Names, Department, Office, Manager</li>
                                 <li>In the search bar “find people” can only search names, but not departments.</li>
                             </ul>
